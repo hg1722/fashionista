@@ -29,7 +29,7 @@ Variational autoencoders (VAE) are powerful generative autoencoders that learn a
 ### Multi-Conditional GAN *Henry*
 Conditional GANs (cGAN) uses a traditional GAN architecture except with an extra class label for both the generator and the discriminator in order to "condition" the GAN to conform to that label. This is usually done through taking the class label as an extra input and concatenating it with the latent vector of the GAN.
 
-In our multi-conditional variation of the GAN, we added extra layers corresponding to each category of attributes in the GAN, and concatenated them all together with the latent dimension so that the model could take in multiple attributes as conditioning while training. We also attempted encoding the label into an embedding layer and multiplying the input with the latent dimension but produced neglible differences.
+In our multi-conditional variation of the GAN, we incorporated attribute conditioning in two main ways. The Fashion we added extra layers corresponding to each category of attributes in the GAN, and concatenated them all together with the latent dimension so that the model could take in multiple attributes as conditioning while training. We also attempted encoding the label into an embedding layer and multiplying the input with the latent dimension but produced neglible differences.
 
  Sampling the model's performance was done through giving the model every combination of attributes to generate.
 
@@ -38,7 +38,7 @@ Stacked Generative Adversarial Networks (StackGAN) were first introduced (https:
 
 In the fashion domain, being able to clearly see the details of a product whether for purchasing or virtual try-on purposes is essential. Thus, generating high-resolution images is an important part of the problem we are trying to tackle. Additionally our dataset had many high-resolution images to train on. 
 
-We modified the StackGAN, which originally used text embeddings
+We modified the StackGAN, which originally used text embeddings to condition the image, to use 
 
 
 ### Conditional Progressively Growing GAN
@@ -60,11 +60,11 @@ We modified the StackGAN, which originally used text embeddings
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
 BnZm1cbiAga2F0ZXg6XG4gICAgZW5hYmxlZDogdHJ1ZVxuIiwi
-aGlzdG9yeSI6Wy0zMDMwOTA2ODksNTAxNTg2NDM0LDIwNjEyOD
-MzNDUsOTkxNDIwMjU4LDczNjAyNDY1NiwtNzk0NTM5OTM3LDE2
-Mzk5NDc3NzYsMTUwMzA5MjkxNiwzMjg5Nzc5NDgsLTE0MDczMz
-Q5LC0xMjc0OTg5MzY4LDkwNjg3OTg0MywtMTkxODk4NjY2MSwx
-NjUxMTI5NTE2LC04Njc0MjEwNzUsOTY4Nzg5MjIwLDE2ODI4OT
-Q1MTUsLTExNDU0Njk4MDEsMTEzOTU2NzU3Nyw1MzcwMTM2NDdd
-fQ==
+aGlzdG9yeSI6Wy02NjQ5NjI1NDEsLTMwMzA5MDY4OSw1MDE1OD
+Y0MzQsMjA2MTI4MzM0NSw5OTE0MjAyNTgsNzM2MDI0NjU2LC03
+OTQ1Mzk5MzcsMTYzOTk0Nzc3NiwxNTAzMDkyOTE2LDMyODk3Nz
+k0OCwtMTQwNzMzNDksLTEyNzQ5ODkzNjgsOTA2ODc5ODQzLC0x
+OTE4OTg2NjYxLDE2NTExMjk1MTYsLTg2NzQyMTA3NSw5Njg3OD
+kyMjAsMTY4Mjg5NDUxNSwtMTE0NTQ2OTgwMSwxMTM5NTY3NTc3
+XX0=
 -->
