@@ -61,9 +61,6 @@ We modified the StackGAN, which originally used text embeddings to condition the
 
 ## Results
 
-### Training
-
-### Testing
 
 ## Generated Images
 
@@ -92,11 +89,11 @@ In both grids above, each column represents a specific class label. Clearly, bot
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
 BnZm1cbiAga2F0ZXg6XG4gICAgZW5hYmxlZDogdHJ1ZVxuIiwi
-aGlzdG9yeSI6Wy00MTcyNjA0MTQsLTUwMjgxNTM4MiwxMTk0OT
-U0MzMsNzAzMzY0NTEzLC0xMTExNTQ4OTIwLC04NDU0ODM2Mjks
-ODcxODk0NTE2LDQzNTMxODcyOCwtNTE1NTc1MDA1LC03ODU3Nj
-gyNTMsMTY1MjMxMTI0OSwxODg2MTQ0MjIwLDIzMzQ0NTAxNCwt
-NjMzODI3OTU0LC0yMDc3MzA5ODA1LDE2MDAwODEyNiwxOTM0MT
-EwNjI2LDEzMzYyNzk0MjksNDMwMTczMzQ1LC0xNDk3NDExMjIy
+aGlzdG9yeSI6Wy0xOTgyMTg1OTA2LC00MTcyNjA0MTQsLTUwMj
+gxNTM4MiwxMTk0OTU0MzMsNzAzMzY0NTEzLC0xMTExNTQ4OTIw
+LC04NDU0ODM2MjksODcxODk0NTE2LDQzNTMxODcyOCwtNTE1NT
+c1MDA1LC03ODU3NjgyNTMsMTY1MjMxMTI0OSwxODg2MTQ0MjIw
+LDIzMzQ0NTAxNCwtNjMzODI3OTU0LC0yMDc3MzA5ODA1LDE2MD
+AwODEyNiwxOTM0MTEwNjI2LDEzMzYyNzk0MjksNDMwMTczMzQ1
 XX0=
 -->
