@@ -75,7 +75,7 @@ CVAE Class-Conditional Generation Results
 
 ![CVAE Class-Conditional Generation Results](https://raw.githubusercontent.com/hg1722/fashionista/master/CVAE.png?token=ABFA6BK4JA776OWUEODYXDK56IDUM)
 
-In both grids above, each column represents a specific class label. Clearly, both the CGAN and CVAE are successfully able to generate class-specific images when conditioned on a particular class. The CGAN results are a bit better than the CVAE since the generated images are crisper/less blurry. VAEs are known to generate blurry images in general. Overall, the Fashion MNIST dataset served as a proof-of-concept, showing the effectiveness of class-conditional generative modBoth the CGAN and CVAE are successfully able to generate class-specific images as shown in the grids above. In both grids, each column represe the neion of this dataset is that only one class is conditioned on at a time. In real world fashion datasents a specific class labels. However,, each clothing item has multiple attributes, which motivates the one limitated for Multi-Conditional GANs.
+In both grids above, each column represents a specific class label. Clearly, both the CGAN and CVAE are successfully able to generate class-specific images when conditioned on a particular class. The CGAN results are a bit better than the CVAE since the generated images are crisper/less blurry. VAEs are known to generate blurry images in general. Overall, the Fashion MNIST dataset served as a proof-of-concept, showing the effectiveness of class-conditional generative modBoth the CGAN and CVAE are successfully able to generate class-specific images as shown in the grids above. In both grids, each column represe the neion of this dataset is that only one class is conditioned on at a time. In real world fashion datasents a specific class labels. However, one limitation of this dataset is that each clothing item o has multiple attributes, which motivates t for Multi-Conditional GANs.
 
 ### Multi-conditional GAN Generation Results
 
@@ -90,7 +90,7 @@ In both grids above, each column represents a specific class label. Clearly, bot
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
 BnZm1cbiAga2F0ZXg6XG4gICAgZW5hYmxlZDogdHJ1ZVxuIiwi
-aGlzdG9yeSI6Wy03Mzc2Njg5NTEsLTIwNzczMDk4MDUsMTYwMD
+aGlzdG9yeSI6Wy02MzM4Mjc5NTQsLTIwNzczMDk4MDUsMTYwMD
 A4MTI2LDE5MzQxMTA2MjYsMTMzNjI3OTQyOSw0MzAxNzMzNDUs
 LTE0OTc0MTEyMjIsMTQ1NTAxMTQzNCw3MTUwMDUxMzcsNDAyMD
 AwMjUxLDE3OTYxMjY0MDgsMTY1MjkxNDI3OSwzODg1MzYyODks
