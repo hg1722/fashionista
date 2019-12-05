@@ -35,7 +35,7 @@ In our multi-conditional variation of the GAN, we added extra layers correspondi
  Sampling the model's performance was done through giving the model every combination of attributes to generate.
 
 ### Attribute StackGAN *Henry*
-Stack Generative Adversarial Networks were first introduced (Zhang et al., 2017) as a method to generate high-resolution images (256px by 256px)
+Stack Generative Adversarial Networks were first introduced (Zhang et al., 2017) as a method to generate high-resolution images (256px by 256px) from natural text. In the fashion domain, being able to clearly see the details of a product whether for purchasing or virtual try-on purposes is essential. Thus, generating high-resolution images is an important part of the problem we are trying to tackle. The original
 
 
 ### Conditional Progressively Growing GAN
@@ -57,7 +57,7 @@ Stack Generative Adversarial Networks were first introduced (Zhang et al., 2017)
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
 BnZm1cbiAga2F0ZXg6XG4gICAgZW5hYmxlZDogdHJ1ZVxuIiwi
-aGlzdG9yeSI6WzE1OTg1MTg3NzIsLTEyNzQ5ODkzNjgsOTA2OD
+aGlzdG9yeSI6Wy0zODgwOTIyODEsLTEyNzQ5ODkzNjgsOTA2OD
 c5ODQzLC0xOTE4OTg2NjYxLDE2NTExMjk1MTYsLTg2NzQyMTA3
 NSw5Njg3ODkyMjAsMTY4Mjg5NDUxNSwtMTE0NTQ2OTgwMSwxMT
 M5NTY3NTc3LDUzNzAxMzY0N119
