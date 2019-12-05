@@ -24,7 +24,7 @@ Generative Adversarial Networks (GAN) are a popular deep learning architecture f
 
 ### Conditional VAE *Rahul*
 
-Variational autoencoders (VAE) are powerful generative autoencoders that learn a latent representation for the input data. Utilizing variational inference and regularization techniques, VAEs learn latent representations with desirable properties, which allow for generating new data points. Vanilla VAEs suffer from the same drawback as vanilla GANs--arandom images are generated without any knowledge of class-information. This is where Conditional VAEs (CVAE) come into play. The implementation behind CVAEs is very simple: simply concatenate the class labels to the input, and run the encoder-decoder architecture as normal. During training time, the encoder and decoder both have the extra input (the class labels). To gener
+Variational autoencoders (VAE) are powerful generative autoencoders that learn a latent representation for the input data. Utilizing variational inference and regularization techniques, VAEs learn latent representations with desirable properties, which allow for generating new data points. Vanilla VAEs suffer from the same drawback as vanilla GANs--arandom images are generated without any knowledge of class-information. This is where Conditional VAEs (CVAE) come into play. The implementation behind CVAEs is very simple: simply concatenate the class labels to the input, and run the encoder-decoder architecture as normal. During training time, the encoder and decoder both have the extra input (the class labels). To generate an image belonging to a particular class, simply feed that class label into the decoder along with the random point in latent space sampled from a normal distribution.
 
 ### Multi-Conditional GAN *Henry*
 Conditional GANs (cGAN) uses a traditional GAN architecture except with an extra class label for both the generator and the discriminator in order to "condition" the GAN to conform to that label. This is usually done through taking the class label as an extra input and concatenating it with the latent vector of the GAN.
@@ -60,11 +60,11 @@ We modified the StackGAN, which originally used text embeddings to condition the
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
 BnZm1cbiAga2F0ZXg6XG4gICAgZW5hYmxlZDogdHJ1ZVxuIiwi
-aGlzdG9yeSI6Wy0yMDcyMDA5ODc4LC02NjQ5NjI1NDEsLTMwMz
-A5MDY4OSw1MDE1ODY0MzQsMjA2MTI4MzM0NSw5OTE0MjAyNTgs
-NzM2MDI0NjU2LC03OTQ1Mzk5MzcsMTYzOTk0Nzc3NiwxNTAzMD
-kyOTE2LDMyODk3Nzk0OCwtMTQwNzMzNDksLTEyNzQ5ODkzNjgs
-OTA2ODc5ODQzLC0xOTE4OTg2NjYxLDE2NTExMjk1MTYsLTg2Nz
-QyMTA3NSw5Njg3ODkyMjAsMTY4Mjg5NDUxNSwtMTE0NTQ2OTgw
-MV19
+aGlzdG9yeSI6Wy04NTQwNDkwNjYsLTY2NDk2MjU0MSwtMzAzMD
+kwNjg5LDUwMTU4NjQzNCwyMDYxMjgzMzQ1LDk5MTQyMDI1OCw3
+MzYwMjQ2NTYsLTc5NDUzOTkzNywxNjM5OTQ3Nzc2LDE1MDMwOT
+I5MTYsMzI4OTc3OTQ4LC0xNDA3MzM0OSwtMTI3NDk4OTM2OCw5
+MDY4Nzk4NDMsLTE5MTg5ODY2NjEsMTY1MTEyOTUxNiwtODY3ND
+IxMDc1LDk2ODc4OTIyMCwxNjgyODk0NTE1LC0xMTQ1NDY5ODAx
+XX0=
 -->
