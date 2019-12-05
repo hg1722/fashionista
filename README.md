@@ -1,10 +1,10 @@
 # Fashion Generation from Structured Style Attributes
 
-## Data
+## Data 
 
 ### DeepFashion 
 
-### MNIST Fashion *Rahul*
+### MNIST Fashion  *Rahul*
 
 ### Fashion Product Images *Henry*
 
@@ -43,5 +43,5 @@ We also limited the dataset in two different ways, one utilizing just apparel im
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
 BnZm1cbiAga2F0ZXg6XG4gICAgZW5hYmxlZDogdHJ1ZVxuIiwi
-aGlzdG9yeSI6WzUzNzAxMzY0N119
+aGlzdG9yeSI6WzExMzk1Njc1NzcsNTM3MDEzNjQ3XX0=
 -->
