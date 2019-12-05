@@ -28,14 +28,14 @@ Variational autoencoders (VAE) are powerful generative mautoencodelrs that en
 
 ### Multi-Conditional GAN *Henry*
 
-conditional GAN uses a traditional GAN rittue(cGAN) except with an extra class label in order to "condition" the GAN to conform to that label. This is usually done through taking the class label as an extra input and concatenating it with the latent vector of the GAN.
+Conditional GAN (cGAN) uses a traditional GAN architecture except with an extra class label in order to "condition" the GAN to conform to that label. This is usually done through taking the class label as an extra input and concatenating it with the latent vector of the GAN.
 
 In our multi-conditional variation of the GAN, we added extra layers corresponding to each category of attributes in the GAN, and concatenated them all together with the latent dimension so that the model could take in multiple attributes as conditioning while training. We also attempted 
 
  Sampling the model's performance was done through giving the model every combination of attributes to generate.
 
 ### Attribute StackGAN *Henry*
-Stack Generative Adversarial Networks were first introduced (Zhang et al., 2017) as a method to generate high-resolution images (256px by 256px) from natural text. In the fashion domain, being able to clearly see the details of a product whether for purchasing or virtual try-on purposes is essential. Thus, generating high-resolution images is an important part of the problem we are trying to tackle. We modified the StackGAN
+Stacked Generative Adversarial Networks were first introduced (Zhang et al., 2017) as a method to generate high-resolution images (256px by 256px) from natural text. In the fashion domain, being able to clearly see the details of a product whether for purchasing or virtual try-on purposes is essential. Thus, generating high-resolution images is an important part of the problem we are trying to tackle. We modified the StackGAN
 
 
 ### Conditional Progressively Growing GAN
@@ -57,8 +57,9 @@ Stack Generative Adversarial Networks were first introduced (Zhang et al., 2017)
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
 BnZm1cbiAga2F0ZXg6XG4gICAgZW5hYmxlZDogdHJ1ZVxuIiwi
-aGlzdG9yeSI6Wy0xNDA3MzM0OSwxODA1NjA0NTI3LC0xMjc0OT
-g5MzY4LDkwNjg3OTg0MywtMTkxODk4NjY2MSwxNjUxMTI5NTE2
-LC04Njc0MjEwNzUsOTY4Nzg5MjIwLDE2ODI4OTQ1MTUsLTExND
-U0Njk4MDEsMTEzOTU2NzU3Nyw1MzcwMTM2NDddfQ==
+aGlzdG9yeSI6WzExNjM2Mjg4MCwtMTQwNzMzNDksMTgwNTYwND
+UyNywtMTI3NDk4OTM2OCw5MDY4Nzk4NDMsLTE5MTg5ODY2NjEs
+MTY1MTEyOTUxNiwtODY3NDIxMDc1LDk2ODc4OTIyMCwxNjgyOD
+k0NTE1LC0xMTQ1NDY5ODAxLDExMzk1Njc1NzcsNTM3MDEzNjQ3
+XX0=
 -->
