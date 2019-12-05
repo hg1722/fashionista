@@ -5,7 +5,7 @@
 ### DeepFashion 
 
 The [DeepFashion](http://mmlab.ie.cuhk.edu.hk/projects/DeepFashion/AttributePrediction.html) dataset contains 289,222 clothing images, annotated with with 1,000 clothing attributes across five attribute categories, and 3 clothing categories. The images are grouped broadly into directories based on 2-3 shared attributes, which improves generator stability. EXAMPLE. 
-After preprocessing the data ([text_attribute_preprocess.ipynb](https://github.com/hg1722/fashionista/blob/master/datasets/deepfashion/text_attribute_preprocess.ipynb)
+A data in [this notebook](https://github.com/hg1722/fashionista/blob/master/datasets/deepfashion/text_attribute_preprocess.ipynb), there 
 ### MNIST Fashion 
 
 The baseline dataset that we used is called "Fashion MNIST" (https://github.com/zalandoresearch/fashion-mnist). It is a publicly available dataset used for benchmarking purposes and contains 60,000 images of clothing items in 10 different categories. All of the images are 28x28 and are grayscale. Preprocessing was generally not required for this dataset except for pixel normalization. 
@@ -92,7 +92,7 @@ In both grids above, each column represents a specific class label. Clearly, bot
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
 BnZm1cbiAga2F0ZXg6XG4gICAgZW5hYmxlZDogdHJ1ZVxuIiwi
-aGlzdG9yeSI6Wy0zMDk2NjAyMjMsMTE5NDk1NDMzLDcwMzM2ND
+aGlzdG9yeSI6Wy03NzkyMDI3OTIsMTE5NDk1NDMzLDcwMzM2ND
 UxMywtMTExMTU0ODkyMCwtODQ1NDgzNjI5LDg3MTg5NDUxNiw0
 MzUzMTg3MjgsLTUxNTU3NTAwNSwtNzg1NzY4MjUzLDE2NTIzMT
 EyNDksMTg4NjE0NDIyMCwyMzM0NDUwMTQsLTYzMzgyNzk1NCwt
