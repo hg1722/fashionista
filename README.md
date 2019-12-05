@@ -4,6 +4,8 @@
 
 ### DeepFashion 
 
+This dataset contains 289,222 clothing images of varied 
+
 ### MNIST Fashion 
 
 The baseline dataset that we used is called "Fashion MNIST" (https://github.com/zalandoresearch/fashion-mnist). It is a publicly available dataset used for benchmarking purposes and contains 60,000 images of clothing items in 10 different categories. All of the images are 28x28 and are grayscale. Preprocessing was generally not required for this dataset except for pixel normalization. 
@@ -90,11 +92,11 @@ In both grids above, each column represents a specific class label. Clearly, bot
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
 BnZm1cbiAga2F0ZXg6XG4gICAgZW5hYmxlZDogdHJ1ZVxuIiwi
-aGlzdG9yeSI6Wzg3MTg5NDUxNiw0MzUzMTg3MjgsLTUxNTU3NT
-AwNSwtNzg1NzY4MjUzLDE2NTIzMTEyNDksMTg4NjE0NDIyMCwy
-MzM0NDUwMTQsLTYzMzgyNzk1NCwtMjA3NzMwOTgwNSwxNjAwMD
-gxMjYsMTkzNDExMDYyNiwxMzM2Mjc5NDI5LDQzMDE3MzM0NSwt
-MTQ5NzQxMTIyMiwxNDU1MDExNDM0LDcxNTAwNTEzNyw0MDIwMD
-AyNTEsMTc5NjEyNjQwOCwxNjUyOTE0Mjc5LDM4ODUzNjI4OV19
-
+aGlzdG9yeSI6Wy01NTk3MDk3MTYsODcxODk0NTE2LDQzNTMxOD
+cyOCwtNTE1NTc1MDA1LC03ODU3NjgyNTMsMTY1MjMxMTI0OSwx
+ODg2MTQ0MjIwLDIzMzQ0NTAxNCwtNjMzODI3OTU0LC0yMDc3Mz
+A5ODA1LDE2MDAwODEyNiwxOTM0MTEwNjI2LDEzMzYyNzk0Mjks
+NDMwMTczMzQ1LC0xNDk3NDExMjIyLDE0NTUwMTE0MzQsNzE1MD
+A1MTM3LDQwMjAwMDI1MSwxNzk2MTI2NDA4LDE2NTI5MTQyNzld
+fQ==
 -->
