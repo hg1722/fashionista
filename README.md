@@ -20,8 +20,9 @@ Simple image preprocessing was performed on the dataset, including resizing all 
 
 ![enter image description here](https://i.imgur.com/yTYRc9B.png)
 *"High-resolution" image from Fashion Product Image dataset (256x256)*
+
 ![enter image description here](https://i.imgur.com/kr08sRP.png)
-*"Low-resolution" image from Fashion Product Image dataset(
+*"Low-resolution" image from Fashion Product Image dataset (64 x 64)*
 We also limited the dataset in two different ways, one utilizing just apparel images and the other all types of fashion. For sake of simplicity in training the conditional GAN, we limited the apparel dataset to the top six subcategories of apparel and the top six base colors. For data utilizing all types of fashion, we limited the categories to top-wear, bottom-wear, and shoes, and the top three colors in the data.
 
 ## Models
@@ -76,11 +77,11 @@ CVAE Class-Conditional Generation Results
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
 BnZm1cbiAga2F0ZXg6XG4gICAgZW5hYmxlZDogdHJ1ZVxuIiwi
-aGlzdG9yeSI6WzEwNTc5MDk0MDYsLTE0OTc0MTEyMjIsMTQ1NT
-AxMTQzNCw3MTUwMDUxMzcsNDAyMDAwMjUxLDE3OTYxMjY0MDgs
-MTY1MjkxNDI3OSwzODg1MzYyODksLTE0ODkxNTI3MjEsLTc5MT
-E2NjM1MSwzMzcwMzczOSwxODk4OTEwMzYyLDEyODcyMTI0ODUs
-LTE3NDg0NzY5NjAsLTg1NDA0OTA2NiwtNjY0OTYyNTQxLC0zMD
-MwOTA2ODksNTAxNTg2NDM0LDIwNjEyODMzNDUsOTkxNDIwMjU4
-XX0=
+aGlzdG9yeSI6WzQ3MDYzNDA1MywtMTQ5NzQxMTIyMiwxNDU1MD
+ExNDM0LDcxNTAwNTEzNyw0MDIwMDAyNTEsMTc5NjEyNjQwOCwx
+NjUyOTE0Mjc5LDM4ODUzNjI4OSwtMTQ4OTE1MjcyMSwtNzkxMT
+Y2MzUxLDMzNzAzNzM5LDE4OTg5MTAzNjIsMTI4NzIxMjQ4NSwt
+MTc0ODQ3Njk2MCwtODU0MDQ5MDY2LC02NjQ5NjI1NDEsLTMwMz
+A5MDY4OSw1MDE1ODY0MzQsMjA2MTI4MzM0NSw5OTE0MjAyNThd
+fQ==
 -->
