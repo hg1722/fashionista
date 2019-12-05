@@ -12,7 +12,7 @@ The baseline dataset that we used is called "Fashion MNIST" (https://github.com/
 
 We also trained several models on the Fashion Product Images dataset (https://www.kaggle.com/paramaggarwal/fashion-product-images-dataset) which contains 44,000 images of fashion products scraped from various e-commerce websites. 
 
-![enter image description here](https://picasaweb.google.com/118222179388085278221/6766881314592027153#6766881321286809122 "Fashion_products_dataset_head")
+![Sample of data from Fashion Product Images Dataset (Kaggle)](https://i.imgur.com/h6Cj8Ge.png"Fashion_products_dataset_head")
 The images are labeled by features such as gender, category, base color, season, usage, etc. We utilized two variations of the dataset, with one containing low-resolution images (60px by 80px) and another contained higher-resolution images (1800px x 2400px).
 
 Simple image preprocessing was performed on the dataset, including resizing all the images into squares (64px x 64px for the smaller variation and 256px x 256px for the larger images), and normalizing all the images between the range 0 and 1.
@@ -63,11 +63,11 @@ We modified the StackGAN, which originally used text embeddings to condition the
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
 BnZm1cbiAga2F0ZXg6XG4gICAgZW5hYmxlZDogdHJ1ZVxuIiwi
-aGlzdG9yeSI6Wy0xNDg5MTUyNzIxLC03OTExNjYzNTEsMzM3MD
-M3MzksMTg5ODkxMDM2MiwxMjg3MjEyNDg1LC0xNzQ4NDc2OTYw
-LC04NTQwNDkwNjYsLTY2NDk2MjU0MSwtMzAzMDkwNjg5LDUwMT
-U4NjQzNCwyMDYxMjgzMzQ1LDk5MTQyMDI1OCw3MzYwMjQ2NTYs
-LTc5NDUzOTkzNywxNjM5OTQ3Nzc2LDE1MDMwOTI5MTYsMzI4OT
-c3OTQ4LC0xNDA3MzM0OSwtMTI3NDk4OTM2OCw5MDY4Nzk4NDNd
-fQ==
+aGlzdG9yeSI6WzE1NTEzMjY0MDQsLTE0ODkxNTI3MjEsLTc5MT
+E2NjM1MSwzMzcwMzczOSwxODk4OTEwMzYyLDEyODcyMTI0ODUs
+LTE3NDg0NzY5NjAsLTg1NDA0OTA2NiwtNjY0OTYyNTQxLC0zMD
+MwOTA2ODksNTAxNTg2NDM0LDIwNjEyODMzNDUsOTkxNDIwMjU4
+LDczNjAyNDY1NiwtNzk0NTM5OTM3LDE2Mzk5NDc3NzYsMTUwMz
+A5MjkxNiwzMjg5Nzc5NDgsLTE0MDczMzQ5LC0xMjc0OTg5MzY4
+XX0=
 -->
