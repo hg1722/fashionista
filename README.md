@@ -24,7 +24,7 @@ We also limited the dataset in two different ways, one utilizing just apparel im
 
 ### Multi-Conditional GAN *Henry*
 
-The traditional condition
+The traditional conditional GAN (cGAN) 
 
 ### Conditional Progressively Growing GAN
 
@@ -45,6 +45,6 @@ The traditional condition
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
 BnZm1cbiAga2F0ZXg6XG4gICAgZW5hYmxlZDogdHJ1ZVxuIiwi
-aGlzdG9yeSI6Wy0xODk1OTI2MjAwLDE0MTI1MDY1LDExMzk1Nj
+aGlzdG9yeSI6Wy0xMTQ1NDY5ODAxLDE0MTI1MDY1LDExMzk1Nj
 c1NzcsNTM3MDEzNjQ3XX0=
 -->
