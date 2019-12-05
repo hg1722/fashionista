@@ -28,7 +28,7 @@ Variational autoencoders (VAE) are powerful generative mautoencodelrs that en
 
 ### Multi-Conditional GAN *Henry*
 
-Conditional GAN (cGAN) uses a traditional GAN architecture except with an extra class label in order to "condition" the GAN to conform to that label. This is usually done through taking the class label as an extra input and concatenating it with the latent vector of the GAN.
+Conditional GAN (cGAN) uses a traditional GAN architecture except with an extra class label for both the generator and the discriminator in order to "condition" the GAN to conform to that label. This is usually done through taking the class label as an extra input and concatenating it with the latent vector of the GAN.
 
 In our multi-conditional variation of the GAN, we added extra layers corresponding to each category of attributes in the GAN, and concatenated them all together with the latent dimension so that the model could take in multiple attributes as conditioning while training. We also attempted 
 
@@ -57,9 +57,9 @@ Stacked Generative Adversarial Networks were first introduced (Zhang et al., 201
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
 BnZm1cbiAga2F0ZXg6XG4gICAgZW5hYmxlZDogdHJ1ZVxuIiwi
-aGlzdG9yeSI6WzExNjM2Mjg4MCwtMTQwNzMzNDksMTgwNTYwND
-UyNywtMTI3NDk4OTM2OCw5MDY4Nzk4NDMsLTE5MTg5ODY2NjEs
-MTY1MTEyOTUxNiwtODY3NDIxMDc1LDk2ODc4OTIyMCwxNjgyOD
-k0NTE1LC0xMTQ1NDY5ODAxLDExMzk1Njc1NzcsNTM3MDEzNjQ3
-XX0=
+aGlzdG9yeSI6Wy04MTU1MTQ4NjgsLTE0MDczMzQ5LDE4MDU2MD
+Q1MjcsLTEyNzQ5ODkzNjgsOTA2ODc5ODQzLC0xOTE4OTg2NjYx
+LDE2NTExMjk1MTYsLTg2NzQyMTA3NSw5Njg3ODkyMjAsMTY4Mj
+g5NDUxNSwtMTE0NTQ2OTgwMSwxMTM5NTY3NTc3LDUzNzAxMzY0
+N119
 -->
