@@ -4,7 +4,7 @@
 
 ### DeepFashion 
 
-The [DeepFashion] dataset contains 289,222 clothing images, annotated with with 1,000 clothing attributes across five attribute categories, and 3 clothing categories. The images are grouped 
+The [DeepFashion] dataset contains 289,222 clothing images, annotated with with 1,000 clothing attributes across five attribute categories, and 3 clothing categories. The images are grouped broadly by type, EXAMPLE img
 
 ### MNIST Fashion 
 
@@ -92,11 +92,11 @@ In both grids above, each column represents a specific class label. Clearly, bot
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
 BnZm1cbiAga2F0ZXg6XG4gICAgZW5hYmxlZDogdHJ1ZVxuIiwi
-aGlzdG9yeSI6WzkxNjEwOTUxNyw4NzE4OTQ1MTYsNDM1MzE4Nz
-I4LC01MTU1NzUwMDUsLTc4NTc2ODI1MywxNjUyMzExMjQ5LDE4
-ODYxNDQyMjAsMjMzNDQ1MDE0LC02MzM4Mjc5NTQsLTIwNzczMD
-k4MDUsMTYwMDA4MTI2LDE5MzQxMTA2MjYsMTMzNjI3OTQyOSw0
-MzAxNzMzNDUsLTE0OTc0MTEyMjIsMTQ1NTAxMTQzNCw3MTUwMD
-UxMzcsNDAyMDAwMjUxLDE3OTYxMjY0MDgsMTY1MjkxNDI3OV19
-
+aGlzdG9yeSI6Wy01NDkyODY5MDYsODcxODk0NTE2LDQzNTMxOD
+cyOCwtNTE1NTc1MDA1LC03ODU3NjgyNTMsMTY1MjMxMTI0OSwx
+ODg2MTQ0MjIwLDIzMzQ0NTAxNCwtNjMzODI3OTU0LC0yMDc3Mz
+A5ODA1LDE2MDAwODEyNiwxOTM0MTEwNjI2LDEzMzYyNzk0Mjks
+NDMwMTczMzQ1LC0xNDk3NDExMjIyLDE0NTUwMTE0MzQsNzE1MD
+A1MTM3LDQwMjAwMDI1MSwxNzk2MTI2NDA4LDE2NTI5MTQyNzld
+fQ==
 -->
