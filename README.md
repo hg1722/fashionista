@@ -65,6 +65,8 @@ We modified the StackGAN, which originally used text embeddings to condition the
 
 ## Generated Images
 
+### Fashion MNIST Results
+
 CGAN Class-Conditional Generation Results
 
 ![CGAN Class-Conditional Generation Results](https://raw.githubusercontent.com/hg1722/fashionista/master/CGAN.png?token=ABFA6BMN5FQJQR4UFRKEMTK56IDMO)
@@ -72,6 +74,8 @@ CGAN Class-Conditional Generation Results
 CVAE Class-Conditional Generation Results
 
 ![CVAE Class-Conditional Generation Results](https://raw.githubusercontent.com/hg1722/fashionista/master/CVAE.png?token=ABFA6BK4JA776OWUEODYXDK56IDUM)
+
+Both the CGAN and CVAE are successfully able to generate class-specific images as shown in the 
 
 ### Multi-conditional GAN Generation Results
 
@@ -86,11 +90,11 @@ CVAE Class-Conditional Generation Results
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
 BnZm1cbiAga2F0ZXg6XG4gICAgZW5hYmxlZDogdHJ1ZVxuIiwi
-aGlzdG9yeSI6WzE2MDAwODEyNiwxOTM0MTEwNjI2LDEzMzYyNz
-k0MjksNDMwMTczMzQ1LC0xNDk3NDExMjIyLDE0NTUwMTE0MzQs
-NzE1MDA1MTM3LDQwMjAwMDI1MSwxNzk2MTI2NDA4LDE2NTI5MT
-QyNzksMzg4NTM2Mjg5LC0xNDg5MTUyNzIxLC03OTExNjYzNTEs
-MzM3MDM3MzksMTg5ODkxMDM2MiwxMjg3MjEyNDg1LC0xNzQ4ND
-c2OTYwLC04NTQwNDkwNjYsLTY2NDk2MjU0MSwtMzAzMDkwNjg5
+aGlzdG9yeSI6Wy03Mjc1NjM4MzQsMTYwMDA4MTI2LDE5MzQxMT
+A2MjYsMTMzNjI3OTQyOSw0MzAxNzMzNDUsLTE0OTc0MTEyMjIs
+MTQ1NTAxMTQzNCw3MTUwMDUxMzcsNDAyMDAwMjUxLDE3OTYxMj
+Y0MDgsMTY1MjkxNDI3OSwzODg1MzYyODksLTE0ODkxNTI3MjEs
+LTc5MTE2NjM1MSwzMzcwMzczOSwxODk4OTEwMzYyLDEyODcyMT
+I0ODUsLTE3NDg0NzY5NjAsLTg1NDA0OTA2NiwtNjY0OTYyNTQx
 XX0=
 -->
