@@ -24,7 +24,7 @@ Generative Adversarial Networks (GAN) are a popular deep learning architecture f
 
 ### Conditional VAE *Rahul*
 
-Variational autoencoders (VAE) are powerful generative autoencoders that learn a latent representation for the input data. Utilizing variational inference and regularization techniques, VAEs learn latent representations with desirable properties, which allow for generating new data points. Vanilla VAEs suffer from the same drawback as vanilla GANs--arandom images are generated without any knowledge of class-information. This is where Conditional VAEs (CVAE) come into play. The implementation behind CVAEs is very simple: simply concatenate the class labels to the input, and run the encoder-decoder architecture as normal. During training time, the encoder and decoder both has the extra input (the class labels).  
+Variational autoencoders (VAE) are powerful generative autoencoders that learn a latent representation for the input data. Utilizing variational inference and regularization techniques, VAEs learn latent representations with desirable properties, which allow for generating new data points. Vanilla VAEs suffer from the same drawback as vanilla GANs--arandom images are generated without any knowledge of class-information. This is where Conditional VAEs (CVAE) come into play. The implementation behind CVAEs is very simple: simply concatenate the class labels to the input, and run the encoder-decoder architecture as normal. During training time, the encoder and decoder both have the extra input (the class labels). During  
 
 ### Multi-Conditional GAN *Henry*
 Conditional GANs (cGAN) uses a traditional GAN architecture except with an extra class label for both the generator and the discriminator in order to "condition" the GAN to conform to that label. This is usually done through taking the class label as an extra input and concatenating it with the latent vector of the GAN.
@@ -60,10 +60,11 @@ We modified the StackGAN, which originally used text embeddings
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
 BnZm1cbiAga2F0ZXg6XG4gICAgZW5hYmxlZDogdHJ1ZVxuIiwi
-aGlzdG9yeSI6WzUwMTU4NjQzNCwyMDYxMjgzMzQ1LDk5MTQyMD
-I1OCw3MzYwMjQ2NTYsLTc5NDUzOTkzNywxNjM5OTQ3Nzc2LDE1
-MDMwOTI5MTYsMzI4OTc3OTQ4LC0xNDA3MzM0OSwtMTI3NDk4OT
-M2OCw5MDY4Nzk4NDMsLTE5MTg5ODY2NjEsMTY1MTEyOTUxNiwt
-ODY3NDIxMDc1LDk2ODc4OTIyMCwxNjgyODk0NTE1LC0xMTQ1ND
-Y5ODAxLDExMzk1Njc1NzcsNTM3MDEzNjQ3XX0=
+aGlzdG9yeSI6Wy0zMDMwOTA2ODksNTAxNTg2NDM0LDIwNjEyOD
+MzNDUsOTkxNDIwMjU4LDczNjAyNDY1NiwtNzk0NTM5OTM3LDE2
+Mzk5NDc3NzYsMTUwMzA5MjkxNiwzMjg5Nzc5NDgsLTE0MDczMz
+Q5LC0xMjc0OTg5MzY4LDkwNjg3OTg0MywtMTkxODk4NjY2MSwx
+NjUxMTI5NTE2LC04Njc0MjEwNzUsOTY4Nzg5MjIwLDE2ODI4OT
+Q1MTUsLTExNDU0Njk4MDEsMTEzOTU2NzU3Nyw1MzcwMTM2NDdd
+fQ==
 -->
