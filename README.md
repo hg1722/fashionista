@@ -24,13 +24,13 @@ Generative Adversarial Networks (GAN) are a popular deep learning architecture f
 
 ### Conditional VAE *Rahul*
 
-Variational autoencoders (VAE) are powerful generative autoencoders that learn 
+Variational autoencoders (VAE) are powerful generative autoencoders that n   
 
 ### Multi-Conditional GAN *Henry*
 
-Conditional GAN (cGAN) uses a traditional GAN architecture except with an extra class label for both the generator and the discriminator in order to "condition" the GAN to conform to that label. This is usually done through taking the class label as an extra input and concatenating it with the latent vector of the GAN.
+Conditional GANs (cGAN) uses a traditional GAN architecture except with an extra class label for both the generator and the discriminator in order to "condition" the GAN to conform to that label. This is usually done through taking the class label as an extra input and concatenating it with the latent vector of the GAN.
 
-In our multi-conditional variation of the GAN, we added extra layers corresponding to each category of attributes in the GAN, and concatenated them all together with the latent dimension so that the model could take in multiple attributes as conditioning while training. We also attempted 
+In our multi-conditional variation of the GAN, we added extra layers corresponding to each category of attributes in the GAN, and concatenated them all together with the latent dimension so that the model could take in multiple attributes as conditioning while training. We also attempted encoding the label into an embedding layer and multiplying the input
 
  Sampling the model's performance was done through giving the model every combination of attributes to generate.
 
@@ -57,7 +57,7 @@ Stacked Generative Adversarial Networks were first introduced (Zhang et al., 201
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
 BnZm1cbiAga2F0ZXg6XG4gICAgZW5hYmxlZDogdHJ1ZVxuIiwi
-aGlzdG9yeSI6Wy01Njc1MzgxNywtODE1NTE0ODY4LC0xNDA3Mz
+aGlzdG9yeSI6Wy0zNDIzODEzMzUsLTU2NzUzODE3LC0xNDA3Mz
 M0OSwtMTI3NDk4OTM2OCw5MDY4Nzk4NDMsLTE5MTg5ODY2NjEs
 MTY1MTEyOTUxNiwtODY3NDIxMDc1LDk2ODc4OTIyMCwxNjgyOD
 k0NTE1LC0xMTQ1NDY5ODAxLDExMzk1Njc1NzcsNTM3MDEzNjQ3
