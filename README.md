@@ -24,7 +24,7 @@ We also limited the dataset in two different ways, one utilizing just apparel im
 
 ### Multi-Conditional GAN *Henry*
 
-The traditional conditional GAN (cGAN) 
+The conditional GAN (cGAN) uses a traditional GAN architecture 
 
 ### Conditional Progressively Growing GAN
 
@@ -45,6 +45,7 @@ The traditional conditional GAN (cGAN)
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
 BnZm1cbiAga2F0ZXg6XG4gICAgZW5hYmxlZDogdHJ1ZVxuIiwi
-aGlzdG9yeSI6Wy04OTg3Njk0MjIsMTY4Mjg5NDUxNSwtMTE0NT
-Q2OTgwMSwxMTM5NTY3NTc3LDUzNzAxMzY0N119
+aGlzdG9yeSI6WzEwMDQwMzIzMiwtODk4NzY5NDIyLDE2ODI4OT
+Q1MTUsLTExNDU0Njk4MDEsMTEzOTU2NzU3Nyw1MzcwMTM2NDdd
+fQ==
 -->
