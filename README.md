@@ -24,8 +24,8 @@ Generative Adversarial Networks (GAN) are a popular deep learning architecture f
 
 ### Conditional VAE *Rahul*
 
-Variational autoencoders (VAE) are powerful generative autoencoders that learn a latent representation for the input data. Utilizing variational inference and regularization techniques, VAEs learn latent representations with desirable properties, which allow for generating new, plausible aints.
-auidta 
+Variational autoencoders (VAE) are powerful generative autoencoders that learn a latent representation for the input data. Utilizing variational inference and regularization techniques, VAEs learn latent representations with desirable properties, which allow for generating new
+auidta  data points. Vanilla VAEs suffer from the same drawback as vanilla GANs--
 Conditional GANs (cGAN) uses a traditional GAN architecture except with an extra class label for both the generator and the discriminator in order to "condition" the GAN to conform to that label. This is usually done through taking the class label as an extra input and concatenating it with the latent vector of the GAN.
 
 In our multi-conditional variation of the GAN, we added extra layers corresponding to each category of attributes in the GAN, and concatenated them all together with the latent dimension so that the model could take in multiple attributes as conditioning while training. We also attempted encoding the label into an embedding layer and multiplying the input with the latent dimension but produced neglible differences.
@@ -62,8 +62,8 @@ We modified the StackGAN, which originally used text embeddings
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
 BnZm1cbiAga2F0ZXg6XG4gICAgZW5hYmxlZDogdHJ1ZVxuIiwi
-aGlzdG9yeSI6Wy0yMDYwNjI3MDgsMTUwMzA5MjkxNiwyMTA4OD
-c4NDY2LDMyODk3Nzk0OCwtMTQwNzMzNDksLTEyNzQ5ODkzNjgs
+aGlzdG9yeSI6WzE2Mzk5NDc3NzYsLTIwNjA2MjcwOCwxNTAzMD
+kyOTE2LDMyODk3Nzk0OCwtMTQwNzMzNDksLTEyNzQ5ODkzNjgs
 OTA2ODc5ODQzLC0xOTE4OTg2NjYxLDE2NTExMjk1MTYsLTg2Nz
 QyMTA3NSw5Njg3ODkyMjAsMTY4Mjg5NDUxNSwtMTE0NTQ2OTgw
 MSwxMTM5NTY3NTc3LDUzNzAxMzY0N119
