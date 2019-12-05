@@ -20,15 +20,15 @@ We also limited the dataset in two different ways, one utilizing just apparel im
 
 ### Conditional GAN *Rahul*
 
-Generative Adversarial Networks (GAN) are a popular deep learning architecture for training deep generative models. GANs, there is a discriminator network and a generator network. The generator is responsible for generating new samples that are ideally indistinguishable from real samples in the dataset. The discriminator is responsible for distinguishing between real samples and samples created by the generator. The discriminator and generator are trained at the same time in . an adversarial manner: improvements to the discriminator will hurt the performance of the generator and vice versa. One drawback of vanilla GANs is that it will generate random images from the domain. In tasks where we have class or attribute labels available, such as ours, it is desirable to be able to control what the GAN generates. Thus, we utilize the Conditional Generative Adversarial Network (CGAN), which was introduced in 2014 ([https://arxiv.org/abs/1411.1784). The CGAN allows one to introduce labels to the discriminator and generator such that one can generate samples conditioned on specific class-labels. Although there are several methods to condition GANs on class labels, the most often-used method bywith CGANs is to introduce an embedding layer on the class labels, followed by a fully connected layer which scales the embedding layer to the size of the input image, such that it can be concatenated as an additional channel. CGANs can of course be used with any architecture, such as deep convolutional GANs (DCGANs). 
+Generative Adversarial Networks (GAN) are a popular deep learning architecture for training deep generative odes. GANs, there is a discriminator network and a generator network. The generator is responsible for generating new samples that are ideally indistinguishable from real samples in the dataset. The discriminator is responsible for distinguishing between real samples and samples created by the generator. The discriminator and generator are trained at the same time in . an adversarial manner: improvements to the discriminator will hurt the performance of the generator and vice versa. One drawback of vanilla GANs is that it will generate random images from the domain. In tasks where we have class or attribute labels available, such as ours, it is desirable to be able to control what the GAN generates. Thus, we utilize the Conditional Generative Adversarial Network (CGAN), which as rueduced in 2014 ([https://arxiv.org/abs/1411.1784). The CGAN allows one to introduce labels to the discriminator and generator such that one can generate samples conditioned on specific class-labels. Although there are several methods to condition GANs on class labels, the most often-used method bywith CGANs is to introduce an embedding layer on the class labels, followed by a fully connected layer which scales the embedding layer to the size of the input image, such that it can be concatenated as an additional channel. CGANs can of course be used with any architecture, such as deep convolutional GANs (DCGANs). 
 
 ### Conditional VAE *Rahul*
 
-Variational autoencoders (VAE) are powerful generative models    
+Variational autoencoders (VAE) are powerful generative mautoencodelrs that en   
 
 ### Multi-Conditional GAN *Henry*
 
-The conditional GAN uses a traditional GAN architecture(cGAN) except with an extra class label in order to "condition" the GAN to conform to that label. This is usually done through taking the class label as an extra input and concatenating it with the latent vector of the GAN.
+conditional GAN uses a traditional GAN rittue(cGAN) except with an extra class label in order to "condition" the GAN to conform to that label. This is usually done through taking the class label as an extra input and concatenating it with the latent vector of the GAN.
 
 In our multi-conditional variation of the GAN, we added extra layers corresponding to each category of attributes in the GAN, and concatenated them all together with the latent dimension so that the model could take in multiple attributes as conditioning while training. We also attempted 
 
@@ -57,8 +57,8 @@ Stack Generative Adversarial Networks were first introduced (Zhang et al., 2017)
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
 BnZm1cbiAga2F0ZXg6XG4gICAgZW5hYmxlZDogdHJ1ZVxuIiwi
-aGlzdG9yeSI6Wy0zODgwOTIyODEsLTEyNzQ5ODkzNjgsOTA2OD
-c5ODQzLC0xOTE4OTg2NjYxLDE2NTExMjk1MTYsLTg2NzQyMTA3
-NSw5Njg3ODkyMjAsMTY4Mjg5NDUxNSwtMTE0NTQ2OTgwMSwxMT
-M5NTY3NTc3LDUzNzAxMzY0N119
+aGlzdG9yeSI6WzE4MDU2MDQ1MjcsLTM4ODA5MjI4MSwtMTI3ND
+k4OTM2OCw5MDY4Nzk4NDMsLTE5MTg5ODY2NjEsMTY1MTEyOTUx
+NiwtODY3NDIxMDc1LDk2ODc4OTIyMCwxNjgyODk0NTE1LC0xMT
+Q1NDY5ODAxLDExMzk1Njc1NzcsNTM3MDEzNjQ3XX0=
 -->
