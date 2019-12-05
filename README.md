@@ -34,7 +34,7 @@ In our multi-conditional variation of the GAN, we added extra layers correspondi
  Sampling the model's performance was done through giving the model every combination of attributes to generate.
 
 ### Attribute StackGAN *Henry*
-Stacked Generative Adversarial Networks (StackGAN) were first introduced (Zhang et al., 2017) as a method to generate high-resolution images (256px by 256px) from natural text. 
+Stacked Generative Adversarial Networks (StackGAN) were first introduced (https://arxiv.org/pdf/1612.03242.pdf) as a method to generate high-resolution images (256px by 256px) from natural text. 
 
 In the fashion domain, being able to clearly see the details of a product whether for purchasing or virtual try-on purposes is essential. Thus, generating high-resolution images is an important part of the problem we are trying to tackle. Additionally our dataset had many high-resolution images to train on. 
 
@@ -60,9 +60,10 @@ We modified the StackGAN, which originally used text embeddings
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
 BnZm1cbiAga2F0ZXg6XG4gICAgZW5hYmxlZDogdHJ1ZVxuIiwi
-aGlzdG9yeSI6WzE0MzIwOTI0MjgsLTc5NDUzOTkzNywxNjM5OT
-Q3Nzc2LDE1MDMwOTI5MTYsMzI4OTc3OTQ4LC0xNDA3MzM0OSwt
-MTI3NDk4OTM2OCw5MDY4Nzk4NDMsLTE5MTg5ODY2NjEsMTY1MT
-EyOTUxNiwtODY3NDIxMDc1LDk2ODc4OTIyMCwxNjgyODk0NTE1
-LC0xMTQ1NDY5ODAxLDExMzk1Njc1NzcsNTM3MDEzNjQ3XX0=
+aGlzdG9yeSI6WzczNjAyNDY1NiwxNDMyMDkyNDI4LC03OTQ1Mz
+k5MzcsMTYzOTk0Nzc3NiwxNTAzMDkyOTE2LDMyODk3Nzk0OCwt
+MTQwNzMzNDksLTEyNzQ5ODkzNjgsOTA2ODc5ODQzLC0xOTE4OT
+g2NjYxLDE2NTExMjk1MTYsLTg2NzQyMTA3NSw5Njg3ODkyMjAs
+MTY4Mjg5NDUxNSwtMTE0NTQ2OTgwMSwxMTM5NTY3NTc3LDUzNz
+AxMzY0N119
 -->
