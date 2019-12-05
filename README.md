@@ -46,7 +46,7 @@ Stacked Generative Adversarial Networks (StackGAN) were first introduced (https:
 
 In the fashion domain, being able to clearly see the details of a product whether for purchasing or virtual try-on purposes is essential. Thus, generating high-resolution images is an important part of the problem we are trying to tackle. 
 
-We modified the StackGAN, which originally used text embeddings to condition the image, to use a one-hot-encoded attribute layer as input instead. Stage 1 GAN would utilize the attribute layer to generate low resolution images, which we would then feed into the Stage 2 GAN.
+We modified the StackGAN, which originally used text embeddings to condition the image, to use a one-hot-encoded attribute layer as input instead. Stage 1 GAN would utilize the attribute layer to generate low resolution fashion images, which we would then feed into the Stage 2 GAN.
 
 ### Conditional Progressively Growing GAN
 
@@ -77,7 +77,7 @@ CVAE Class-Conditional Generation Results
 
 In both grids above, each column represents a specific class label. Clearly, both the CGAN and CVAE are successfully able to generate class-specific images when conditioned on a particular class. The CGAN results are a bit better than the CVAE since the generated images are crisper/less blurry. VAEs are known to generate blurry images in general. Overall, the Fashion MNIST dataset served as a proof-of-concept, showing the effectiveness of class-conditional generative modBoth the CGAN and CVAE are successfully able to generate class-specific images as shown in the grids above. In both grids, each column represe the neion of this dataset is that only one class is conditioned on at a time. In real world fashion datasents a specific class labels. However, one limitation of this dataset is that, each clothing item o has multiple attributes, which motivates e one liitatfor Multi-Conditional GANs.
 
-### Multi-onditional GAN ntionl
+### Multi-conditional GAN Generated Images
 
 ![enter image description here](https://i.imgur.com/7RJfm0S.png)
 *Sample images of multi-conditional GAN trained after 80 epochs*
@@ -90,11 +90,11 @@ In both grids above, each column represents a specific class label. Clearly, bot
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
 BnZm1cbiAga2F0ZXg6XG4gICAgZW5hYmxlZDogdHJ1ZVxuIiwi
-aGlzdG9yeSI6Wy03ODU3NjgyNTMsLTc5NzAyMjgwNSwxNjUyMz
-ExMjQ5LDE4ODYxNDQyMjAsMjMzNDQ1MDE0LC02MzM4Mjc5NTQs
-LTIwNzczMDk4MDUsMTYwMDA4MTI2LDE5MzQxMTA2MjYsMTMzNj
-I3OTQyOSw0MzAxNzMzNDUsLTE0OTc0MTEyMjIsMTQ1NTAxMTQz
-NCw3MTUwMDUxMzcsNDAyMDAwMjUxLDE3OTYxMjY0MDgsMTY1Mj
-kxNDI3OSwzODg1MzYyODksLTE0ODkxNTI3MjEsLTc5MTE2NjM1
-MV19
+aGlzdG9yeSI6Wy0xNjA3MTA4MTc3LC03ODU3NjgyNTMsMTY1Mj
+MxMTI0OSwxODg2MTQ0MjIwLDIzMzQ0NTAxNCwtNjMzODI3OTU0
+LC0yMDc3MzA5ODA1LDE2MDAwODEyNiwxOTM0MTEwNjI2LDEzMz
+YyNzk0MjksNDMwMTczMzQ1LC0xNDk3NDExMjIyLDE0NTUwMTE0
+MzQsNzE1MDA1MTM3LDQwMjAwMDI1MSwxNzk2MTI2NDA4LDE2NT
+I5MTQyNzksMzg4NTM2Mjg5LC0xNDg5MTUyNzIxLC03OTExNjYz
+NTFdfQ==
 -->
