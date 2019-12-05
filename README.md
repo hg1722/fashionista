@@ -79,7 +79,7 @@ CVAE Class-Conditional Generation Results
 
 In both grids above, each column represents a specific class label. Clearly, both the CGAN and CVAE are successfully able to generate class-specific images when conditioned on a particular class. The CGAN results are a bit better than the CVAE since the generated images are crisper/less blurry. VAEs are known to generate blurry images in general. Overall, the Fashion MNIST dataset served as a proof-of-concept, showing the effectiveness of class-conditional generative modBoth the CGAN and CVAE are successfully able to generate class-specific images as shown in the grids above. In both grids, each column represe the neion of this dataset is that only one class is conditioned on at a time. In real world fashion datasents a specific class labels. However, one limitation of this dataset is that, each clothing item o has multiple attributes, which motivates e one liitatfor Multi-Conditional GANs.
 
-### Multi-Cconditional GAN Generated Images
+### Multi-Conditional GAN Generated Images
 
 ![enter image description here](https://i.imgur.com/7RJfm0S.png)
 *Sample images of multi-conditional GAN trained after 80 epochs*
@@ -92,11 +92,11 @@ In both grids above, each column represents a specific class label. Clearly, bot
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
 BnZm1cbiAga2F0ZXg6XG4gICAgZW5hYmxlZDogdHJ1ZVxuIiwi
-aGlzdG9yeSI6Wy04NDU0ODM2MjksODcxODk0NTE2LDQzNTMxOD
-cyOCwtNTE1NTc1MDA1LC03ODU3NjgyNTMsMTY1MjMxMTI0OSwx
-ODg2MTQ0MjIwLDIzMzQ0NTAxNCwtNjMzODI3OTU0LC0yMDc3Mz
-A5ODA1LDE2MDAwODEyNiwxOTM0MTEwNjI2LDEzMzYyNzk0Mjks
-NDMwMTczMzQ1LC0xNDk3NDExMjIyLDE0NTUwMTE0MzQsNzE1MD
-A1MTM3LDQwMjAwMDI1MSwxNzk2MTI2NDA4LDE2NTI5MTQyNzld
-fQ==
+aGlzdG9yeSI6Wy0xMTExNTQ4OTIwLC04NDU0ODM2MjksODcxOD
+k0NTE2LDQzNTMxODcyOCwtNTE1NTc1MDA1LC03ODU3NjgyNTMs
+MTY1MjMxMTI0OSwxODg2MTQ0MjIwLDIzMzQ0NTAxNCwtNjMzOD
+I3OTU0LC0yMDc3MzA5ODA1LDE2MDAwODEyNiwxOTM0MTEwNjI2
+LDEzMzYyNzk0MjksNDMwMTczMzQ1LC0xNDk3NDExMjIyLDE0NT
+UwMTE0MzQsNzE1MDA1MTM3LDQwMjAwMDI1MSwxNzk2MTI2NDA4
+XX0=
 -->
