@@ -63,14 +63,20 @@ We modified the StackGAN, which originally used text embeddings to condition the
 ### Testing
 
 ## Generated Images
+
+CGAN Class-Conditional Generation Results
+
+![CGAN Class-Conditional Generation Results](https://raw.githubusercontent.com/hg1722/fashionista/master/CGAN.png?token=ABFA6BMN5FQJQR4UFRKEMTK56IDMO)
+
+
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
 BnZm1cbiAga2F0ZXg6XG4gICAgZW5hYmxlZDogdHJ1ZVxuIiwi
-aGlzdG9yeSI6WzE2NTI5MTQyNzksMzg4NTM2Mjg5LC0xNDg5MT
-UyNzIxLC03OTExNjYzNTEsMzM3MDM3MzksMTg5ODkxMDM2Miwx
-Mjg3MjEyNDg1LC0xNzQ4NDc2OTYwLC04NTQwNDkwNjYsLTY2ND
-k2MjU0MSwtMzAzMDkwNjg5LDUwMTU4NjQzNCwyMDYxMjgzMzQ1
-LDk5MTQyMDI1OCw3MzYwMjQ2NTYsLTc5NDUzOTkzNywxNjM5OT
-Q3Nzc2LDE1MDMwOTI5MTYsMzI4OTc3OTQ4LC0xNDA3MzM0OV19
+aGlzdG9yeSI6WzkzMTc0OTQ1MCwxNjUyOTE0Mjc5LDM4ODUzNj
+I4OSwtMTQ4OTE1MjcyMSwtNzkxMTY2MzUxLDMzNzAzNzM5LDE4
+OTg5MTAzNjIsMTI4NzIxMjQ4NSwtMTc0ODQ3Njk2MCwtODU0MD
+Q5MDY2LC02NjQ5NjI1NDEsLTMwMzA5MDY4OSw1MDE1ODY0MzQs
+MjA2MTI4MzM0NSw5OTE0MjAyNTgsNzM2MDI0NjU2LC03OTQ1Mz
+k5MzcsMTYzOTk0Nzc3NiwxNTAzMDkyOTE2LDMyODk3Nzk0OF19
 
 -->
