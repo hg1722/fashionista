@@ -6,7 +6,7 @@
 
 ### MNIST Fashion  *Rahul*
 
-The baseline dataset that we used is called "Fashion MNIST" (https://github.com/zalandoresearch/fashion-mnist). It is a publicly available dataset used for benchmarking purposes and contains 
+The baseline dataset that we used is called "Fashion MNIST" (https://github.com/zalandoresearch/fashion-mnist). It is a publicly available dataset used for benchmarking purposes and contains 60,000 images of clothing items in 10 different categories 
 
 ### Fashion Product Images *Henry*
 
@@ -24,7 +24,7 @@ We also limited the dataset in two different ways, one utilizing just apparel im
 
 ### Multi-Conditional GAN *Henry*
 
-The conditional GAN (cGAN) uses a traditional GAN architecture 
+The conditional GAN  uses a traditional GAN architecture(cGAN) 
 
 ### Conditional Progressively Growing GAN
 
@@ -45,7 +45,7 @@ The conditional GAN (cGAN) uses a traditional GAN architecture
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
 BnZm1cbiAga2F0ZXg6XG4gICAgZW5hYmxlZDogdHJ1ZVxuIiwi
-aGlzdG9yeSI6WzEwMDQwMzIzMiwtODk4NzY5NDIyLDE2ODI4OT
-Q1MTUsLTExNDU0Njk4MDEsMTEzOTU2NzU3Nyw1MzcwMTM2NDdd
-fQ==
+aGlzdG9yeSI6Wzk2ODc4OTIyMCwxMDA0MDMyMzIsMTY4Mjg5ND
+UxNSwtMTE0NTQ2OTgwMSwxMTM5NTY3NTc3LDUzNzAxMzY0N119
+
 -->
