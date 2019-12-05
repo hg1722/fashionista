@@ -26,7 +26,7 @@ We also limited the dataset in two different ways, one utilizing just apparel im
 
 The conditional GAN  uses a traditional GAN architecture(cGAN) except with an extra class label in order to "condition" the GAN to conform to that label. This is usually done through taking the class label as an extra input and concatenating it with the latent vector of the GAN.
 
-In our multi-conditional variation of the GAN, we added extra layers corresponding to each category of attributes in the GAN, and concatenated them all together with the latent dimension so that the model could take in multiple attributes as conditioning while training.
+In our multi-conditional variation of the GAN, we added extra layers corresponding to each category of attributes in the GAN, and concatenated them all together with the latent dimension so that the model could take in multiple attributes as conditioning while training. We also attempted
 
  Sampling the model's performance was done through giving the model every combination of attributes to generate.
 
@@ -53,7 +53,7 @@ In our multi-conditional variation of the GAN, we added extra layers correspondi
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
 BnZm1cbiAga2F0ZXg6XG4gICAgZW5hYmxlZDogdHJ1ZVxuIiwi
-aGlzdG9yeSI6Wzc4MDM2MTU2NiwtMTQ3NDQyOTIyLDE2NTExMj
-k1MTYsLTg2NzQyMTA3NSw5Njg3ODkyMjAsMTY4Mjg5NDUxNSwt
-MTE0NTQ2OTgwMSwxMTM5NTY3NTc3LDUzNzAxMzY0N119
+aGlzdG9yeSI6Wy0xMDMwMDQzNzczLC0xNDc0NDI5MjIsMTY1MT
+EyOTUxNiwtODY3NDIxMDc1LDk2ODc4OTIyMCwxNjgyODk0NTE1
+LC0xMTQ1NDY5ODAxLDExMzk1Njc1NzcsNTM3MDEzNjQ3XX0=
 -->
