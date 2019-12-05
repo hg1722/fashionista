@@ -68,15 +68,18 @@ CGAN Class-Conditional Generation Results
 
 ![CGAN Class-Conditional Generation Results](https://raw.githubusercontent.com/hg1722/fashionista/master/CGAN.png?token=ABFA6BMN5FQJQR4UFRKEMTK56IDMO)
 
+CVAE Class-Conditional Generation Results
+
+![enter image description here]([https://raw.githubusercontent.com/hg1722/fashionista/master/CVAE.png?token=ABFA6BK4JA776OWUEODYXDK56IDUM](https://raw.githubusercontent.com/hg1722/fashionista/master/CVAE.png?token=ABFA6BK4JA776OWUEODYXDK56IDUM))
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
 BnZm1cbiAga2F0ZXg6XG4gICAgZW5hYmxlZDogdHJ1ZVxuIiwi
-aGlzdG9yeSI6WzkzMTc0OTQ1MCwxNjUyOTE0Mjc5LDM4ODUzNj
-I4OSwtMTQ4OTE1MjcyMSwtNzkxMTY2MzUxLDMzNzAzNzM5LDE4
-OTg5MTAzNjIsMTI4NzIxMjQ4NSwtMTc0ODQ3Njk2MCwtODU0MD
-Q5MDY2LC02NjQ5NjI1NDEsLTMwMzA5MDY4OSw1MDE1ODY0MzQs
-MjA2MTI4MzM0NSw5OTE0MjAyNTgsNzM2MDI0NjU2LC03OTQ1Mz
-k5MzcsMTYzOTk0Nzc3NiwxNTAzMDkyOTE2LDMyODk3Nzk0OF19
-
+aGlzdG9yeSI6WzE3OTYxMjY0MDgsMTY1MjkxNDI3OSwzODg1Mz
+YyODksLTE0ODkxNTI3MjEsLTc5MTE2NjM1MSwzMzcwMzczOSwx
+ODk4OTEwMzYyLDEyODcyMTI0ODUsLTE3NDg0NzY5NjAsLTg1ND
+A0OTA2NiwtNjY0OTYyNTQxLC0zMDMwOTA2ODksNTAxNTg2NDM0
+LDIwNjEyODMzNDUsOTkxNDIwMjU4LDczNjAyNDY1NiwtNzk0NT
+M5OTM3LDE2Mzk5NDc3NzYsMTUwMzA5MjkxNiwzMjg5Nzc5NDhd
+fQ==
 -->
