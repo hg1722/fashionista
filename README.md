@@ -26,7 +26,7 @@ We also limited the dataset in two different ways, one utilizing just apparel im
 
 The conditional GAN  uses a traditional GAN architecture(cGAN) except with an extra class label in order to "condition" the GAN to conform to that label. This is usually done through taking the class label as an extra input and concatenating it with the latent vector of the GAN.
 
-In our 
+In ourconcatenation of 
 
 ### Conditional Progressively Growing GAN
 
@@ -47,7 +47,7 @@ In our
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
 BnZm1cbiAga2F0ZXg6XG4gICAgZW5hYmxlZDogdHJ1ZVxuIiwi
-aGlzdG9yeSI6WzE2NTExMjk1MTYsOTY4Nzg5MjIwLDE2ODI4OT
-Q1MTUsLTExNDU0Njk4MDEsMTEzOTU2NzU3Nyw1MzcwMTM2NDdd
-fQ==
+aGlzdG9yeSI6Wy04Njc0MjEwNzUsMTY1MTEyOTUxNiw5Njg3OD
+kyMjAsMTY4Mjg5NDUxNSwtMTE0NTQ2OTgwMSwxMTM5NTY3NTc3
+LDUzNzAxMzY0N119
 -->
