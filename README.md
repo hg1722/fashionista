@@ -16,9 +16,7 @@ We also trained several models on the Fashion Product Images dataset (https://ww
 
 The images are labeled by features such as gender, category, base color, season, usage, etc. We utilized two variations of the dataset, with one containing low-resolution images (60px by 80px) and another contained higher-resolution images (1800px x 2400px).
 
-![enter image description here](https://i.imgur.com/gCU6g9X.png)
-*High resolution fashion product dataset image*
-
+![enter image description here](https://i.imgur.com/P.png
 ![enter image description here](https://i.imgur.com/kr08sRP.png)
 *
 
@@ -78,11 +76,11 @@ CVAE Class-Conditional Generation Results
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
 BnZm1cbiAga2F0ZXg6XG4gICAgZW5hYmxlZDogdHJ1ZVxuIiwi
-aGlzdG9yeSI6WzE0NTUwMTE0MzQsNzE1MDA1MTM3LDQwMjAwMD
-I1MSwxNzk2MTI2NDA4LDE2NTI5MTQyNzksMzg4NTM2Mjg5LC0x
-NDg5MTUyNzIxLC03OTExNjYzNTEsMzM3MDM3MzksMTg5ODkxMD
-M2MiwxMjg3MjEyNDg1LC0xNzQ4NDc2OTYwLC04NTQwNDkwNjYs
-LTY2NDk2MjU0MSwtMzAzMDkwNjg5LDUwMTU4NjQzNCwyMDYxMj
-gzMzQ1LDk5MTQyMDI1OCw3MzYwMjQ2NTYsLTc5NDUzOTkzN119
-
+aGlzdG9yeSI6Wy0xNDk3NDExMjIyLDE0NTUwMTE0MzQsNzE1MD
+A1MTM3LDQwMjAwMDI1MSwxNzk2MTI2NDA4LDE2NTI5MTQyNzks
+Mzg4NTM2Mjg5LC0xNDg5MTUyNzIxLC03OTExNjYzNTEsMzM3MD
+M3MzksMTg5ODkxMDM2MiwxMjg3MjEyNDg1LC0xNzQ4NDc2OTYw
+LC04NTQwNDkwNjYsLTY2NDk2MjU0MSwtMzAzMDkwNjg5LDUwMT
+U4NjQzNCwyMDYxMjgzMzQ1LDk5MTQyMDI1OCw3MzYwMjQ2NTZd
+fQ==
 -->
