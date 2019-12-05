@@ -10,7 +10,10 @@ The baseline dataset that we used is called "Fashion MNIST" (https://github.com/
 
 ### Fashion Product Images *Henry*
 
-We also trained several models on the Fashion Product Images dataset (https://www.kaggle.com/paramaggarwal/fashion-product-images-dataset) which contains 44,000 images of fashion products scraped from various e-commerce websites. The images are labeled by features such as gender, category, base color, season, usage, etc. We utilized two variations of the dataset, with one containing low-resolution images (60px by 80px) and another contained higher-resolution images (1800px x 2400px).
+We also trained several models on the Fashion Product Images dataset (https://www.kaggle.com/paramaggarwal/fashion-product-images-dataset) which contains 44,000 images of fashion products scraped from various e-commerce websites. 
+
+
+The images are labeled by features such as gender, category, base color, season, usage, etc. We utilized two variations of the dataset, with one containing low-resolution images (60px by 80px) and another contained higher-resolution images (1800px x 2400px).
 
 Simple image preprocessing was performed on the dataset, including resizing all the images into squares (64px x 64px for the smaller variation and 256px x 256px for the larger images), and normalizing all the images between the range 0 and 1.
 
@@ -60,11 +63,11 @@ We modified the StackGAN, which originally used text embeddings to condition the
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
 BnZm1cbiAga2F0ZXg6XG4gICAgZW5hYmxlZDogdHJ1ZVxuIiwi
-aGlzdG9yeSI6WzMzNzAzNzM5LDE4OTg5MTAzNjIsMTI4NzIxMj
-Q4NSwtMTc0ODQ3Njk2MCwtODU0MDQ5MDY2LC02NjQ5NjI1NDEs
-LTMwMzA5MDY4OSw1MDE1ODY0MzQsMjA2MTI4MzM0NSw5OTE0Mj
-AyNTgsNzM2MDI0NjU2LC03OTQ1Mzk5MzcsMTYzOTk0Nzc3Niwx
-NTAzMDkyOTE2LDMyODk3Nzk0OCwtMTQwNzMzNDksLTEyNzQ5OD
-kzNjgsOTA2ODc5ODQzLC0xOTE4OTg2NjYxLDE2NTExMjk1MTZd
+aGlzdG9yeSI6Wy03OTExNjYzNTEsMzM3MDM3MzksMTg5ODkxMD
+M2MiwxMjg3MjEyNDg1LC0xNzQ4NDc2OTYwLC04NTQwNDkwNjYs
+LTY2NDk2MjU0MSwtMzAzMDkwNjg5LDUwMTU4NjQzNCwyMDYxMj
+gzMzQ1LDk5MTQyMDI1OCw3MzYwMjQ2NTYsLTc5NDUzOTkzNywx
+NjM5OTQ3Nzc2LDE1MDMwOTI5MTYsMzI4OTc3OTQ4LC0xNDA3Mz
+M0OSwtMTI3NDk4OTM2OCw5MDY4Nzk4NDMsLTE5MTg5ODY2NjFd
 fQ==
 -->
