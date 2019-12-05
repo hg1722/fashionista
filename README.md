@@ -74,10 +74,12 @@ CGAN Class-Conditional Generation Results
 CVAE Class-Conditional Generation Results
 
 ![CVAE Class-Conditional Generation Results](https://raw.githubusercontent.com/hg1722/fashionista/master/CVAE.png?token=ABFA6BK4JA776OWUEODYXDK56IDUM)
+
+
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
 BnZm1cbiAga2F0ZXg6XG4gICAgZW5hYmxlZDogdHJ1ZVxuIiwi
-aGlzdG9yeSI6WzQ3MDYzNDA1MywtMTQ5NzQxMTIyMiwxNDU1MD
+aGlzdG9yeSI6WzQzMDE3MzM0NSwtMTQ5NzQxMTIyMiwxNDU1MD
 ExNDM0LDcxNTAwNTEzNyw0MDIwMDAyNTEsMTc5NjEyNjQwOCwx
 NjUyOTE0Mjc5LDM4ODUzNjI4OSwtMTQ4OTE1MjcyMSwtNzkxMT
 Y2MzUxLDMzNzAzNzM5LDE4OTg5MTAzNjIsMTI4NzIxMjQ4NSwt
