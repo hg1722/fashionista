@@ -78,9 +78,9 @@ CVAE Class-Conditional Generation Results
 
 ![CVAE Class-Conditional Generation Results](https://raw.githubusercontent.com/hg1722/fashionista/master/pics/CVAE.png?token=ABFA6BK4JA776OWUEODYXDK56IDUM)
 
-In both grids above, each column represents a specific class label. Clearly, both the CGAN and CVAE are successfully able to generate class-specific images when conditioned on a particular class. The CGAN results are a bit better than the CVAE since the generated images are crisper/less blurry. VAEs are known to generate blurry images in general. Overall, the Fashion MNIST dataset served as a proof-of-concept, showing the effectiveness of class-conditional generative modBoth the CGAN and CVAE are successfully able to generate class-specific images as shown in the grids above. In both grids, each column represe the neion of this dataset is that only one class is conditioned on at a time. In real world fashion datasents a specific class labels. However, one limitation of this dataset is that each clothing item o has multiple attributes, which motivates t for Multi-Conditional GANs.
+In both grids above, each column represents a specific class label. Clearly, both the CGAN and CVAE are successfully able to generate class-specific images when conditioned on a particular class. The CGAN results are a bit better than the CVAE since the generated images are crisper/less blurry. VAEs are known to generate blurry images in general. Overall, the Fashion MNIST dataset served as a proof-of-concept, showing the effectiveness of class-conditional generative modBoth the CGAN and CVAE are successfully able to generate class-specific images as shown in the grids above. In both grids, each column represe the neion of this dataset is that only one class is conditioned on at a time. In real world fashion datasents a specific class labels. However, one limitation of this dataset is that, each clothing item o has multiple attributes, which motivates e one liitatfor Multi-Conditional GANs.
 
-### Multi-conditional GAN
+### Multi-onditional GAN ntionl
 
 ![enter image description here](https://i.imgur.com/7RJfm0S.png)
 *Sample images of multi-conditional GAN trained after 80 epochs*
@@ -93,11 +93,11 @@ In both grids above, each column represents a specific class label. Clearly, bot
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
 BnZm1cbiAga2F0ZXg6XG4gICAgZW5hYmxlZDogdHJ1ZVxuIiwi
-aGlzdG9yeSI6WzE2NTIzMTEyNDksMTg4NjE0NDIyMCwyMzM0ND
-UwMTQsLTYzMzgyNzk1NCwtMjA3NzMwOTgwNSwxNjAwMDgxMjYs
-MTkzNDExMDYyNiwxMzM2Mjc5NDI5LDQzMDE3MzM0NSwtMTQ5Nz
-QxMTIyMiwxNDU1MDExNDM0LDcxNTAwNTEzNyw0MDIwMDAyNTEs
-MTc5NjEyNjQwOCwxNjUyOTE0Mjc5LDM4ODUzNjI4OSwtMTQ4OT
-E1MjcyMSwtNzkxMTY2MzUxLDMzNzAzNzM5LDE4OTg5MTAzNjJd
+aGlzdG9yeSI6Wy0yNzkwMDQwMDQsMTY1MjMxMTI0OSwxODg2MT
+Q0MjIwLDIzMzQ0NTAxNCwtNjMzODI3OTU0LC0yMDc3MzA5ODA1
+LDE2MDAwODEyNiwxOTM0MTEwNjI2LDEzMzYyNzk0MjksNDMwMT
+czMzQ1LC0xNDk3NDExMjIyLDE0NTUwMTE0MzQsNzE1MDA1MTM3
+LDQwMjAwMDI1MSwxNzk2MTI2NDA4LDE2NTI5MTQyNzksMzg4NT
+M2Mjg5LC0xNDg5MTUyNzIxLC03OTExNjYzNTEsMzM3MDM3Mzld
 fQ==
 -->
