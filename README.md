@@ -24,7 +24,7 @@ Generative Adversarial Networks (GAN) are a popular deep learning architecture f
 
 ### Conditional VAE *Rahul*
 
-Variational autoencoders (VAE) are powerful generative autoencoders that n   learn a latent representation for the input data. Utilizing variational inference and regularization techniques, VAEs learn latent representations with desirable properties, which allow for sampling new da
+Variational autoencoders (VAE) are powerful generative autoencoders that learn a latent representation for the input data. Utilizing variational inference and regularization techniques, VAEs learn latent representations with desirable properties, which allow for generating new, plausible data points.
 
 ### Multi-Conditional GAN *Henry*
 
@@ -57,9 +57,9 @@ Stacked Generative Adversarial Networks were first introduced (Zhang et al., 201
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
 BnZm1cbiAga2F0ZXg6XG4gICAgZW5hYmxlZDogdHJ1ZVxuIiwi
-aGlzdG9yeSI6WzMyODk3Nzk0OCwyODMyODQxMzAsLTE0MDczMz
-Q5LC0xMjc0OTg5MzY4LDkwNjg3OTg0MywtMTkxODk4NjY2MSwx
-NjUxMTI5NTE2LC04Njc0MjEwNzUsOTY4Nzg5MjIwLDE2ODI4OT
-Q1MTUsLTExNDU0Njk4MDEsMTEzOTU2NzU3Nyw1MzcwMTM2NDdd
-fQ==
+aGlzdG9yeSI6WzIxMDg4Nzg0NjYsMzI4OTc3OTQ4LC0xNDA3Mz
+M0OSwtMTI3NDk4OTM2OCw5MDY4Nzk4NDMsLTE5MTg5ODY2NjEs
+MTY1MTEyOTUxNiwtODY3NDIxMDc1LDk2ODc4OTIyMCwxNjgyOD
+k0NTE1LC0xMTQ1NDY5ODAxLDExMzk1Njc1NzcsNTM3MDEzNjQ3
+XX0=
 -->
