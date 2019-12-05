@@ -29,7 +29,7 @@ Variational autoencoders (VAE) are powerful generative autoencoders that learn a
 ### Multi-Conditional GAN *Henry*
 Conditional GANs (cGAN) uses a traditional GAN architecture except with an extra class label for both the generator and the discriminator in order to "condition" the GAN to conform to that label. This is usually done through taking the class label as an extra input and concatenating it with the latent vector of the GAN.
 
-In our multi-conditional variation of the cGAN, we incorporated attribute conditioning in two main ways. The Fashion Product Images dataset provided attributes in the form of multiple classes, so for that model we added extra layers corresponding to each category of attributes in the GAN, and concatenated them all together with the latent dimension so that the model could take in multiple attributes as conditioning while training. We also attempted encoding the label into an embedding layer and multiplying the input with the latent dimension but produced neglible differences. After preprocessing the DeepFashion dataset, we were able 
+In our multi-conditional variation of the cGAN, we incorporated attribute conditioning in two main ways. The Fashion Product Images dataset provided attributes in the form of multiple classes, so for that model we added extra layers corresponding to each category of attributes in the GAN, and concatenated them all together with the latent dimension so that the model could take in multiple attributes as conditioning while training. We also attempted encoding the label into an embedding layer and multiplying the input with the latent dimension but produced neglible differences. After preprocessing the DeepFashion dataset, we were able to one-hot
 
  Sampling the model's performance was done through giving the model every combination of attributes to generate.
 
@@ -60,11 +60,11 @@ We modified the StackGAN, which originally used text embeddings to condition the
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
 BnZm1cbiAga2F0ZXg6XG4gICAgZW5hYmxlZDogdHJ1ZVxuIiwi
-aGlzdG9yeSI6WzkzOTE0NTQ2LC04NTQwNDkwNjYsLTY2NDk2Mj
-U0MSwtMzAzMDkwNjg5LDUwMTU4NjQzNCwyMDYxMjgzMzQ1LDk5
-MTQyMDI1OCw3MzYwMjQ2NTYsLTc5NDUzOTkzNywxNjM5OTQ3Nz
-c2LDE1MDMwOTI5MTYsMzI4OTc3OTQ4LC0xNDA3MzM0OSwtMTI3
-NDk4OTM2OCw5MDY4Nzk4NDMsLTE5MTg5ODY2NjEsMTY1MTEyOT
-UxNiwtODY3NDIxMDc1LDk2ODc4OTIyMCwxNjgyODk0NTE1XX0=
-
+aGlzdG9yeSI6Wy0xNzkwNjQyODYzLC04NTQwNDkwNjYsLTY2ND
+k2MjU0MSwtMzAzMDkwNjg5LDUwMTU4NjQzNCwyMDYxMjgzMzQ1
+LDk5MTQyMDI1OCw3MzYwMjQ2NTYsLTc5NDUzOTkzNywxNjM5OT
+Q3Nzc2LDE1MDMwOTI5MTYsMzI4OTc3OTQ4LC0xNDA3MzM0OSwt
+MTI3NDk4OTM2OCw5MDY4Nzk4NDMsLTE5MTg5ODY2NjEsMTY1MT
+EyOTUxNiwtODY3NDIxMDc1LDk2ODc4OTIyMCwxNjgyODk0NTE1
+XX0=
 -->
