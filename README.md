@@ -11,8 +11,11 @@
 ### Conditional VAE
 ### Multi-Conditional GAN
 ### Conditional Progressively Growing GAN
-### Conditional
+### Conditional Disentangled Progressively Growing GAN
+
+## Evaluation
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU3MTEzMjY5LC0zODY4NDk2NDIsLTYwND
+eyJoaXN0b3J5IjpbMzQ4NTg3Nzk2LC0zODY4NDk2NDIsLTYwND
 M3MTQwMl19
 -->
