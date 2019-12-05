@@ -18,14 +18,18 @@ We also limited the dataset in two different ways, one utilizing just apparel im
 
 ## Models
 
-ul*
+### Conditional GAN
 
 Generative Adversarial Networks (GAN) are a popular deep learning architecture for training deep generative models. GANs, there is a discriminator network and a generator network. The generator is responsible for generating new samples that are ideally indistinguishable from real samples in the dataset. The discriminator is responsible for distinguishing between real samples and samples created by the generator. The discriminator and generator are trained at the same time in . an adversarial manner: improvements to the discriminator will hurt the performance of the generator and vice versa. One drawback of vanilla GANs is that it will generate random images from the domain. In tasks where we have class or attribute labels available, such as ours, it is desirable to be able to control what the GAN generates. Thus, we utilize the Conditional Generative Adversarial Network (CGAN), which was introduced in 2014 ([https://arxiv.org/abs/1411.1784). The CGAN allows one to introduce labels to the discriminator and generator such that one can generate samples conditioned on specific class-labels. Although there are several methods to condition GANs on class labels, the most often-used method by  CGANs is to introduce an embedding layer on the class labels, followed by a fully connected layer which scales the embedding layer to the size of the input image, such that it can be concatenated as an additional channel. CGANs can of course be used with any architecture, such as deep convolutional GANs (DCGANs). 
 
 ### Conditional VAE *Rahul*
 
 Variational autoencoders (VAE) are powerful generative autoencoders that learn a latent representation for the input data. Utilizing variational inference and regularization techniques, VAEs learn latent representations with desirable properties, which allow for generating new
-auidta  data points. Vanilla VAEs suffer from the same drawback as vanilla GANs--
+auidta  data points. Vanilla VAEs suffer from the same drawback as vanilla GANs--a 
+
+### Conditional VAE *Rahul*
+
+### Multi-Conditional GAN *Henry*
 Conditional GANs (cGAN) uses a traditional GAN architecture except with an extra class label for both the generator and the discriminator in order to "condition" the GAN to conform to that label. This is usually done through taking the class label as an extra input and concatenating it with the latent vector of the GAN.
 
 In our multi-conditional variation of the GAN, we added extra layers corresponding to each category of attributes in the GAN, and concatenated them all together with the latent dimension so that the model could take in multiple attributes as conditioning while training. We also attempted encoding the label into an embedding layer and multiplying the input with the latent dimension but produced neglible differences.
@@ -35,10 +39,7 @@ In our multi-conditional variation of the GAN, we added extra layers correspondi
 ### Attribute StackGAN *Henry*
 Stacked Generative Adversarial Networks (StackGAN) were first introduced (Zhang et al., 2017) as a method to generate high-resolution images (256px by 256px) from natural text. 
 
-In the fashion domain, being able to clearly see the details of a product whether for purchasing or virtual try-on purposes is essential. Thus, generating high-resolution images is an important part of the problem we are trying to tackle. ### Conditional VAE *Rahul*
-
-### Multi-Conditional GAN *Henry*
-Additionally our dataset had many high-resolution images to train on. 
+In the fashion domain, being able to clearly see the details of a product whether for purchasing or virtual try-on purposes is essential. Thus, generating high-resolution images is an important part of the problem we are trying to tackle. Additionally our dataset had many high-resolution images to train on. 
 
 We modified the StackGAN, which originally used text embeddings
 
@@ -62,7 +63,7 @@ We modified the StackGAN, which originally used text embeddings
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
 BnZm1cbiAga2F0ZXg6XG4gICAgZW5hYmxlZDogdHJ1ZVxuIiwi
-aGlzdG9yeSI6WzE2Mzk5NDc3NzYsLTIwNjA2MjcwOCwxNTAzMD
+aGlzdG9yeSI6Wy03OTQ1Mzk5MzcsMTYzOTk0Nzc3NiwxNTAzMD
 kyOTE2LDMyODk3Nzk0OCwtMTQwNzMzNDksLTEyNzQ5ODkzNjgs
 OTA2ODc5ODQzLC0xOTE4OTg2NjYxLDE2NTExMjk1MTYsLTg2Nz
 QyMTA3NSw5Njg3ODkyMjAsMTY4Mjg5NDUxNSwtMTE0NTQ2OTgw
