@@ -24,7 +24,8 @@ Generative Adversarial Networks (GAN) are a popular deep learning architecture f
 
 ### Conditional VAE *Rahul*
 
-Variational autoencoders (VAE) are powerful generative autoencoders that learn a latent representation for the input data. Utilizing variational inference and regularization techniques, VAEs learn latent representations with desirable properties, which allow for generating new, plausible data 
+Variational autoencoders (VAE) are powerful generative autoencoders that learn a latent representation for the input data. Utilizing variational inference and regularization techniques, VAEs learn latent representations with desirable properties, which allow for generating new, plausible aints.
+auidta 
 Conditional GANs (cGAN) uses a traditional GAN architecture except with an extra class label for both the generator and the discriminator in order to "condition" the GAN to conform to that label. This is usually done through taking the class label as an extra input and concatenating it with the latent vector of the GAN.
 
 In our multi-conditional variation of the GAN, we added extra layers corresponding to each category of attributes in the GAN, and concatenated them all together with the latent dimension so that the model could take in multiple attributes as conditioning while training. We also attempted encoding the label into an embedding layer and multiplying the input with the latent dimension but produced neglible differences.
@@ -32,10 +33,14 @@ In our multi-conditional variation of the GAN, we added extra layers correspondi
  Sampling the model's performance was done through giving the model every combination of attributes to generate.
 
 ### Attribute StackGAN *Henry*
-Stacked Generative Adversarial Networks were first introduced (Zhang et al., 2017) as a method to generate high-resolution images (256px by 256px) from natural text. In the fashion domain, being able to clearly see the details of a product whether for purchasing or virtual try-on purposes is essential. Thus, generating high-resolution images is an important part of the problem we are trying to tackle. We modified the StackGAN### Conditional VAE *Rahul*
+Stacked Generative Adversarial Networks (StackGAN) were first introduced (Zhang et al., 2017) as a method to generate high-resolution images (256px by 256px) from natural text. 
+
+In the fashion domain, being able to clearly see the details of a product whether for purchasing or virtual try-on purposes is essential. Thus, generating high-resolution images is an important part of the problem we are trying to tackle. ### Conditional VAE *Rahul*
 
 ### Multi-Conditional GAN *Henry*
+Additionally our dataset had many high-resolution images to train on. 
 
+We modified the StackGAN, which originally used text embeddings
 
 
 ### Conditional Progressively Growing GAN
@@ -57,9 +62,9 @@ Stacked Generative Adversarial Networks were first introduced (Zhang et al., 201
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
 BnZm1cbiAga2F0ZXg6XG4gICAgZW5hYmxlZDogdHJ1ZVxuIiwi
-aGlzdG9yeSI6WzE1MDMwOTI5MTYsMjEwODg3ODQ2NiwzMjg5Nz
-c5NDgsLTE0MDczMzQ5LC0xMjc0OTg5MzY4LDkwNjg3OTg0Mywt
-MTkxODk4NjY2MSwxNjUxMTI5NTE2LC04Njc0MjEwNzUsOTY4Nz
-g5MjIwLDE2ODI4OTQ1MTUsLTExNDU0Njk4MDEsMTEzOTU2NzU3
-Nyw1MzcwMTM2NDddfQ==
+aGlzdG9yeSI6Wy0yMDYwNjI3MDgsMTUwMzA5MjkxNiwyMTA4OD
+c4NDY2LDMyODk3Nzk0OCwtMTQwNzMzNDksLTEyNzQ5ODkzNjgs
+OTA2ODc5ODQzLC0xOTE4OTg2NjYxLDE2NTExMjk1MTYsLTg2Nz
+QyMTA3NSw5Njg3ODkyMjAsMTY4Mjg5NDUxNSwtMTE0NTQ2OTgw
+MSwxMTM5NTY3NTc3LDUzNzAxMzY0N119
 -->
