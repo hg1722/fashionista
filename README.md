@@ -19,6 +19,7 @@ The images are labeled by features such as gender, category, base color, season,
 ![enter image description here](https://i.imgur.com/3u5P913.jpg)
 *High resolution fashion product dataset image*
 
+![enter image description here](https://i.imgur.com/kr08sRP.png)
 *
 
 Simple image preprocessing was performed on the dataset, including resizing all the images into squares (64px x 64px for the smaller variation and 256px x 256px for the larger images), and normalizing all the images between the range 0 and 1.
@@ -77,11 +78,11 @@ CVAE Class-Conditional Generation Results
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
 BnZm1cbiAga2F0ZXg6XG4gICAgZW5hYmxlZDogdHJ1ZVxuIiwi
-aGlzdG9yeSI6WzcxNTAwNTEzNyw0MDIwMDAyNTEsMTc5NjEyNj
-QwOCwxNjUyOTE0Mjc5LDM4ODUzNjI4OSwtMTQ4OTE1MjcyMSwt
-NzkxMTY2MzUxLDMzNzAzNzM5LDE4OTg5MTAzNjIsMTI4NzIxMj
-Q4NSwtMTc0ODQ3Njk2MCwtODU0MDQ5MDY2LC02NjQ5NjI1NDEs
-LTMwMzA5MDY4OSw1MDE1ODY0MzQsMjA2MTI4MzM0NSw5OTE0Mj
-AyNTgsNzM2MDI0NjU2LC03OTQ1Mzk5MzcsMTYzOTk0Nzc3Nl19
+aGlzdG9yeSI6Wy01MDg2MzQ4MTksNzE1MDA1MTM3LDQwMjAwMD
+I1MSwxNzk2MTI2NDA4LDE2NTI5MTQyNzksMzg4NTM2Mjg5LC0x
+NDg5MTUyNzIxLC03OTExNjYzNTEsMzM3MDM3MzksMTg5ODkxMD
+M2MiwxMjg3MjEyNDg1LC0xNzQ4NDc2OTYwLC04NTQwNDkwNjYs
+LTY2NDk2MjU0MSwtMzAzMDkwNjg5LDUwMTU4NjQzNCwyMDYxMj
+gzMzQ1LDk5MTQyMDI1OCw3MzYwMjQ2NTYsLTc5NDUzOTkzN119
 
 -->
