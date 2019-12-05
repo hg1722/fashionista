@@ -14,7 +14,7 @@ We also trained several models on the Fashion Product Images dataset (https://ww
 
 Simple image preprocessing was performed on the dataset, including resizing all the images into squares (64px x 64px for the smaller variation and 256px x 256px for the larger images), and normalizing all the images between the range 0 and 1.
 
-We also limited the dataset in two different ways, one utilizing just apparel images and the other all types of fashion. For sake of simplicity in training the conditional GAN, we limited the apparel dataset to the top six subcategories of apparel and the top six base colors. For data utilizing all types of fashion, we limited the categories to topwear, bottomwear, and shoes, and the top three colors in the data.
+We also limited the dataset in two different ways, one utilizing just apparel images and the other all types of fashion. For sake of simplicity in training the conditional GAN, we limited the apparel dataset to the top six subcategories of apparel and the top six base colors. For data utilizing all types of fashion, we limited the categories to top-wear, bottom-wear, and shoes, and the top three colors in the data.
 
 ## Models
 
@@ -23,6 +23,8 @@ We also limited the dataset in two different ways, one utilizing just apparel im
 Generative Adversarial Networks (GAN) are a popular deep learning architecture for training deep generative models. GANs, there is a discriminator network and a generator network. The generator is responsible for generating new samples that are ideally indistinguishable from real samples in the dataset. The discriminator is responsible for distinguishing between real samples and samples created by the generator. The discriminator and generator are trained at the same time in . an adversarial manner: improvements to the discriminator will hurt the performance of the generator and vice versa. One drawback of vanilla GANs is that it will generate random images from the domain. In tasks where we have class or attribute labels available, such as ours, it is desirable to be able to control what the GAN generates. Thus, we utilize the Conditional Generative Adversarial Network (CGAN), which was introduced in 2014 ([https://arxiv.org/abs/1411.1784). The CGAN allows one to introduce labels to the discriminator and generator such that one can generate samples conditioned on specific class-labels. Although there are several methods to condition GANs on class labels, the most often-used method bywith CGANs is to introduce an embedding layer on the class labels, followed by a fully connected layer which scales the embedding layer to the size of the input image, such that it can be concatenated as an additional channel. CGANs can of course be used with any architecture, such as deep convolutional GANs (DCGANs). 
 
 ### Conditional VAE *Rahul*
+
+Variational autoencoders (VAE) are powerful generative models    
 
 ### Multi-Conditional GAN *Henry*
 
@@ -55,8 +57,8 @@ The StackGAN architecture (Zhang et al., 2017) was first introduced
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
 BnZm1cbiAga2F0ZXg6XG4gICAgZW5hYmxlZDogdHJ1ZVxuIiwi
-aGlzdG9yeSI6WzM0NDEzMjE3NywtNjY3MzY3NjU2LDkwNjg3OT
-g0MywtMTkxODk4NjY2MSwxNjUxMTI5NTE2LC04Njc0MjEwNzUs
-OTY4Nzg5MjIwLDE2ODI4OTQ1MTUsLTExNDU0Njk4MDEsMTEzOT
-U2NzU3Nyw1MzcwMTM2NDddfQ==
+aGlzdG9yeSI6Wy0xMjc0OTg5MzY4LDM0NDEzMjE3Nyw5MDY4Nz
+k4NDMsLTE5MTg5ODY2NjEsMTY1MTEyOTUxNiwtODY3NDIxMDc1
+LDk2ODc4OTIyMCwxNjgyODk0NTE1LC0xMTQ1NDY5ODAxLDExMz
+k1Njc1NzcsNTM3MDEzNjQ3XX0=
 -->
