@@ -5,7 +5,7 @@
 ### DeepFashion 
 
 The [DeepFashion](http://mmlab.ie.cuhk.edu.hk/projects/DeepFashion/AttributePrediction.html) dataset contains 289,222 clothing images, annotated with with 1,000 clothing attributes across five attribute categories, and 3 clothing categories. The images are grouped broadly into directories based on 2-3 shared attributes, which improves generator stability. EXAMPLE. 
-The text data attributes were modified in this [notebook](https://github.com/hg1722/fashionista/blob/master/datasets/deepfashion/text_attribute_preprocess.ipynb), to remove semantically equivalent attributes 
+The text data attributes were modified in this [notebook](https://github.com/hg1722/fashionista/blob/master/datasets/deepfashion/text_attribute_preprocess.ipynb), removing semantically equivalent attributes, 
 ### MNIST Fashion 
 
 The baseline dataset that we used is called "Fashion MNIST" (https://github.com/zalandoresearch/fashion-mnist). It is a publicly available dataset used for benchmarking purposes and contains 60,000 images of clothing items in 10 different categories. All of the images are 28x28 and are grayscale. Preprocessing was generally not required for this dataset except for pixel normalization. 
@@ -92,11 +92,11 @@ In both grids above, each column represents a specific class label. Clearly, bot
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
 BnZm1cbiAga2F0ZXg6XG4gICAgZW5hYmxlZDogdHJ1ZVxuIiwi
-aGlzdG9yeSI6Wy0yMDMyNDg2NjcwLDExOTQ5NTQzMyw3MDMzNj
-Q1MTMsLTExMTE1NDg5MjAsLTg0NTQ4MzYyOSw4NzE4OTQ1MTYs
-NDM1MzE4NzI4LC01MTU1NzUwMDUsLTc4NTc2ODI1MywxNjUyMz
-ExMjQ5LDE4ODYxNDQyMjAsMjMzNDQ1MDE0LC02MzM4Mjc5NTQs
-LTIwNzczMDk4MDUsMTYwMDA4MTI2LDE5MzQxMTA2MjYsMTMzNj
-I3OTQyOSw0MzAxNzMzNDUsLTE0OTc0MTEyMjIsMTQ1NTAxMTQz
-NF19
+aGlzdG9yeSI6Wy0xMzYwMTk2NiwxMTk0OTU0MzMsNzAzMzY0NT
+EzLC0xMTExNTQ4OTIwLC04NDU0ODM2MjksODcxODk0NTE2LDQz
+NTMxODcyOCwtNTE1NTc1MDA1LC03ODU3NjgyNTMsMTY1MjMxMT
+I0OSwxODg2MTQ0MjIwLDIzMzQ0NTAxNCwtNjMzODI3OTU0LC0y
+MDc3MzA5ODA1LDE2MDAwODEyNiwxOTM0MTEwNjI2LDEzMzYyNz
+k0MjksNDMwMTczMzQ1LC0xNDk3NDExMjIyLDE0NTUwMTE0MzRd
+fQ==
 -->
