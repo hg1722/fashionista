@@ -3,13 +3,13 @@
 ## Data 
 
 ### DeepFashion 
-### MNIST Fashion == Rahul ==
-### Fashion Product Images
+### MNIST Fashion  ==Rahul==
+### Fashion Product Images ==Henry==
 
 ## Models
-### Conditional GAN
-### Conditional VAE
-### Multi-Conditional GAN
+### Conditional GAN ==Rahul==
+### Conditional VAE ==Rahul==
+### Multi-Conditional GAN ==Henry==
 ### Conditional Progressively Growing GAN
 ### Conditional Disentangled Progressively Growing GAN
 
@@ -19,6 +19,6 @@
 ## Results
 ### 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzcwOTgwODUsLTE1NzgxNzUxMTksLT
-M4Njg0OTY0MiwtNjA0MzcxNDAyXX0=
+eyJoaXN0b3J5IjpbMzE1NTEzNzA5LC0xNTc4MTc1MTE5LC0zOD
+Y4NDk2NDIsLTYwNDM3MTQwMl19
 -->
