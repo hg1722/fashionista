@@ -2,8 +2,8 @@
 
 ## Data 
 
-### DeepFashion
-### MNIST Fashion
+### DeepFashion 
+### MNIST Fashion == Rahul ==
 ### Fashion Product Images
 
 ## Models
@@ -19,6 +19,6 @@
 ## Results
 ### 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzgxNzUxMTksLTM4Njg0OTY0MiwtNj
-A0MzcxNDAyXX0=
+eyJoaXN0b3J5IjpbLTE4NzcwOTgwODUsLTE1NzgxNzUxMTksLT
+M4Njg0OTY0MiwtNjA0MzcxNDAyXX0=
 -->
