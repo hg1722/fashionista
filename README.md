@@ -20,7 +20,7 @@ We also limited the dataset in two different ways, one utilizing just apparel im
 
 ### Conditional GAN *Rahul*
 
-Generative Adversarial Networks (GAN) are a popular deep learning architecture for training deep generative models. In traditional GANs, there is a discriminator network and a generator network. The generator is responsible for generating new samples that are ideally indistinguishable from real samples in the dataset. The discriminator is responsible for distinguishing between real samples and samples created by the generator. The discriminator and generator are trained at the same time in . an adversarial manner: improvements to the discriminator will hurt the performance of the generator and vice versa. One dra
+Generative Adversarial Networks (GAN) are a popular deep learning architecture for training deep generative models. In traditional GANs, there is a discriminator network and a generator network. The generator is responsible for generating new samples that are ideally indistinguishable from real samples in the dataset. The discriminator is responsible for distinguishing between real samples and samples created by the generator. The discriminator and generator are trained at the same time in . an adversarial manner: improvements to the discriminator will hurt the performance of the generator and vice versa. One drawback of vanilla GANs is that it will generate random images from the domain. In tasks where we have class or attribute labels available, such as ours, it is desirable to be able to control what the GAN generates. Thus, we utilize the Conditional Generative Adversarial Network (CGA
 
 ### Conditional VAE *Rahul*
 
@@ -55,7 +55,7 @@ In our multi-conditional variation of the GAN, we added extra layers correspondi
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
 BnZm1cbiAga2F0ZXg6XG4gICAgZW5hYmxlZDogdHJ1ZVxuIiwi
-aGlzdG9yeSI6Wy01MDczNzY1MzksLTE5MTg5ODY2NjEsMTY1MT
-EyOTUxNiwtODY3NDIxMDc1LDk2ODc4OTIyMCwxNjgyODk0NTE1
-LC0xMTQ1NDY5ODAxLDExMzk1Njc1NzcsNTM3MDEzNjQ3XX0=
+aGlzdG9yeSI6Wy0xMjA1MTc2NzU3LC0xOTE4OTg2NjYxLDE2NT
+ExMjk1MTYsLTg2NzQyMTA3NSw5Njg3ODkyMjAsMTY4Mjg5NDUx
+NSwtMTE0NTQ2OTgwMSwxMTM5NTY3NTc3LDUzNzAxMzY0N119
 -->
