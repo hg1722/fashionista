@@ -6,7 +6,7 @@
 
 ### MNIST Fashion  *Rahul*
 
-The baseline dataset that we used is called "Fashion MNIST", a publicly available
+The baseline dataset that we used is called "Fashion MNIST", a publicly available 
 
 ### Fashion Product Images *Henry*
 
@@ -45,6 +45,6 @@ The traditional conditional GAN (cGAN)
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
 BnZm1cbiAga2F0ZXg6XG4gICAgZW5hYmxlZDogdHJ1ZVxuIiwi
-aGlzdG9yeSI6Wy0xMTQ1NDY5ODAxLDE0MTI1MDY1LDExMzk1Nj
-c1NzcsNTM3MDEzNjQ3XX0=
+aGlzdG9yeSI6WzE2ODI4OTQ1MTUsLTExNDU0Njk4MDEsMTEzOT
+U2NzU3Nyw1MzcwMTM2NDddfQ==
 -->
