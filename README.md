@@ -1,4 +1,8 @@
-# Fashion Art
+# Fashion Generation from Structured Style Attributes
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5OTMxMzYxMCwtNjA0MzcxNDAyXX0=
+eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
+Bjb21tb25tYXJrXG4iLCJoaXN0b3J5IjpbNzk0MjcwMTcsLTYw
+NDM3MTQwMl19
 -->
