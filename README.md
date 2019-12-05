@@ -4,7 +4,7 @@
 
 ### DeepFashion 
 
-This dataset contains 289,222 clothing images of varied 
+The  [DeepFashion] da(http://mmlab.ie.cuhk.edu.hk/projects/DeepFashion/AttributePrediction.html) contains 289,222 clothing images, with 1,000 clothing attributes and 3 clothing categories. 
 
 ### MNIST Fashion 
 
@@ -92,7 +92,7 @@ In both grids above, each column represents a specific class label. Clearly, bot
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
 BnZm1cbiAga2F0ZXg6XG4gICAgZW5hYmxlZDogdHJ1ZVxuIiwi
-aGlzdG9yeSI6Wy01NTk3MDk3MTYsODcxODk0NTE2LDQzNTMxOD
+aGlzdG9yeSI6Wy03MTM2OTA1NjcsODcxODk0NTE2LDQzNTMxOD
 cyOCwtNTE1NTc1MDA1LC03ODU3NjgyNTMsMTY1MjMxMTI0OSwx
 ODg2MTQ0MjIwLDIzMzQ0NTAxNCwtNjMzODI3OTU0LC0yMDc3Mz
 A5ODA1LDE2MDAwODEyNiwxOTM0MTEwNjI2LDEzMzYyNzk0Mjks
