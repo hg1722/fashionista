@@ -24,7 +24,9 @@ We also limited the dataset in two different ways, one utilizing just apparel im
 
 ### Multi-Conditional GAN *Henry*
 
-The conditional GAN  uses a traditional GAN architecture(cGAN) except with an extra class label in order to "condition" the GAN to conform to that label. This is usually done through concatenation of 
+The conditional GAN  uses a traditional GAN architecture(cGAN) except with an extra class label in order to "condition" the GAN to conform to that label. This is usually done through taking the class label as an extra input and concatenating it with the latent vector of the GAN.
+
+In our 
 
 ### Conditional Progressively Growing GAN
 
@@ -45,7 +47,7 @@ The conditional GAN  uses a traditional GAN architecture(cGAN) except with an ex
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
 BnZm1cbiAga2F0ZXg6XG4gICAgZW5hYmxlZDogdHJ1ZVxuIiwi
-aGlzdG9yeSI6Wy0xMTc0MDE5NjU4LDk2ODc4OTIyMCwxNjgyOD
-k0NTE1LC0xMTQ1NDY5ODAxLDExMzk1Njc1NzcsNTM3MDEzNjQ3
-XX0=
+aGlzdG9yeSI6WzE2NTExMjk1MTYsOTY4Nzg5MjIwLDE2ODI4OT
+Q1MTUsLTExNDU0Njk4MDEsMTEzOTU2NzU3Nyw1MzcwMTM2NDdd
+fQ==
 -->
