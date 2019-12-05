@@ -22,7 +22,7 @@ Simple image preprocessing was performed on the dataset, including resizing all 
 ![enter image description here](https://i.imgur.com/kr08sRP.png)
 *"Low-resolution" image from Fashion Product Image dataset (64 x 64)*
 We also limited the dataset in two different ways, one utilizing just apparel images and the other all types of fashion. For sake of simplicity in training the conditional GAN, we limited the apparel dataset to the top six subcategories of apparel and the top six base colors. For data utilizing all types of fashion, we limited the categories to top-wear, bottom-wear, and shoes, and the top three colors in the data.
-
+![blah](https://github.com/hg1722/fashionista/blob/master/pics/CGAN.png)
 ## Models
 
 ### Conditional GAN
@@ -93,11 +93,11 @@ In both grids above, each column represents a specific class label. Clearly, bot
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
 BnZm1cbiAga2F0ZXg6XG4gICAgZW5hYmxlZDogdHJ1ZVxuIiwi
-aGlzdG9yeSI6Wy0yNzkwMDQwMDQsMTY1MjMxMTI0OSwxODg2MT
-Q0MjIwLDIzMzQ0NTAxNCwtNjMzODI3OTU0LC0yMDc3MzA5ODA1
-LDE2MDAwODEyNiwxOTM0MTEwNjI2LDEzMzYyNzk0MjksNDMwMT
-czMzQ1LC0xNDk3NDExMjIyLDE0NTUwMTE0MzQsNzE1MDA1MTM3
-LDQwMjAwMDI1MSwxNzk2MTI2NDA4LDE2NTI5MTQyNzksMzg4NT
-M2Mjg5LC0xNDg5MTUyNzIxLC03OTExNjYzNTEsMzM3MDM3Mzld
+aGlzdG9yeSI6Wy00OTU0NzQ4LC0yNzkwMDQwMDQsMTY1MjMxMT
+I0OSwxODg2MTQ0MjIwLDIzMzQ0NTAxNCwtNjMzODI3OTU0LC0y
+MDc3MzA5ODA1LDE2MDAwODEyNiwxOTM0MTEwNjI2LDEzMzYyNz
+k0MjksNDMwMTczMzQ1LC0xNDk3NDExMjIyLDE0NTUwMTE0MzQs
+NzE1MDA1MTM3LDQwMjAwMDI1MSwxNzk2MTI2NDA4LDE2NTI5MT
+QyNzksMzg4NTM2Mjg5LC0xNDg5MTUyNzIxLC03OTExNjYzNTFd
 fQ==
 -->
