@@ -29,9 +29,9 @@ Variational autoencoders (VAE) are powerful generative autoencoders that learn a
 ### Multi-Conditional GAN *Henry*
 Conditional GANs (cGAN) uses a traditional GAN architecture except with an extra class label for both the generator and the discriminator in order to "condition" the GAN to conform to that label. This is usually done through taking the class label as an extra input and concatenating it with the latent vector of the GAN.
 
-In our multi-conditional variation of the cGAN, we incorporated attribute conditioning in two main ways. The Fashion Product Images dataset provided attributes in the form of multiple classes, so for that model we added extra layers corresponding to each category of attributes in the GAN, and concatenated them all together with the latent dimension so that the model could take in multiple attributes as conditioning while training. We also attempted encoding the label into an embedding layer and multiplying the input with the latent dimension but produced neglible differences. After preprocessing the DeepFashion dataset, we were able to one-hot
+In our multi-conditional variation of the cGAN, we incorporated attribute conditioning in two main ways. The Fashion Product Images dataset provided attributes in the form of multiple classes, so for that model we added extra layers corresponding to each category of attributes in the GAN, and concatenated them all together with the latent dimension so that the model could take in multiple attributes as conditioning while training. We also attempted encoding the label into an embedding layer and multiplying the input with the latent dimension but produced neglible differences. After preprocessing the DeepFashion dataset, we were able to one-hot-encode the attributes instead, and used that for attribute conditioning the cGAN.
 
- Sampling the model's performance was done through giving the model every combination of attributes to generate.
+Sampling the model's performance was done through giving the model every combination of attributes to generate.
 
 ### Attribute StackGAN *Henry*
 Stacked Generative Adversarial Networks (StackGAN) were first introduced (https://arxiv.org/pdf/1612.03242.pdf) as a method to generate high-resolution images (256px by 256px) from natural text. 
@@ -60,11 +60,11 @@ We modified the StackGAN, which originally used text embeddings to condition the
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
 BnZm1cbiAga2F0ZXg6XG4gICAgZW5hYmxlZDogdHJ1ZVxuIiwi
-aGlzdG9yeSI6Wy0xNzQ4NDc2OTYwLC0xNzkwNjQyODYzLC04NT
-QwNDkwNjYsLTY2NDk2MjU0MSwtMzAzMDkwNjg5LDUwMTU4NjQz
-NCwyMDYxMjgzMzQ1LDk5MTQyMDI1OCw3MzYwMjQ2NTYsLTc5ND
-UzOTkzNywxNjM5OTQ3Nzc2LDE1MDMwOTI5MTYsMzI4OTc3OTQ4
-LC0xNDA3MzM0OSwtMTI3NDk4OTM2OCw5MDY4Nzk4NDMsLTE5MT
-g5ODY2NjEsMTY1MTEyOTUxNiwtODY3NDIxMDc1LDk2ODc4OTIy
-MF19
+aGlzdG9yeSI6WzIyNjk5MzkwNiwtMTc0ODQ3Njk2MCwtODU0MD
+Q5MDY2LC02NjQ5NjI1NDEsLTMwMzA5MDY4OSw1MDE1ODY0MzQs
+MjA2MTI4MzM0NSw5OTE0MjAyNTgsNzM2MDI0NjU2LC03OTQ1Mz
+k5MzcsMTYzOTk0Nzc3NiwxNTAzMDkyOTE2LDMyODk3Nzk0OCwt
+MTQwNzMzNDksLTEyNzQ5ODkzNjgsOTA2ODc5ODQzLC0xOTE4OT
+g2NjYxLDE2NTExMjk1MTYsLTg2NzQyMTA3NSw5Njg3ODkyMjBd
+fQ==
 -->
