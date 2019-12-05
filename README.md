@@ -34,7 +34,7 @@ In our multi-conditional variation of the cGAN, we incorporated attribute condit
 Sampling the model's performance was done through giving the model every combination of attributes to generate.
 
 ### Attribute StackGAN *Henry*
-Stacked Generative Adversarial Networks (StackGAN) were first introduced (https://arxiv.org/pdf/1612.03242.pdf) as a method to generate high-resolution images from natural text. The approach is analogous to the drawing procedure of a human intartist, where the artist first sketches a rough outline of an image before creating a refined, high-quality result. The architecture employs two stages of GANs: the first stage GAN generates low resolution images conditioned on the input text embeddings. The second GAN then takes the output of the first stage's generated image and the original text embeddings and uses them to generate a high-qulity image.
+Stacked Generative Adversarial Networks (StackGAN) were first introduced (https://arxiv.org/pdf/1612.03242.pdf) as a method to generate high-resolution images from natural text. The approach is analogous to the drawing procedure of a human intartist, where the artist first sketches a rough outline of an image before creating a refined, high-quality result. The architecture employs two stages of GANs: the first stage GAN generates low resolution images conditioned on the input text embeddings. The second GAN then takes the output of the first stage's generated image and the original text embeddings and uses them to generate a high-qulity image.text, creati
 
 In the fashion domain, being able to clearly see the details of a product whether for purchasing or virtual try-on purposes is essential. Thus, generating high-resolution images is an important part of the problem we are trying to tackle. Additionally our dataset had many high-resolution images to train on.
 
@@ -60,11 +60,11 @@ We modified the StackGAN, which originally used text embeddings to condition the
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
 BnZm1cbiAga2F0ZXg6XG4gICAgZW5hYmxlZDogdHJ1ZVxuIiwi
-aGlzdG9yeSI6WzE4OTg5MTAzNjIsMTI4NzIxMjQ4NSwtMTc0OD
-Q3Njk2MCwtODU0MDQ5MDY2LC02NjQ5NjI1NDEsLTMwMzA5MDY4
-OSw1MDE1ODY0MzQsMjA2MTI4MzM0NSw5OTE0MjAyNTgsNzM2MD
-I0NjU2LC03OTQ1Mzk5MzcsMTYzOTk0Nzc3NiwxNTAzMDkyOTE2
-LDMyODk3Nzk0OCwtMTQwNzMzNDksLTEyNzQ5ODkzNjgsOTA2OD
-c5ODQzLC0xOTE4OTg2NjYxLDE2NTExMjk1MTYsLTg2NzQyMTA3
-NV19
+aGlzdG9yeSI6WzMzNzAzNzM5LDE4OTg5MTAzNjIsMTI4NzIxMj
+Q4NSwtMTc0ODQ3Njk2MCwtODU0MDQ5MDY2LC02NjQ5NjI1NDEs
+LTMwMzA5MDY4OSw1MDE1ODY0MzQsMjA2MTI4MzM0NSw5OTE0Mj
+AyNTgsNzM2MDI0NjU2LC03OTQ1Mzk5MzcsMTYzOTk0Nzc3Niwx
+NTAzMDkyOTE2LDMyODk3Nzk0OCwtMTQwNzMzNDksLTEyNzQ5OD
+kzNjgsOTA2ODc5ODQzLC0xOTE4OTg2NjYxLDE2NTExMjk1MTZd
+fQ==
 -->
