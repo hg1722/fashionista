@@ -6,7 +6,7 @@
 
 ### MNIST Fashion  *Rahul*
 
-The baseline dataset that we used is called "Fashion MNIST" (https://github.com/zalandoresearch/fashion-mnist). It is a publicly available dataset used for benchmarking purposes and contains 60,000 images of clothing items in 10 different categories 
+The baseline dataset that we used is called "Fashion MNIST" (https://github.com/zalandoresearch/fashion-mnist). It is a publicly available dataset used for benchmarking purposes and contains 60,000 images of clothing items in 10 different categories. All of the images are 28x28 and are grayscale. 
 
 ### Fashion Product Images *Henry*
 
@@ -49,7 +49,7 @@ Testing of the model was
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
 BnZm1cbiAga2F0ZXg6XG4gICAgZW5hYmxlZDogdHJ1ZVxuIiwi
-aGlzdG9yeSI6WzE3Mjk3ODM4NzksMTY1MTEyOTUxNiwtODY3ND
-IxMDc1LDk2ODc4OTIyMCwxNjgyODk0NTE1LC0xMTQ1NDY5ODAx
-LDExMzk1Njc1NzcsNTM3MDEzNjQ3XX0=
+aGlzdG9yeSI6Wy0xNDc0NDI5MjIsMTcyOTc4Mzg3OSwxNjUxMT
+I5NTE2LC04Njc0MjEwNzUsOTY4Nzg5MjIwLDE2ODI4OTQ1MTUs
+LTExNDU0Njk4MDEsMTEzOTU2NzU3Nyw1MzcwMTM2NDddfQ==
 -->
