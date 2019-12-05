@@ -5,7 +5,7 @@
 ### DeepFashion 
 
 The [DeepFashion](http://mmlab.ie.cuhk.edu.hk/projects/DeepFashion/AttributePrediction.html) dataset contains 289,222 clothing images, annotated with with 1,000 clothing attributes across five attribute categories, and 3 clothing categories. The images are grouped broadly into directories based on 2-3 shared attributes, which improves generator stability. EXAMPLE. 
-The text data attributes were modified in this [notebook](https://github.com/hg1722/fashionista/blob/master/datasets/deepfashion/text_attribute_preprocess.ipynb), removing semantically equivalent attributes, expanding the number of clothing categories into more specific descriptors, and removing the style attribute type. The final data 
+The text data attributes were modified in this [notebook](https://github.com/hg1722/fashionista/blob/master/datasets/deepfashion/text_attribute_preprocess.ipynb), removing semantically equivalent attributes, expanding the number of clothing categories into more specific descriptors, and removing the style attribute type. The final embeddings consist of 486 attributes
 ### MNIST Fashion 
 
 The baseline dataset that we used is called "Fashion MNIST" (https://github.com/zalandoresearch/fashion-mnist). It is a publicly available dataset used for benchmarking purposes and contains 60,000 images of clothing items in 10 different categories. All of the images are 28x28 and are grayscale. Preprocessing was generally not required for this dataset except for pixel normalization. 
@@ -92,11 +92,11 @@ In both grids above, each column represents a specific class label. Clearly, bot
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
 BnZm1cbiAga2F0ZXg6XG4gICAgZW5hYmxlZDogdHJ1ZVxuIiwi
-aGlzdG9yeSI6Wy0xMjIwMTgwMjE5LDExOTQ5NTQzMyw3MDMzNj
-Q1MTMsLTExMTE1NDg5MjAsLTg0NTQ4MzYyOSw4NzE4OTQ1MTYs
-NDM1MzE4NzI4LC01MTU1NzUwMDUsLTc4NTc2ODI1MywxNjUyMz
-ExMjQ5LDE4ODYxNDQyMjAsMjMzNDQ1MDE0LC02MzM4Mjc5NTQs
-LTIwNzczMDk4MDUsMTYwMDA4MTI2LDE5MzQxMTA2MjYsMTMzNj
-I3OTQyOSw0MzAxNzMzNDUsLTE0OTc0MTEyMjIsMTQ1NTAxMTQz
-NF19
+aGlzdG9yeSI6Wy01MDI4MTUzODIsMTE5NDk1NDMzLDcwMzM2ND
+UxMywtMTExMTU0ODkyMCwtODQ1NDgzNjI5LDg3MTg5NDUxNiw0
+MzUzMTg3MjgsLTUxNTU3NTAwNSwtNzg1NzY4MjUzLDE2NTIzMT
+EyNDksMTg4NjE0NDIyMCwyMzM0NDUwMTQsLTYzMzgyNzk1NCwt
+MjA3NzMwOTgwNSwxNjAwMDgxMjYsMTkzNDExMDYyNiwxMzM2Mj
+c5NDI5LDQzMDE3MzM0NSwtMTQ5NzQxMTIyMiwxNDU1MDExNDM0
+XX0=
 -->
