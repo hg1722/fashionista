@@ -34,11 +34,11 @@ In our multi-conditional variation of the cGAN, we incorporated attribute condit
 Sampling the model's performance was done through giving the model every combination of attributes to generate.
 
 ### Attribute StackGAN *Henry*
-Stacked Generative Adversarial Networks (StackGAN) were first introduced (https://arxiv.org/pdf/1612.03242.pdf) as a method to generate high-resolution images (256px by 256px) from natural text. 
+Stacked Generative Adversarial Networks (StackGAN) were first introduced (https://arxiv.org/pdf/1612.03242.pdf) as a method to generate high-resolution images (256px by 256px) from natural text. The intThe architecture employs two stages of GANs: the first stage is 
 
 In the fashion domain, being able to clearly see the details of a product whether for purchasing or virtual try-on purposes is essential. Thus, generating high-resolution images is an important part of the problem we are trying to tackle. Additionally our dataset had many high-resolution images to train on. 
 
-We modified the StackGAN, which originally used text embeddings to condition the image, to use 
+We modified the StackGAN, which originally used text embeddings to condition the image, to use a one-hot-encoded attribute layer as input instead. 
 
 
 ### Conditional Progressively Growing GAN
@@ -60,7 +60,7 @@ We modified the StackGAN, which originally used text embeddings to condition the
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
 BnZm1cbiAga2F0ZXg6XG4gICAgZW5hYmxlZDogdHJ1ZVxuIiwi
-aGlzdG9yeSI6WzIyNjk5MzkwNiwtMTc0ODQ3Njk2MCwtODU0MD
+aGlzdG9yeSI6WzU2ODY4OTU5OCwtMTc0ODQ3Njk2MCwtODU0MD
 Q5MDY2LC02NjQ5NjI1NDEsLTMwMzA5MDY4OSw1MDE1ODY0MzQs
 MjA2MTI4MzM0NSw5OTE0MjAyNTgsNzM2MDI0NjU2LC03OTQ1Mz
 k5MzcsMTYzOTk0Nzc3NiwxNTAzMDkyOTE2LDMyODk3Nzk0OCwt
