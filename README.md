@@ -77,16 +77,17 @@ CVAE Class-Conditional Generation Results
 
 Multi-conditional GAN Generation Results
 
-![enter image description here](https://i.imgur.com/jIzwV6k.png)
+![enter image description here](https://i.imgur.com/7RJfm0S.png)
+*Images generated after one sample of multi-conditional cGAN trained after
 ![enter image description here](https://i.imgur.com/O70Szk7.png)
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
 BnZm1cbiAga2F0ZXg6XG4gICAgZW5hYmxlZDogdHJ1ZVxuIiwi
-aGlzdG9yeSI6WzEzMzYyNzk0MjksNDMwMTczMzQ1LC0xNDk3ND
-ExMjIyLDE0NTUwMTE0MzQsNzE1MDA1MTM3LDQwMjAwMDI1MSwx
-Nzk2MTI2NDA4LDE2NTI5MTQyNzksMzg4NTM2Mjg5LC0xNDg5MT
-UyNzIxLC03OTExNjYzNTEsMzM3MDM3MzksMTg5ODkxMDM2Miwx
-Mjg3MjEyNDg1LC0xNzQ4NDc2OTYwLC04NTQwNDkwNjYsLTY2ND
-k2MjU0MSwtMzAzMDkwNjg5LDUwMTU4NjQzNCwyMDYxMjgzMzQ1
+aGlzdG9yeSI6WzIxMjcyNjI0NTksMTMzNjI3OTQyOSw0MzAxNz
+MzNDUsLTE0OTc0MTEyMjIsMTQ1NTAxMTQzNCw3MTUwMDUxMzcs
+NDAyMDAwMjUxLDE3OTYxMjY0MDgsMTY1MjkxNDI3OSwzODg1Mz
+YyODksLTE0ODkxNTI3MjEsLTc5MTE2NjM1MSwzMzcwMzczOSwx
+ODk4OTEwMzYyLDEyODcyMTI0ODUsLTE3NDg0NzY5NjAsLTg1ND
+A0OTA2NiwtNjY0OTYyNTQxLC0zMDMwOTA2ODksNTAxNTg2NDM0
 XX0=
 -->
