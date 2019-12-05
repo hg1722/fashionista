@@ -11,6 +11,8 @@ The baseline dataset that we used is called "Fashion MNIST" (https://github.com/
 ### Fashion Product Images 
 
 We also trained several models on the Fashion Product Images dataset (https://www.kaggle.com/paramaggarwal/fashion-product-images-dataset) which contains 44,000 images of fashion products scraped from various e-commerce websites. 
+# water 
+
 
 The images are labeled by features such as gender, category, base color, season, usage, etc. We utilized two variations of the dataset, with one containing low-resolution images (60px by 80px) and another contained higher-resolution images (1800px x 2400px).
 
@@ -93,11 +95,11 @@ In both grids above, each column represents a specific class label. Clearly, bot
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
 BnZm1cbiAga2F0ZXg6XG4gICAgZW5hYmxlZDogdHJ1ZVxuIiwi
-aGlzdG9yeSI6Wy00OTU0NzQ4LC0yNzkwMDQwMDQsMTY1MjMxMT
-I0OSwxODg2MTQ0MjIwLDIzMzQ0NTAxNCwtNjMzODI3OTU0LC0y
-MDc3MzA5ODA1LDE2MDAwODEyNiwxOTM0MTEwNjI2LDEzMzYyNz
-k0MjksNDMwMTczMzQ1LC0xNDk3NDExMjIyLDE0NTUwMTE0MzQs
-NzE1MDA1MTM3LDQwMjAwMDI1MSwxNzk2MTI2NDA4LDE2NTI5MT
-QyNzksMzg4NTM2Mjg5LC0xNDg5MTUyNzIxLC03OTExNjYzNTFd
-fQ==
+aGlzdG9yeSI6Wy0xOTI2MjI5MzUwLC00OTU0NzQ4LDE2NTIzMT
+EyNDksMTg4NjE0NDIyMCwyMzM0NDUwMTQsLTYzMzgyNzk1NCwt
+MjA3NzMwOTgwNSwxNjAwMDgxMjYsMTkzNDExMDYyNiwxMzM2Mj
+c5NDI5LDQzMDE3MzM0NSwtMTQ5NzQxMTIyMiwxNDU1MDExNDM0
+LDcxNTAwNTEzNyw0MDIwMDAyNTEsMTc5NjEyNjQwOCwxNjUyOT
+E0Mjc5LDM4ODUzNjI4OSwtMTQ4OTE1MjcyMSwtNzkxMTY2MzUx
+XX0=
 -->
