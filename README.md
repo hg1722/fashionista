@@ -6,7 +6,7 @@
 
 ### MNIST Fashion  *Rahul*
 
-The baseline dataset that we used is called "Fashion MNIST" (https://github.com/zalandoresearch/fashion-mnist). It is a publicly available dataset used for benchmarking purposes and contains 60,000 images of clothing items in 10 different categories. All of the images are 28x28 and are grayscale. 
+The baseline dataset that we used is called "Fashion MNIST" (https://github.com/zalandoresearch/fashion-mnist). It is a publicly available dataset used for benchmarking purposes and contains 60,000 images of clothing items in 10 different categories. All of the images are 28x28 and are grayscale. Preprocessing was generally not required for this dataset except for pixel normalization. 
 
 ### Fashion Product Images *Henry*
 
@@ -19,6 +19,8 @@ We also limited the dataset in two different ways, one utilizing just apparel im
 ## Models
 
 ### Conditional GAN *Rahul*
+
+In traditional Generative Adversarial Networks (GAN). 
 
 ### Conditional VAE *Rahul*
 
@@ -53,7 +55,7 @@ In our multi-conditional variation of the GAN, we added extra layers correspondi
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
 BnZm1cbiAga2F0ZXg6XG4gICAgZW5hYmxlZDogdHJ1ZVxuIiwi
-aGlzdG9yeSI6Wy0xMDMwMDQzNzczLC0xNDc0NDI5MjIsMTY1MT
+aGlzdG9yeSI6Wy01OTQwNTI3MTUsLTEwMzAwNDM3NzMsMTY1MT
 EyOTUxNiwtODY3NDIxMDc1LDk2ODc4OTIyMCwxNjgyODk0NTE1
 LC0xMTQ1NDY5ODAxLDExMzk1Njc1NzcsNTM3MDEzNjQ3XX0=
 -->
