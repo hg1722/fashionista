@@ -14,8 +14,11 @@
 ### Conditional Disentangled Progressively Growing GAN
 
 ## Evaluation
+### InceptionV3 Model
 
+## Results
+### 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ4NTg3Nzk2LC0zODY4NDk2NDIsLTYwND
-M3MTQwMl19
+eyJoaXN0b3J5IjpbLTE1NzgxNzUxMTksLTM4Njg0OTY0MiwtNj
+A0MzcxNDAyXX0=
 -->
