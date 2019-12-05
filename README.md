@@ -4,7 +4,7 @@
 
 ### DeepFashion 
 
-The [DeepFashion](http://mmlab.ie.cuhk.edu.hk/projects/DeepFashion/AttributePrediction.html) dataset contains 289,222 clothing images, annotated with with 1,000 clothing attributes across five attribute categories, and 3 clothing categories. The images are grouped broadly into directories, EXAMPLE, 
+The [DeepFashion](http://mmlab.ie.cuhk.edu.hk/projects/DeepFashion/AttributePrediction.html) dataset contains 289,222 clothing images, annotated with with 1,000 clothing attributes across five attribute categories, and 3 clothing categories. The images are grouped broadly into directories - , which improves generation stability. EXAMPLE, 
 
 ### MNIST Fashion 
 
@@ -92,11 +92,11 @@ In both grids above, each column represents a specific class label. Clearly, bot
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
 BnZm1cbiAga2F0ZXg6XG4gICAgZW5hYmxlZDogdHJ1ZVxuIiwi
-aGlzdG9yeSI6WzcwMzM2NDUxMywtMTExMTU0ODkyMCwtODQ1ND
-gzNjI5LDg3MTg5NDUxNiw0MzUzMTg3MjgsLTUxNTU3NTAwNSwt
-Nzg1NzY4MjUzLDE2NTIzMTEyNDksMTg4NjE0NDIyMCwyMzM0ND
-UwMTQsLTYzMzgyNzk1NCwtMjA3NzMwOTgwNSwxNjAwMDgxMjYs
-MTkzNDExMDYyNiwxMzM2Mjc5NDI5LDQzMDE3MzM0NSwtMTQ5Nz
-QxMTIyMiwxNDU1MDExNDM0LDcxNTAwNTEzNyw0MDIwMDAyNTFd
-fQ==
+aGlzdG9yeSI6Wy0xNzEwNDE0MzI5LDcwMzM2NDUxMywtMTExMT
+U0ODkyMCwtODQ1NDgzNjI5LDg3MTg5NDUxNiw0MzUzMTg3Mjgs
+LTUxNTU3NTAwNSwtNzg1NzY4MjUzLDE2NTIzMTEyNDksMTg4Nj
+E0NDIyMCwyMzM0NDUwMTQsLTYzMzgyNzk1NCwtMjA3NzMwOTgw
+NSwxNjAwMDgxMjYsMTkzNDExMDYyNiwxMzM2Mjc5NDI5LDQzMD
+E3MzM0NSwtMTQ5NzQxMTIyMiwxNDU1MDExNDM0LDcxNTAwNTEz
+N119
 -->
