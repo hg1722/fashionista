@@ -75,7 +75,7 @@ CVAE Class-Conditional Generation Results
 
 ![CVAE Class-Conditional Generation Results](https://raw.githubusercontent.com/hg1722/fashionista/master/CVAE.png?token=ABFA6BK4JA776OWUEODYXDK56IDUM)
 
-In both grids above, each column represents a specific class label. Clearly, both the CGAN and CVAE are successfully able to generate class-specific images when conditioned on a particular class. Thus, Fashion MNIST serves as a proof-of-concept, showing the effectiveness of class-c
+In both grids above, each column represents a specific class label. Clearly, both the CGAN and CVAE are successfully able to generate class-specific images when conditioned on a particular class. The CGAN results are a bit better than the CVAE since the generated images are crisper/less blurry. VAEs are known to generate blurry images in general. Overall, the Fashion MNIST dataset served as a proof-of-concept, showing the effectiveness of class-conditional generative models. However, the one limitat
 
 ### Multi-conditional GAN Generation Results
 
@@ -90,7 +90,7 @@ In both grids above, each column represents a specific class label. Clearly, bot
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
 BnZm1cbiAga2F0ZXg6XG4gICAgZW5hYmxlZDogdHJ1ZVxuIiwi
-aGlzdG9yeSI6WzE2Njc0NDgyNDUsMTYwMDA4MTI2LDE5MzQxMT
+aGlzdG9yeSI6Wy02MzU1MzMxNjAsMTYwMDA4MTI2LDE5MzQxMT
 A2MjYsMTMzNjI3OTQyOSw0MzAxNzMzNDUsLTE0OTc0MTEyMjIs
 MTQ1NTAxMTQzNCw3MTUwMDUxMzcsNDAyMDAwMjUxLDE3OTYxMj
 Y0MDgsMTY1MjkxNDI3OSwzODg1MzYyODksLTE0ODkxNTI3MjEs
