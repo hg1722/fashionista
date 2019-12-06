@@ -80,7 +80,7 @@ We first trained a standard conditional GAN on the Fashion Products dataset, and
 ![enter image description here](https://i.imgur.com/7RJfm0S.png)
 *Sample images of multi-conditional GAN trained after 80 epochs*
 
-Our next step was to test the multi-conditional aspect of the GAN. 
+Our next step was to test the multi-conditional aspect of the GAN. Conditioning it on attributes for color and clothing 
 ![enter image description here](https://i.imgur.com/Tr7OTMj.png)
 *Images generated from one sample of multi-conditional GAN after training for 30 epochs. The GAN was conditioned on color and  type attributes.*
 
@@ -94,11 +94,11 @@ Our next step was to test the multi-conditional aspect of the GAN.
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
 BnZm1cbiAga2F0ZXg6XG4gICAgZW5hYmxlZDogdHJ1ZVxuIiwi
-aGlzdG9yeSI6WzczNjcwNjg1MiwtMjAxMjY3NDQ4MSw2ODUwND
-g1NzksLTE1MjE5NzUxNDUsLTc4NjgyMTM5NywyNzM4Nzc1MDQs
-MTk3MjY0NDIwNSwyMTM4MDk3MiwyMTE5ODM4MTMyLC05NzE4OD
-M3MTgsLTEzNTA3MjMzNzIsLTc4MjQyNjY2NSw2ODkxMzczODMs
-MTQ1NjMyODEzNCwtMTk4MjE4NTkwNiwtNDE3MjYwNDE0LC01MD
-I4MTUzODIsMTE5NDk1NDMzLDcwMzM2NDUxMywtMTExMTU0ODky
-MF19
+aGlzdG9yeSI6Wy0xMzgxNDY0NDQ1LC0yMDEyNjc0NDgxLDY4NT
+A0ODU3OSwtMTUyMTk3NTE0NSwtNzg2ODIxMzk3LDI3Mzg3NzUw
+NCwxOTcyNjQ0MjA1LDIxMzgwOTcyLDIxMTk4MzgxMzIsLTk3MT
+g4MzcxOCwtMTM1MDcyMzM3MiwtNzgyNDI2NjY1LDY4OTEzNzM4
+MywxNDU2MzI4MTM0LC0xOTgyMTg1OTA2LC00MTcyNjA0MTQsLT
+UwMjgxNTM4MiwxMTk0OTU0MzMsNzAzMzY0NTEzLC0xMTExNTQ4
+OTIwXX0=
 -->
