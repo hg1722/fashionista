@@ -80,7 +80,7 @@ We first trained a standard conditional GAN on the Fashion Products dataset, and
 ![enter image description here](https://i.imgur.com/7RJfm0S.png)
 *Sample images of multi-conditional GAN trained after 80 epochs*
 
-Our next step was to test attributes instead of 
+Our next step was to test the multi-conditional aspect of the GAN. 
 ![enter image description here](https://i.imgur.com/Tr7OTMj.png)
 *Images generated from one sample of multi-conditional GAN after training for 30 epochs. The GAN was conditioned on color and  type attributes.*
 
@@ -94,7 +94,7 @@ Our next step was to test attributes instead of
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
 BnZm1cbiAga2F0ZXg6XG4gICAgZW5hYmxlZDogdHJ1ZVxuIiwi
-aGlzdG9yeSI6WzI1MzMyNzEzNSwtMjAxMjY3NDQ4MSw2ODUwND
+aGlzdG9yeSI6WzczNjcwNjg1MiwtMjAxMjY3NDQ4MSw2ODUwND
 g1NzksLTE1MjE5NzUxNDUsLTc4NjgyMTM5NywyNzM4Nzc1MDQs
 MTk3MjY0NDIwNSwyMTM4MDk3MiwyMTE5ODM4MTMyLC05NzE4OD
 M3MTgsLTEzNTA3MjMzNzIsLTc4MjQyNjY2NSw2ODkxMzczODMs
