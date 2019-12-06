@@ -7,7 +7,7 @@ With the explosion of eCommerce, there is a growing need for personalized online
 ### DeepFashion 
 
 The [DeepFashion](http://mmlab.ie.cuhk.edu.hk/projects/DeepFashion/AttributePrediction.html) dataset contains 289,222 clothing images, annotated with with 1,000 clothing attributes across five attribute and three clothing categories. The text data attributes are modified, removing semantically equivalent attributes, expanding the number of clothing categories into more specific descriptors, and removing the **style** attribute type (see [this code](https://github.com/hg1722/fashionista/blob/master/datasets/deepfashion/text_attribute_preprocess.ipynb) for more details). The final attribute embeddings consist of 486 distinct identifiers, separated into **category**, **shape**, **texture**, **fabric**, and **part** bins.  The structure is outlined below, where each field, with the exception of **category**, can have multiple associated attribute identifiers. 
-![enter image description here](https://github.com/hg1722/fashionista/blob/master/pics/embedding.png) 
+![enter image description here](https://raw.githubusercontent.com/hg1722/fashionista/master/pics/embedding.png) 
 
  The images are grouped broadly into directories based on 2-3 shared attributes to facilitate the CPGGAN LSE loss. These high-level classes are formed from the clothing category and primary common attributes; while all images in a given class will have the shared attributes, there are additional modifying attributes that further distinguish the clothing but are not prevalent enough to form distinct classes. We experiment with forming attribute embeddings comprised solely of the features captured in the class labels, and use this as a baseline when introducing further Generator loss penalties in the CDPGGAN model. 
  
@@ -146,11 +146,11 @@ During this project, we adapted the original StackGAN architecture to take attri
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlszMDQwMDE4NzEsOTQ4NzYwNjA1
-LDEwOTk3NTExNzYsMjAxMTM2NjgyMSwtMTA1NzMyNjQxLC0xNT
-kzNTE4MjM2LC01MjI2NDIyMjksMTU1OTc4MTc3NywxNTk5MDc2
-MzE3LC0xMzE5ODczNDIzLC0zODMzNTI2NzYsLTgzODc4NjMxMi
-wxNzc5NDAzNDU2LDEyMDgzODc4NTksLTE3OTYxODIyMTgsLTE1
-NzI5NDU0MDAsLTg4Mzc5NDA1OCwxNjQ4OTQxMDMyLDIwNTA3Mz
-k0NzcsLTYzMDA5NDg5Ml19
+BnZm1cbiIsImhpc3RvcnkiOlstMTM4NzIwOTU5LDk0ODc2MDYw
+NSwxMDk5NzUxMTc2LDIwMTEzNjY4MjEsLTEwNTczMjY0MSwtMT
+U5MzUxODIzNiwtNTIyNjQyMjI5LDE1NTk3ODE3NzcsMTU5OTA3
+NjMxNywtMTMxOTg3MzQyMywtMzgzMzUyNjc2LC04Mzg3ODYzMT
+IsMTc3OTQwMzQ1NiwxMjA4Mzg3ODU5LC0xNzk2MTgyMjE4LC0x
+NTcyOTQ1NDAwLC04ODM3OTQwNTgsMTY0ODk0MTAzMiwyMDUwNz
+M5NDc3LC02MzAwOTQ4OTJdfQ==
 -->
