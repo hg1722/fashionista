@@ -61,7 +61,7 @@ PGGANs increase image resolution through subsequent layers during training, allo
 
 We define the goal of the Generator: given a noise vector conditioned on attribute embeddings $e$ that corresponds to image class $c$, create images $x$ that appear real, and will be classified with label $c$. The Discriminator $D(x,e)$ then needs to critique if the image $x$ is real and in the correct class, in the wrong class, or is fake.
 
-$L_D = E_{(X,E)∼Pr−cc}[(D(x, e) − 1)^2 ] + E_{(X,E)∼Pge} [(D(x, e) + 1) ^2 ] + E_{(X,E)∼Pr−wc} [(D(x, e) +1) ^2 ]$
+![](https://latex.codecogs.com/svg.latex?%5Cinline%20%5Clarge%20L_D%20%3D%20E_%7B%28X%2CE%29%20%5Csim%20Pr-cc%7D%5B%28D%28x%2C%20e%29%20-1%29%5E2%20%5D%20&plus;%20E_%7B%28X%2CE%29%5Csim%20Pge%7D%20%5B%28D%28x%2C%20e%29%20&plus;%201%29%20%5E2%20%5D%20&plus;%20E_%7B%28X%2CE%29%5CsimPr%u2212wc%7D%20%5B%28D%28x%2C%20e%29%20&plus;1%29%20%5E2%20%5D)
 
 $L_G = E_{(X,E)∼Pge} [D(x, e) ^2]$
 
@@ -139,11 +139,11 @@ After observing the trouble that the GAN had with differentiating with different
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstODM4Nzg2MzEyLDE3Nzk0MDM0
-NTYsMTIwODM4Nzg1OSwtMTc5NjE4MjIxOCwtMTU3Mjk0NTQwMC
-wtODgzNzk0MDU4LDE2NDg5NDEwMzIsMjA1MDczOTQ3NywtNjMw
-MDk0ODkyLC00MjMzNDA5NTYsLTEzMTAxNDA1MTksLTIwMTI2Nz
-Q0ODEsNjg1MDQ4NTc5LC0xNTIxOTc1MTQ1LC03ODY4MjEzOTcs
-MjczODc3NTA0LDE5NzI2NDQyMDUsMjEzODA5NzIsMjExOTgzOD
-EzMiwtOTcxODgzNzE4XX0=
+BnZm1cbiIsImhpc3RvcnkiOlstMzI1ODcwOTc3LC04Mzg3ODYz
+MTIsMTc3OTQwMzQ1NiwxMjA4Mzg3ODU5LC0xNzk2MTgyMjE4LC
+0xNTcyOTQ1NDAwLC04ODM3OTQwNTgsMTY0ODk0MTAzMiwyMDUw
+NzM5NDc3LC02MzAwOTQ4OTIsLTQyMzM0MDk1NiwtMTMxMDE0MD
+UxOSwtMjAxMjY3NDQ4MSw2ODUwNDg1NzksLTE1MjE5NzUxNDUs
+LTc4NjgyMTM5NywyNzM4Nzc1MDQsMTk3MjY0NDIwNSwyMTM4MD
+k3MiwyMTE5ODM4MTMyXX0=
 -->
