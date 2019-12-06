@@ -4,7 +4,7 @@
 
 ### DeepFashion 
 
-The [DeepFashion](http://mmlab.ie.cuhk.edu.hk/projects/DeepFashion/AttributePrediction.html) dataset contains 289,222 clothing images, annotated with with 1,000 clothing attributes across five attribute categories, and 3 clothing categories. The images are grouped broadly into directories based on 2-3 shared attributes, which improves generator stabili The text data attributes were modified in this [notebook](https://github.com/hg1722/fashionista/blob/master/datasets/deepfashion/text_attribute_preprocess.ipynb), removing semantically equivalent attributes, expanding the number of clothing categories into more specific descriptors, and removing the style attribute type. The final embedd, EXAMPLE; which provide a baseline for labelings consist of 486 attributeslasses 
+The [DeepFashion](http://mmlab.ie.cuhk.edu.hk/projects/DeepFashion/AttributePrediction.html) dataset contains 289,222 clothing images, annotated with with 1,000 clothing attributes across five attribute categories, and 3 clothing categories. The images are grouped broadly into directories based on 2-3 shared attributes, which improves generator stability The text data attributes were modified in this [notebook](https://github.com/hg1722/fashionista/blob/master/datasets/deepfashion/text_attribute_preprocess.ipynb), removing semantically equivalent attributes, expanding the number of clothing categories into more specific descriptors, and removing the style attribute type. The final embedding, EXAMPLE; which provide a baseline for labelings consist of 486 attributeslasses 
 
 ### MNIST Fashion 
 
@@ -89,11 +89,11 @@ We first trained a standard conditional GAN on the Fashion Products dataset, and
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
 BnZm1cbiAga2F0ZXg6XG4gICAgZW5hYmxlZDogdHJ1ZVxuIiwi
-aGlzdG9yeSI6WzIxMzgwOTcyLDIxMTk4MzgxMzIsLTk3MTg4Mz
-cxOCwtMTM1MDcyMzM3MiwtNzgyNDI2NjY1LDY4OTEzNzM4Mywx
-NDU2MzI4MTM0LC0xOTgyMTg1OTA2LC00MTcyNjA0MTQsLTUwMj
-gxNTM4MiwxMTk0OTU0MzMsNzAzMzY0NTEzLC0xMTExNTQ4OTIw
-LC04NDU0ODM2MjksODcxODk0NTE2LDQzNTMxODcyOCwtNTE1NT
-c1MDA1LC03ODU3NjgyNTMsMTY1MjMxMTI0OSwxODg2MTQ0MjIw
+aGlzdG9yeSI6WzE5NzI2NDQyMDUsMjEzODA5NzIsMjExOTgzOD
+EzMiwtOTcxODgzNzE4LC0xMzUwNzIzMzcyLC03ODI0MjY2NjUs
+Njg5MTM3MzgzLDE0NTYzMjgxMzQsLTE5ODIxODU5MDYsLTQxNz
+I2MDQxNCwtNTAyODE1MzgyLDExOTQ5NTQzMyw3MDMzNjQ1MTMs
+LTExMTE1NDg5MjAsLTg0NTQ4MzYyOSw4NzE4OTQ1MTYsNDM1Mz
+E4NzI4LC01MTU1NzUwMDUsLTc4NTc2ODI1MywxNjUyMzExMjQ5
 XX0=
 -->
