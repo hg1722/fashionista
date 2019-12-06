@@ -83,7 +83,9 @@ We first trained a standard conditional GAN on the Fashion Products dataset, and
 *Sample images of multi-conditional GAN trained after 80 epochs*
 
 Our next step was to test the multi-conditional aspect of the GAN. By conditioning it on attributes for color and clothing attributes instead of a single fashion type feature, we were able to train the GAN to distinguish different colors, but the modifying the subtype of clothing as well was a challenge for the model.
+
 ![enter image description here](https://i.imgur.com/Tr7OTMj.png)
+
 *Images generated from one sample of multi-conditional GAN after training for 30 epochs. The GAN was conditioned on color and  type attributes.*
 
 After observing the trouble that the GAN had with differentiating with different types of clothing, we experimented with replacing that condition with different fashion types instead. Our intuition was that the visual difference between features like a shirt and a shoe would be greater than simply variations of clothing styles, so the GAN would have an easier time differentiating the conditions while training. After training, our multi-conditional GAN was able to reliably generate the different color and fashion type combinations. However, there were still inconsistencies in generation between different samples.
@@ -98,11 +100,11 @@ After observing the trouble that the GAN had with differentiating with different
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
 BnZm1cbiAga2F0ZXg6XG4gICAgZW5hYmxlZDogdHJ1ZVxuIiwi
-aGlzdG9yeSI6WzYzNjU3ODg5NywtODgzNzk0MDU4LDE2NDg5ND
-EwMzIsMjA1MDczOTQ3NywtNjMwMDk0ODkyLC00MjMzNDA5NTYs
-LTEzMTAxNDA1MTksLTIwMTI2NzQ0ODEsNjg1MDQ4NTc5LC0xNT
-IxOTc1MTQ1LC03ODY4MjEzOTcsMjczODc3NTA0LDE5NzI2NDQy
-MDUsMjEzODA5NzIsMjExOTgzODEzMiwtOTcxODgzNzE4LC0xMz
-UwNzIzMzcyLC03ODI0MjY2NjUsNjg5MTM3MzgzLDE0NTYzMjgx
-MzRdfQ==
+aGlzdG9yeSI6WzEyNjA2MDc0MTMsLTg4Mzc5NDA1OCwxNjQ4OT
+QxMDMyLDIwNTA3Mzk0NzcsLTYzMDA5NDg5MiwtNDIzMzQwOTU2
+LC0xMzEwMTQwNTE5LC0yMDEyNjc0NDgxLDY4NTA0ODU3OSwtMT
+UyMTk3NTE0NSwtNzg2ODIxMzk3LDI3Mzg3NzUwNCwxOTcyNjQ0
+MjA1LDIxMzgwOTcyLDIxMTk4MzgxMzIsLTk3MTg4MzcxOCwtMT
+M1MDcyMzM3MiwtNzgyNDI2NjY1LDY4OTEzNzM4MywxNDU2MzI4
+MTM0XX0=
 -->
