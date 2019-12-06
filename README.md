@@ -6,15 +6,15 @@
 
 The [DeepFashion](http://mmlab.ie.cuhk.edu.hk/projects/DeepFashion/AttributePrediction.html) dataset contains 289,222 clothing images, annotated with with 1,000 clothing attributes across five attribute categories, and 3 clothing categories. The images are grouped broadly into directories based on 2-3 shared attributes, which improves generator stability The text data attributes were modified in this [notebook](https://github.com/hg1722/fashionista/blob/master/datasets/deepfashion/text_attribute_preprocess.ipynb), removing semantically equivalent attributes, expanding the number of clothing categories into more specific descriptors, and removing the style attribute type. The final embedding, EXAMPLE; which provide a baseline for labelings consist of 486 attributeslasses 
 
-### MNIST Fashion 
+### Fashion MNIST
 
-The baseline dataset that we used is called "Fashion MNIST" (https://github.com/zalandoresearch/fashion-mnist). It is a publicly available dataset used for benchmarking purposes and contains 60,000 images of clothing items in 10 different categories. All of the images are 28x28 and are grayscale. Preprocessing was generally not required for this dataset except for pixel normalization. 
+The baseline dataset that we used is called ["Fashion MNIST"](https://github.com/zalandoresearch/fashion-mnist). It is a publicly available dataset used for benchmarking purposes and contains 60,000 images of clothing items in 10 different categories. All of the images are 28x28 and are grayscale. Preprocessing was generally not required for this dataset except for pixel normalization. 
 
 ### Fashion Product Images 
 
 We also trained several models on the [Fashion Product Images dataset ](https://www.kaggle.com/paramaggarwal/fashion-product-images-dataset) which contains 44,000 images of fashion products scraped from various e-commerce websites. 
 
-The images are labeled by features such as gender, category, base color, season, usage, etc. We utilized two variations of the dataset, with one containing low-resolution images (60px by 80px) and another contained higher-resolution images (1800px x 2400px).
+The images are labeled by features such as gender, category, base color, season, usage, etc. We utilized two variations of the dataset, with one containing low-resolution images (60px by 80px) and another contained higher-resolution images (1800px x 2400px). Below is a feature breakdown of the dataset, based on 
 
 ![enter image description here](https://i.imgur.com/NrmA5YN.png)
 
@@ -94,7 +94,7 @@ We modified the StackGAN, which originally used text embeddings to condition the
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
 BnZm1cbiAga2F0ZXg6XG4gICAgZW5hYmxlZDogdHJ1ZVxuIiwi
-aGlzdG9yeSI6WzEyMTE0NDU4NTEsMjczODc3NTA0LDE5NzI2ND
+aGlzdG9yeSI6Wy03OTg4MTU5NDgsMjczODc3NTA0LDE5NzI2ND
 QyMDUsMjEzODA5NzIsMjExOTgzODEzMiwtOTcxODgzNzE4LC0x
 MzUwNzIzMzcyLC03ODI0MjY2NjUsNjg5MTM3MzgzLDE0NTYzMj
 gxMzQsLTE5ODIxODU5MDYsLTQxNzI2MDQxNCwtNTAyODE1Mzgy
