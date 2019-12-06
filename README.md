@@ -77,7 +77,7 @@ We start by baselining on attribute embeddings that only contain the features en
 
 $L_{category} = E_{c∼p(c)}[E_{x_1, x_2∼p^c_g}[|x_1-x_2|]]$ 
 ```
-![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?x%3D%5Cfrac%7B-b%5Cpm%5Csqrt%7Bb%5E2-4ac%7D%7D%7B2a%7D)
+![L_{category} = E_{c∼p(c)}[E_{x_1, x_2∼p^c_g}[|x_1-x_2|]]](https://latex.codecogs.com/svg.latex?x%3D%5Cfrac%7B-b%5Cpm%5Csqrt%7Bb%5E2-4ac%7D%7D%7B2a%7D)
 
 ```
 
@@ -141,7 +141,7 @@ After observing the trouble that the GAN had with differentiating with different
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlsxOTY1MDk2MDEzLDEyMDgzODc4
+BnZm1cbiIsImhpc3RvcnkiOlsxNzc5NDAzNDU2LDEyMDgzODc4
 NTksLTE3OTYxODIyMTgsLTE1NzI5NDU0MDAsLTg4Mzc5NDA1OC
 wxNjQ4OTQxMDMyLDIwNTA3Mzk0NzcsLTYzMDA5NDg5MiwtNDIz
 MzQwOTU2LC0xMzEwMTQwNTE5LC0yMDEyNjc0NDgxLDY4NTA0OD
