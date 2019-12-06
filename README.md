@@ -75,11 +75,9 @@ $L_G = E_{(X,E)∼Pge} [D(x, e) ^2] +L_{i}+\dots +L_{j}$ for distinct $i,j$ in $
 
 We start by baselining on attribute embeddings that only contain the features encompassed in the class label. An additional consistency check for clothing **category** is added in the form:
 
-$L_{category} = E_{c∼p(c)}[E_{x_1, x_2∼p^c_g}[|x_1-x_2|]]$ 
-```
-![L_{category} = E_{c∼p(c)}[E_{x_1, x_2∼p^c_g}[|x_1-x_2|]]](https://latex.codecogs.com/svg.latex?x%3D%5Cfrac%7B-b%5Cpm%5Csqrt%7Bb%5E2-4ac%7D%7D%7B2a%7D)
 
-```
+![L_{category} = E_{c∼p(c)}[E_{x_1, x_2∼p^c_g}[|x_1-x_2|]]](https://latex.codecogs.com/svg.latex?L_%7Bcategory%7D%20%3D%20E_%7Bc%5Csim%20p%28c%29%7D%5BE_%7Bx_1%2C%20x_2%5Csim%20p%5Ec_g%7D%5B%7Cx_1-x_2%7C%5D%5D)
+
 
 Where $c$ is the high-level clothing category formed from three possible category values in the raw dataset.
 
@@ -141,11 +139,11 @@ After observing the trouble that the GAN had with differentiating with different
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlsxNzc5NDAzNDU2LDEyMDgzODc4
-NTksLTE3OTYxODIyMTgsLTE1NzI5NDU0MDAsLTg4Mzc5NDA1OC
-wxNjQ4OTQxMDMyLDIwNTA3Mzk0NzcsLTYzMDA5NDg5MiwtNDIz
-MzQwOTU2LC0xMzEwMTQwNTE5LC0yMDEyNjc0NDgxLDY4NTA0OD
-U3OSwtMTUyMTk3NTE0NSwtNzg2ODIxMzk3LDI3Mzg3NzUwNCwx
-OTcyNjQ0MjA1LDIxMzgwOTcyLDIxMTk4MzgxMzIsLTk3MTg4Mz
-cxOCwtMTM1MDcyMzM3Ml19
+BnZm1cbiIsImhpc3RvcnkiOlstNDE0MjU5MDMzLDE3Nzk0MDM0
+NTYsMTIwODM4Nzg1OSwtMTc5NjE4MjIxOCwtMTU3Mjk0NTQwMC
+wtODgzNzk0MDU4LDE2NDg5NDEwMzIsMjA1MDczOTQ3NywtNjMw
+MDk0ODkyLC00MjMzNDA5NTYsLTEzMTAxNDA1MTksLTIwMTI2Nz
+Q0ODEsNjg1MDQ4NTc5LC0xNTIxOTc1MTQ1LC03ODY4MjEzOTcs
+MjczODc3NTA0LDE5NzI2NDQyMDUsMjEzODA5NzIsMjExOTgzOD
+EzMiwtOTcxODgzNzE4XX0=
 -->
