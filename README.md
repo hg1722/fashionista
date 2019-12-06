@@ -6,7 +6,13 @@ With the explosion of eCommerce, there is a growing need for personalized online
 
 ### DeepFashion 
 
-The [DeepFashion](http://mmlab.ie.cuhk.edu.hk/projects/DeepFashion/AttributePrediction.html) dataset contains 289,222 clothing images, annotated with with 1,000 clothing attributes across five attribute categories, and 3 clothing categories. The images are grouped broadly into directories based on 2-3 shared attributes, which improves generator stability The text data attributes were modified in this [notebook](https://github.com/hg1722/fashionista/blob/master/datasets/deepfashion/text_attribute_preprocess.ipynb), removing semantically equivalent attributes, expanding the number of clothing categories into more specific descriptors, and removing the style attribute type. The final embedding, EXAMPLE; which provide a baseline for labelings consist of 486 attributeslasses 
+The [DeepFashion](http://mmlab.ie.cuhk.edu.hk/projects/DeepFashion/AttributePrediction.html) dataset contains 289,222 clothing images, annotated with with 1,000 clothing attributes across five attribute and three clothing categories. The text data attributes are modified, removing semantically equivalent attributes, expanding the number of clothing categories into more specific descriptors, and removing the **style** attribute type (see [this code](https://github.com/hg1722/fashionista/blob/master/datasets/deepfashion/text_attribute_preprocess.ipynb) for more details). The final attribute embeddings consist of 486 distinct identifiers, separated into **category**, **shape**, **texture**, **fabric**, and **part** bins.  The structure is outlined below, where each field, with the exception of **category**, can have multiple associated attribute identifiers. 
+![enter image description here](https://github.com/hg1722/fashionista/blob/master/pics/embedding.png) 
+
+ The images are grouped broadly into directories based on 2-3 shared attributes to facilitate the CPGGAN LSE loss. These high-level classes are formed from the clothing category and primary common attributes; while all images in a given class will have the shared attributes, there are additional modifying attributes that further distinguish the clothing but are not prevalent enough to form distinct classes. We experiment with forming attribute embeddings comprised solely of the features captured in the class labels, and use this as a baseline when introducing further Generator loss penalties in the CDPGGAN model. 
+ 
+The raw images vary in quality, level of noise, and obfuscation. The GrabCut algorithm is used to standardize the images - first creating a mask based on the bounding box, then honing the model with the convex polygon created by the landmark annotations (implemented [here](https://github.com/hg1722/fashionista/blob/master/datasets/deepfashion/image_preprocess.ipynb)). 
+![image before and after](https://github.com/hg1722/fashionista/blob/master/pics/bwaaaAAAaaah_inception.png) The final data consists of 108,822 focused images, which are normalized and scaled for input into the stages of the CPGGAN.
 
 ### Fashion MNIST
 
@@ -51,12 +57,39 @@ We also attempted encoding the label into an embedding layer and multiplying the
 
 ### Conditional Progressively Growing GAN
 
+PGGANs increase image resolution through subsequent layers during training, allowing the network to begin by learning a fuzzy concept of the input, and progress to focusing on more specific image features. This is ideal for the DeepFashion dataset, given the high variability of the supplied images, and the goal of controlling across the five attribute fields in generating images. 
+
+We define the goal of the Generator: given a noise vector conditioned on attribute embeddings $e$ that corresponds to image class $c$, create images $x$ that appear real, and will be classified with label $c$. The Discriminator $D(x,e)$ then needs to critique if the image $x$ is real and in the correct class, in the wrong class, or is fake.
+
+$L_D = E_{(X,E)∼Pr−cc}[(D(x, e) − 1)^2 ] + E_{(X,E)∼Pge} [(D(x, e) + 1) ^2 ] + E_{(X,E)∼Pr−wc} [(D(x, e) +1) ^2 ]$
+
+$L_G = E_{(X,E)∼Pge} [D(x, e) ^2]$
+
+The Generator attempts to  push $D\rarr0$ over the generated images & attribute embeddings, while the Discriminator learns toward $D\rarr-1$. The Discriminator loss function gives further penalty for moving away from $D\rarr1$ on the real & correctly classified images, and rewards recognizing incorrectly classified images equal to finding fake images. For more detail on model parameters and architecture, see [cpggan.py](https://github.com/hg1722/fashionista/blob/master/models/cpggan/cpggan.py).
+
 ### Conditional Disentangled Progressively Growing GAN
+
+In this model, the goal of the Discriminator stays the same, while the Generator is given additional feedback targeted toward specific fields. The general idea for disentangling loss:
+
+$L_G = E_{(X,E)∼Pge} [D(x, e) ^2] +L_{i}+\dots +L_{j}$ for distinct $i,j$ in $[category, shape, texture, fabric, part]$.
+
+We start by baselining on attribute embeddings that only contain the features encompassed in the class label. An additional consistency check for clothing **category** is added in the form:
+
+$L_{category} = E_{c∼p(c)}[E_{x_1, x_2∼p^c_g}[|x_1-x_2|]]$ 
+
+Where $c$ is the high-level clothing category formed from three possible category values in the raw dataset.
 
 ## Evaluation
 
 ### InceptionV3 Model
 
+The Inception network examines clothing images, $X$, produced by the Generator during testing, in relation to the image class test labels, $Y$. The goal is to optimize the score:
+
+$$I(G) = E_{X∼P_G} [D_{KL}(P_{Y |X}(y|x) || P_Y (y))]$$
+
+with respect to the two random variables. $D_{KL}$ measures the deviation of the distribution $P_{Y |X}$ - the probability of labeling an image with a given class - with respect to the reference distribution $P_Y (y)$ - the probability of a given class label. The class labels are diverse - high entropy - forcing  the entropy of $P_{Y |X}$ to be minimized in order to increase the KL divergence. As the entropy of $P_{Y |X}$ is minimized when the images in $X$ are labeled with high certainty, this provides a measure for Generator performance. 
+
+The inception score is computed over 20,000 images split into five groups, the results of which are averaged.  For implementation details, see [inception.py](https://github.com/hg1722/fashionista/blob/master/models/cpggan/inception.py).
 
 ## Results
 
@@ -104,11 +137,11 @@ After observing the trouble that the GAN had with differentiating with different
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
 BnZm1cbiAga2F0ZXg6XG4gICAgZW5hYmxlZDogdHJ1ZVxuIiwi
-aGlzdG9yeSI6Wy0xNzk2MTgyMjE4LC0xNTcyOTQ1NDAwLC04OD
-M3OTQwNTgsMTY0ODk0MTAzMiwyMDUwNzM5NDc3LC02MzAwOTQ4
-OTIsLTQyMzM0MDk1NiwtMTMxMDE0MDUxOSwtMjAxMjY3NDQ4MS
-w2ODUwNDg1NzksLTE1MjE5NzUxNDUsLTc4NjgyMTM5NywyNzM4
-Nzc1MDQsMTk3MjY0NDIwNSwyMTM4MDk3MiwyMTE5ODM4MTMyLC
-05NzE4ODM3MTgsLTEzNTA3MjMzNzIsLTc4MjQyNjY2NSw2ODkx
-MzczODNdfQ==
+aGlzdG9yeSI6Wy03MTI1NzAzNTAsLTE3OTYxODIyMTgsLTE1Nz
+I5NDU0MDAsLTg4Mzc5NDA1OCwxNjQ4OTQxMDMyLDIwNTA3Mzk0
+NzcsLTYzMDA5NDg5MiwtNDIzMzQwOTU2LC0xMzEwMTQwNTE5LC
+0yMDEyNjc0NDgxLDY4NTA0ODU3OSwtMTUyMTk3NTE0NSwtNzg2
+ODIxMzk3LDI3Mzg3NzUwNCwxOTcyNjQ0MjA1LDIxMzgwOTcyLD
+IxMTk4MzgxMzIsLTk3MTg4MzcxOCwtMTM1MDcyMzM3MiwtNzgy
+NDI2NjY1XX0=
 -->
