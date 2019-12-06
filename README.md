@@ -59,13 +59,13 @@ We also attempted encoding the label into an embedding layer and multiplying the
 
 PGGANs increase image resolution through subsequent layers during training, allowing the network to begin by learning a fuzzy concept of the input, and progress to focusing on more specific image features. This is ideal for the DeepFashion dataset, given the high variability of the supplied images, and the goal of controlling across the five attribute fields in generating images. 
 
-We define the goal of the Generator: given a noise vector conditioned on attribute embeddings $e$ that corresponds to image class $c$, create images $x$ that appear real, and will be classified with label $c$. The Discriminator $D(x,e)$ then needs to critique if the image $x$ is real and in the correct class, in the wrong class, or is fake.
+We define the goal of the Generator: given a noise vector conditioned on attribute embeddings e that corresponds to image class c, create images x that appear real, and will be classified with label c. The Discriminator D(x,e) then needs to critique if the image x is real and in the correct class, in the wrong class, or is fake.
 
 ![](https://latex.codecogs.com/svg.latex?%5Clarge%20L_D%20%3D%20E_%7B%28X%2CE%29%20%5Csim%20Pr-cc%7D%5B%28D%28x%2C%20e%29%20-1%29%5E2%20%5D%20&plus;%20E_%7B%28X%2CE%29%5Csim%20Pge%7D%20%5B%28D%28x%2C%20e%29%20&plus;%201%29%20%5E2%20%5D%20&plus;%20E_%7B%28X%2CE%29%5CsimPr%u2212wc%7D%20%5B%28D%28x%2C%20e%29%20&plus;1%29%20%5E2%20%5D)
 
 ![](https://latex.codecogs.com/svg.latex?%5Cnormal%20L_G%20%3D%20E_%7B%28X%2CE%29%20%5Csim%20Pge%7D%20%5BD%28x%2C%20e%29%5E2%5D)
 
-The Generator attempts to  push $D\rarr0$ over the generated images & attribute embeddings, while the Discriminator learns toward $D\rarr-1$. The Discriminator loss function gives further penalty for moving away from $D\rarr1$ on the real & correctly classified images, and rewards recognizing incorrectly classified images equal to finding fake images. For more detail on model parameters and architecture, see [cpggan.py](https://github.com/hg1722/fashionista/blob/master/models/cpggan/cpggan.py).
+The Generator attempts to  push *D -> 0* over the generated images & attribute embeddings, while the Discriminator learns toward *D -> -1*. The Discriminator loss function gives further penalty for moving away from *D ->1* on the real & correctly classified images, and rewards recognizing incorrectly classified images equal to finding fake images. For more detail on model parameters and architecture, see [cpggan.py](https://github.com/hg1722/fashionista/blob/master/models/cpggan/cpggan.py).
 
 ### Conditional Disentangled Progressively Growing GAN
 
@@ -139,11 +139,11 @@ After observing the trouble that the GAN had with differentiating with different
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMTQxMzMwMzQyNSwxNTk5MDc2
-MzE3LC0xMzE5ODczNDIzLC0zODMzNTI2NzYsLTgzODc4NjMxMi
-wxNzc5NDAzNDU2LDEyMDgzODc4NTksLTE3OTYxODIyMTgsLTE1
-NzI5NDU0MDAsLTg4Mzc5NDA1OCwxNjQ4OTQxMDMyLDIwNTA3Mz
-k0NzcsLTYzMDA5NDg5MiwtNDIzMzQwOTU2LC0xMzEwMTQwNTE5
-LC0yMDEyNjc0NDgxLDY4NTA0ODU3OSwtMTUyMTk3NTE0NSwtNz
-g2ODIxMzk3LDI3Mzg3NzUwNF19
+BnZm1cbiIsImhpc3RvcnkiOlsxNTU5NzgxNzc3LDE1OTkwNzYz
+MTcsLTEzMTk4NzM0MjMsLTM4MzM1MjY3NiwtODM4Nzg2MzEyLD
+E3Nzk0MDM0NTYsMTIwODM4Nzg1OSwtMTc5NjE4MjIxOCwtMTU3
+Mjk0NTQwMCwtODgzNzk0MDU4LDE2NDg5NDEwMzIsMjA1MDczOT
+Q3NywtNjMwMDk0ODkyLC00MjMzNDA5NTYsLTEzMTAxNDA1MTks
+LTIwMTI2NzQ0ODEsNjg1MDQ4NTc5LC0xNTIxOTc1MTQ1LC03OD
+Y4MjEzOTcsMjczODc3NTA0XX0=
 -->
