@@ -106,7 +106,7 @@ Inception scores were generated for the CPGGAN and CDPGGAN over the two forms of
 
 Generated over the limited attribute embedding data on CPGGAN and CDPGGAN models. 
 
-![enter image description here](https://raw.githubusercontent.com/hg1722/fashionista/master/pics/Screen%20Shot%202019-12-05%20at%2011.45.52%20PM.png)
+[ent a pn![enter image description here](https://raw.githubusercontent.com/hg1722/fashionista/master/pics/Screen%20Shot%202019-12-05%20at%2011.45.52%20PM.pngent a pn)
 
 ![enter image description here](https://raw.githubusercontent.com/hg1722/fashionista/master/pics/Screen%20Shot%202019-12-05%20at%2011.46.05%20PM.png)
 
@@ -169,11 +169,11 @@ Generated Images using Multi-Conditional GAN + StackGAN Stage2 (5 epochs)
 The above images are high-resolution (256x256 px) images generated when fed data from Multi-Conditional GAN trained on Fashion Product Images dataset. Perhaps with more training time and more refined architecture, we could achieve better results for StackGAN. The model definitely seems to be capturing some structure from the multi-conditional GAN.
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOls4NTIzNDQwMDAsMzU0Mzg3MjA3
-LDk5OTQ0NTA5NiwxMzY5OTgyNTYzLDk0ODc2MDYwNSwxMDk5Nz
-UxMTc2LDIwMTEzNjY4MjEsLTEwNTczMjY0MSwtMTU5MzUxODIz
-NiwtNTIyNjQyMjI5LDE1NTk3ODE3NzcsMTU5OTA3NjMxNywtMT
-MxOTg3MzQyMywtMzgzMzUyNjc2LC04Mzg3ODYzMTIsMTc3OTQw
-MzQ1NiwxMjA4Mzg3ODU5LC0xNzk2MTgyMjE4LC0xNTcyOTQ1ND
-AwLC04ODM3OTQwNThdfQ==
+BnZm1cbiIsImhpc3RvcnkiOls5NzE5MzEwNDksODUyMzQ0MDAw
+LDM1NDM4NzIwNyw5OTk0NDUwOTYsMTM2OTk4MjU2Myw5NDg3Nj
+A2MDUsMTA5OTc1MTE3NiwyMDExMzY2ODIxLC0xMDU3MzI2NDEs
+LTE1OTM1MTgyMzYsLTUyMjY0MjIyOSwxNTU5NzgxNzc3LDE1OT
+kwNzYzMTcsLTEzMTk4NzM0MjMsLTM4MzM1MjY3NiwtODM4Nzg2
+MzEyLDE3Nzk0MDM0NTYsMTIwODM4Nzg1OSwtMTc5NjE4MjIxOC
+wtMTU3Mjk0NTQwMF19
 -->
