@@ -106,7 +106,7 @@ Inception scores were generated for the CPGGAN and CDPGGAN over the two forms of
 
 Generated over the limited attribute embedding data on CPGGAN and CDPGGAN models. 
 
-[ent a pn![enter image description here](https://raw.githubusercontent.com/hg1722/fashionista/master/pics/Screen%20Shot%202019-12-05%20at%2011.45.52%20PM.pngent a pn)
+![enter image description here](https://raw.githubusercontent.com/hg1722/fashionista/master/pics/Screen%20Shot%202019-12-05%20at%2011.45.52%20PM.png)
 
 ![enter image description here](https://raw.githubusercontent.com/hg1722/fashionista/master/pics/Screen%20Shot%202019-12-05%20at%2011.46.05%20PM.png)
 
