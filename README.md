@@ -71,7 +71,7 @@ The Generator attempts to  push $D\rarr0$ over the generated images & attribute 
 
 In this model, the goal of the Discriminator stays the same, while the Generator is given additional feedback targeted toward specific fields. The general idea for disentangling loss:
 
-$L_G = E_{(X,E)∼Pge} [D(x, e) ^2] +L_{i}+\dots +L_{j}$ for distinct $i,j$ in $[category, shape, texture, fabric, part]$.
+![](https://latex.codecogs.com/svg.latex?%5Cinline%20%5Clarge%20L_G%20%3D%20E_%7B%28X%2CE%29%20%5Csim%20Pge%7D%20%5BD%28x%2C%20e%29%20%5E2%5D%20&plus;L_%7Bi%7D&plus;%5Cdots%20&plus;L_%7Bj%7D%24%20for%20distinct%20%24i%2Cj%24%20in%20%24%5Bcategory%2C%20shape%2C%20texture%2C%20fabric%2C%20part%5D)
 
 We start by baselining on attribute embeddings that only contain the features encompassed in the class label. An additional consistency check for clothing **category** is added in the form:
 
@@ -139,11 +139,11 @@ After observing the trouble that the GAN had with differentiating with different
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMzgzMzUyNjc2LC04Mzg3ODYz
-MTIsMTc3OTQwMzQ1NiwxMjA4Mzg3ODU5LC0xNzk2MTgyMjE4LC
-0xNTcyOTQ1NDAwLC04ODM3OTQwNTgsMTY0ODk0MTAzMiwyMDUw
-NzM5NDc3LC02MzAwOTQ4OTIsLTQyMzM0MDk1NiwtMTMxMDE0MD
-UxOSwtMjAxMjY3NDQ4MSw2ODUwNDg1NzksLTE1MjE5NzUxNDUs
-LTc4NjgyMTM5NywyNzM4Nzc1MDQsMTk3MjY0NDIwNSwyMTM4MD
-k3MiwyMTE5ODM4MTMyXX0=
+BnZm1cbiIsImhpc3RvcnkiOlsxOTg1NDIxMjA0LC0zODMzNTI2
+NzYsLTgzODc4NjMxMiwxNzc5NDAzNDU2LDEyMDgzODc4NTksLT
+E3OTYxODIyMTgsLTE1NzI5NDU0MDAsLTg4Mzc5NDA1OCwxNjQ4
+OTQxMDMyLDIwNTA3Mzk0NzcsLTYzMDA5NDg5MiwtNDIzMzQwOT
+U2LC0xMzEwMTQwNTE5LC0yMDEyNjc0NDgxLDY4NTA0ODU3OSwt
+MTUyMTk3NTE0NSwtNzg2ODIxMzk3LDI3Mzg3NzUwNCwxOTcyNj
+Q0MjA1LDIxMzgwOTcyXX0=
 -->
