@@ -106,9 +106,11 @@ Inception scores were generated for the CPGGAN and CDPGGAN over the two forms of
 
 Generated over the limited attribute embedding data on CPGGAN and CDPGGAN models. 
 
-[Screen Shot 2019-12-05 at 11.45.52 PM.png](https://github.com/hg1722/fashionista/blob/master/pics/Screen%20Shot%202019-12-05%20at%2011.45.52%20PM.png "Screen Shot 2019-12-05 at 11.45.52 PM.png")
+[Screen Shot 2019-12-05 at 11.45.52 PM.png![enter image description here](https://raw.githubusercontent.com/hg1722/fashionista/blob/master/pics/Screen%20Shot%202019-12-05%20at%2011.45.52%20PM.png "Screen Shot 2019-12-05 at 11.45.52 PM.png")
 
-https://github.com/hg1722/fashionista/blob/master/pics/Screen%20Shot%202019-12-05%20at%2011.46.05%20PM.png
+)
+
+![enter image description here](https://raw.githubusercontent.com/hg1722/fashionista/blob/master/pics/Screen%20Shot%202019-12-05%20at%2011.46.05%20PM.png)
 
 https://github.com/hg1722/fashionista/blob/master/pics/Screen%20Shot%202019-12-05%20at%2011.46.14%20PM.png
 
@@ -169,11 +171,11 @@ Generated Images using Multi-Conditional GAN + StackGAN Stage2 (5 epochs)
 The above images are high-resolution (256x256 px) images generated when fed data from Multi-Conditional GAN trained on Fashion Product Images dataset. Perhaps with more training time and more refined architecture, we could achieve better results for StackGAN. The model definitely seems to be capturing some structure from the multi-conditional GAN.
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlszNTQzODcyMDcsOTk5NDQ1MDk2
-LDEzNjk5ODI1NjMsOTQ4NzYwNjA1LDEwOTk3NTExNzYsMjAxMT
-M2NjgyMSwtMTA1NzMyNjQxLC0xNTkzNTE4MjM2LC01MjI2NDIy
-MjksMTU1OTc4MTc3NywxNTk5MDc2MzE3LC0xMzE5ODczNDIzLC
-0zODMzNTI2NzYsLTgzODc4NjMxMiwxNzc5NDAzNDU2LDEyMDgz
-ODc4NTksLTE3OTYxODIyMTgsLTE1NzI5NDU0MDAsLTg4Mzc5ND
-A1OCwxNjQ4OTQxMDMyXX0=
+BnZm1cbiIsImhpc3RvcnkiOls0Nzg4MjcwMTAsMzU0Mzg3MjA3
+LDk5OTQ0NTA5NiwxMzY5OTgyNTYzLDk0ODc2MDYwNSwxMDk5Nz
+UxMTc2LDIwMTEzNjY4MjEsLTEwNTczMjY0MSwtMTU5MzUxODIz
+NiwtNTIyNjQyMjI5LDE1NTk3ODE3NzcsMTU5OTA3NjMxNywtMT
+MxOTg3MzQyMywtMzgzMzUyNjc2LC04Mzg3ODYzMTIsMTc3OTQw
+MzQ1NiwxMjA4Mzg3ODU5LC0xNzk2MTgyMjE4LC0xNTcyOTQ1ND
+AwLC04ODM3OTQwNThdfQ==
 -->
