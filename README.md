@@ -87,7 +87,7 @@ Where $c$ is the high-level clothing category formed from three possible categor
 
 The Inception network examines clothing images, *X,* produced by the Generator during testing, in relation to the image class test labels, ![$Y$]. The goal is to optimize the score:
 
-$$I(G) = E_{X∼P_G} [D_{KL}(P_{Y |X}(y|x) || P_Y (y))]$$
+![](https://latex.codecogs.com/svg.latex?%5Clarge%20%24%24I%28G%29%20%3D%20E_%7BX%20%5Csim%20P_G%7D%20%5BD_%7BKL%7D%28P_%7BY%20%7CX%7D%28y%7Cx%29%20%7C%7C%20P_Y%20%28y%29%29%5D%24%24)
 
 with respect to the two random variables. $D_{KL}$ measures the deviation of the distribution $P_{Y |X}$ - the probability of labeling an image with a given class - with respect to the reference distribution $P_Y (y)$ - the probability of a given class label. The class labels are diverse - high entropy - forcing  the entropy of $P_{Y |X}$ to be minimized in order to increase the KL divergence. As the entropy of $P_{Y |X}$ is minimized when the images in $X$ are labeled with high certainty, this provides a measure for Generator performance. 
 
@@ -139,7 +139,7 @@ After observing the trouble that the GAN had with differentiating with different
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMTMxMjE0Mzk1NywtMzgzMzUy
+BnZm1cbiIsImhpc3RvcnkiOlstMTMxOTg3MzQyMywtMzgzMzUy
 Njc2LC04Mzg3ODYzMTIsMTc3OTQwMzQ1NiwxMjA4Mzg3ODU5LC
 0xNzk2MTgyMjE4LC0xNTcyOTQ1NDAwLC04ODM3OTQwNTgsMTY0
 ODk0MTAzMiwyMDUwNzM5NDc3LC02MzAwOTQ4OTIsLTQyMzM0MD
