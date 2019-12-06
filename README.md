@@ -95,7 +95,7 @@ The inception score is computed over 20,000 images split into five groups, the r
 
 ## Results
 
-![enter image description here](https://github.com/hg1722/fashionista/blob/master/pics/bwaaaAAAaaah_inception.png)
+![enter image description here](https://github.com/hg1722/fashionista/blob/master/pics/.png)
 
 ## Generated Images
 
@@ -139,11 +139,11 @@ After observing the trouble that the GAN had with differentiating with different
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlsxNTU5NzgxNzc3LDE1OTkwNzYz
-MTcsLTEzMTk4NzM0MjMsLTM4MzM1MjY3NiwtODM4Nzg2MzEyLD
-E3Nzk0MDM0NTYsMTIwODM4Nzg1OSwtMTc5NjE4MjIxOCwtMTU3
-Mjk0NTQwMCwtODgzNzk0MDU4LDE2NDg5NDEwMzIsMjA1MDczOT
-Q3NywtNjMwMDk0ODkyLC00MjMzNDA5NTYsLTEzMTAxNDA1MTks
-LTIwMTI2NzQ0ODEsNjg1MDQ4NTc5LC0xNTIxOTc1MTQ1LC03OD
-Y4MjEzOTcsMjczODc3NTA0XX0=
+BnZm1cbiIsImhpc3RvcnkiOlstNTIyNjQyMjI5LDE1NTk3ODE3
+NzcsMTU5OTA3NjMxNywtMTMxOTg3MzQyMywtMzgzMzUyNjc2LC
+04Mzg3ODYzMTIsMTc3OTQwMzQ1NiwxMjA4Mzg3ODU5LC0xNzk2
+MTgyMjE4LC0xNTcyOTQ1NDAwLC04ODM3OTQwNTgsMTY0ODk0MT
+AzMiwyMDUwNzM5NDc3LC02MzAwOTQ4OTIsLTQyMzM0MDk1Niwt
+MTMxMDE0MDUxOSwtMjAxMjY3NDQ4MSw2ODUwNDg1NzksLTE1Mj
+E5NzUxNDUsLTc4NjgyMTM5N119
 -->
