@@ -16,7 +16,9 @@ We also trained several models on the Fashion Product Images dataset (https://ww
 
 The images are labeled by features such as gender, category, base color, season, usage, etc. We utilized two variations of the dataset, with one containing low-resolution images (60px by 80px) and another contained higher-resolution images (1800px x 2400px).
 
-Simple image preprocessing was performed on the dataset, including resizing all the images into squares (64px x 64px for the smaller variation and 256px x 256px for the larger images), and normalizing all the images between the range 0 and 1.
+![enter image description here](https://i.imgur.com/NrmA5YN.png)
+
+For preprocessing, all images were resized to squares, 64px x 64px for the low-resolution images and 256x25
 
 ![enter image description here](https://i.imgur.com/Kq4stnk.png)
 *"High-resolution" image from Fashion Product Image dataset (256x256)*
@@ -89,11 +91,11 @@ In both grids above, each column represents a specific class label. Clearly, bot
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
 BnZm1cbiAga2F0ZXg6XG4gICAgZW5hYmxlZDogdHJ1ZVxuIiwi
-aGlzdG9yeSI6Wy03ODI0MjY2NjUsNjg5MTM3MzgzLDE0NTYzMj
-gxMzQsLTE5ODIxODU5MDYsLTQxNzI2MDQxNCwtNTAyODE1Mzgy
-LDExOTQ5NTQzMyw3MDMzNjQ1MTMsLTExMTE1NDg5MjAsLTg0NT
-Q4MzYyOSw4NzE4OTQ1MTYsNDM1MzE4NzI4LC01MTU1NzUwMDUs
-LTc4NTc2ODI1MywxNjUyMzExMjQ5LDE4ODYxNDQyMjAsMjMzND
-Q1MDE0LC02MzM4Mjc5NTQsLTIwNzczMDk4MDUsMTYwMDA4MTI2
-XX0=
+aGlzdG9yeSI6WzIxMTcyNzQyMDAsLTc4MjQyNjY2NSw2ODkxMz
+czODMsMTQ1NjMyODEzNCwtMTk4MjE4NTkwNiwtNDE3MjYwNDE0
+LC01MDI4MTUzODIsMTE5NDk1NDMzLDcwMzM2NDUxMywtMTExMT
+U0ODkyMCwtODQ1NDgzNjI5LDg3MTg5NDUxNiw0MzUzMTg3Mjgs
+LTUxNTU3NTAwNSwtNzg1NzY4MjUzLDE2NTIzMTEyNDksMTg4Nj
+E0NDIyMCwyMzM0NDUwMTQsLTYzMzgyNzk1NCwtMjA3NzMwOTgw
+NV19
 -->
