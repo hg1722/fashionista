@@ -11,8 +11,7 @@ The [DeepFashion](http://mmlab.ie.cuhk.edu.hk/projects/DeepFashion/AttributePred
 
  The images are grouped broadly into directories based on 2-3 shared attributes to facilitate the CPGGAN LSE loss. These high-level classes are formed from the clothing category and primary common attributes; while all images in a given class will have the shared attributes, there are additional modifying attributes that further distinguish the clothing but are not prevalent enough to form distinct classes. We experiment with forming attribute embeddings comprised solely of the features captured in the class labels, and use this as a baseline when introducing further Generator loss penalties in the CDPGGAN model. 
  
-The raw images vary in quality, level of noise, and obfuscation. The GrabCut algorithm is used to standardize the images - first creating a mask based on the bounding box, then honing the model with the convex polygon created by the landmark annotations (implemented [here](https://github.com/hg1722/fashionista/blob/master/datasets/deepfashion/image_preprocess.ipynb)). 
-![image before and after](https://github.com/hg1722/fashionista/blob/master/pics/bwaaaAAAaaah_inception.png) The final data consists of 108,822 focused images, which are normalized and scaled for input into the stages of the CPGGAN.
+The raw images vary in quality, level of noise, and obfuscation. The GrabCut algorithm is used to standardize the images - first creating a mask based on the bounding box, then honing the model with the convex polygon created by the landmark annotations (implemented [here](https://github.com/hg1722/fashionista/blob/master/datasets/deepfashion/image_preprocess.ipynb)).  The final data consists of 108,822 focused images, which are normalized and scaled for input into the stages of the CPGGAN.
 
 All preprocessed data can be found in ![the google drive](https://drive.google.com/open?id=12Gl35nG2IYE6ChMazU23PKeWMmOBXIaL).
 
@@ -158,11 +157,11 @@ Generated Images using Multi-Conditional GAN + StackGAN Stage2 (5 epochs)
 The above images are high-resolution (256x256 px) images generated when fed data from Multi-Conditional GAN trained on Fashion Product Images dataset. Perhaps with more training time and more refined architecture, we could achieve better results for StackGAN. The model definitely seems to be capturing some structure from the multi-conditional GAN.
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOls5OTk0NDUwOTYsMTM2OTk4MjU2
-Myw5NDg3NjA2MDUsMTA5OTc1MTE3NiwyMDExMzY2ODIxLC0xMD
-U3MzI2NDEsLTE1OTM1MTgyMzYsLTUyMjY0MjIyOSwxNTU5Nzgx
-Nzc3LDE1OTkwNzYzMTcsLTEzMTk4NzM0MjMsLTM4MzM1MjY3Ni
-wtODM4Nzg2MzEyLDE3Nzk0MDM0NTYsMTIwODM4Nzg1OSwtMTc5
-NjE4MjIxOCwtMTU3Mjk0NTQwMCwtODgzNzk0MDU4LDE2NDg5ND
-EwMzIsMjA1MDczOTQ3N119
+BnZm1cbiIsImhpc3RvcnkiOlstMjE0NDM5NzYwMSw5OTk0NDUw
+OTYsMTM2OTk4MjU2Myw5NDg3NjA2MDUsMTA5OTc1MTE3NiwyMD
+ExMzY2ODIxLC0xMDU3MzI2NDEsLTE1OTM1MTgyMzYsLTUyMjY0
+MjIyOSwxNTU5NzgxNzc3LDE1OTkwNzYzMTcsLTEzMTk4NzM0Mj
+MsLTM4MzM1MjY3NiwtODM4Nzg2MzEyLDE3Nzk0MDM0NTYsMTIw
+ODM4Nzg1OSwtMTc5NjE4MjIxOCwtMTU3Mjk0NTQwMCwtODgzNz
+k0MDU4LDE2NDg5NDEwMzJdfQ==
 -->
