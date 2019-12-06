@@ -18,7 +18,7 @@ The images are labeled by features such as gender, category, base color, season,
 
 ![enter image description here](https://i.imgur.com/NrmA5YN.png)
 
-For preprocessing, all images were resized to squares, 64px x 64px for the low-resolution images and 256x25
+For preprocessing, all images were resized to squares, 64x64 px for the low-resolution images and 256x256 px for the high-resolutions, and normalized.
 
 ![enter image description here](https://i.imgur.com/Kq4stnk.png)
 *"High-resolution" image from Fashion Product Image dataset (256x256)*
@@ -91,11 +91,11 @@ In both grids above, each column represents a specific class label. Clearly, bot
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
 BnZm1cbiAga2F0ZXg6XG4gICAgZW5hYmxlZDogdHJ1ZVxuIiwi
-aGlzdG9yeSI6WzIxMTcyNzQyMDAsLTc4MjQyNjY2NSw2ODkxMz
-czODMsMTQ1NjMyODEzNCwtMTk4MjE4NTkwNiwtNDE3MjYwNDE0
-LC01MDI4MTUzODIsMTE5NDk1NDMzLDcwMzM2NDUxMywtMTExMT
-U0ODkyMCwtODQ1NDgzNjI5LDg3MTg5NDUxNiw0MzUzMTg3Mjgs
-LTUxNTU3NTAwNSwtNzg1NzY4MjUzLDE2NTIzMTEyNDksMTg4Nj
-E0NDIyMCwyMzM0NDUwMTQsLTYzMzgyNzk1NCwtMjA3NzMwOTgw
-NV19
+aGlzdG9yeSI6Wy0xMzUwNzIzMzcyLC03ODI0MjY2NjUsNjg5MT
+M3MzgzLDE0NTYzMjgxMzQsLTE5ODIxODU5MDYsLTQxNzI2MDQx
+NCwtNTAyODE1MzgyLDExOTQ5NTQzMyw3MDMzNjQ1MTMsLTExMT
+E1NDg5MjAsLTg0NTQ4MzYyOSw4NzE4OTQ1MTYsNDM1MzE4NzI4
+LC01MTU1NzUwMDUsLTc4NTc2ODI1MywxNjUyMzExMjQ5LDE4OD
+YxNDQyMjAsMjMzNDQ1MDE0LC02MzM4Mjc5NTQsLTIwNzczMDk4
+MDVdfQ==
 -->
