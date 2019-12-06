@@ -29,13 +29,13 @@ We also ran experiments with training on only apparel images ofand the dataset a
 
 Generative Adversarial Networks (GAN) are a popular deep learning architecture for training deep generative models. GANs, there is a discriminator network and a generator network. The generator is responsible for generating new samples that are ideally indistinguishable from real samples in the dataset. The discriminator is responsible for distinguishing between real samples and samples created by the generator. The discriminator and generator are trained at the same time in an adversarial manner: improvements to the discriminator will hurt the performance of the generator and vice versa. One drawback of vanilla GANs is that it will generate random images from the domain. In tasks where we have class or attribute labels available, such as ours, it is desirable to be able to control what the GAN generates. Thus, we utilize the Conditional Generative Adversarial Network (CGAN), which was introduced in 2014 ([https://arxiv.org/abs/1411.1784). The CGAN allows one to introduce labels to the discriminator and generator such that one can generate samples conditioned on specific class-labels. Although there are several methods to condition GANs on class labels, the most often-used method by  CGANs is to introduce an embedding layer on the class labels, followed by a fully connected layer which scales the embedding layer to the size of the input image, such that it can be concatenated as an additional channel. CGANs can of course be used with any architecture, such as deep convolutional GANs (DCGANs 
 
-![enter image description here](https://i.imgur.com/621I6hf.png)
+![enter image description here](https://i.imgur.com/W4n9Iav.png)
 ### Conditional VAE 
 
 Variational autoencoders (VAE) are powerful generative autoencoders that learn a latent representation for the input data. Utilizing variational inference and regularization techniques, VAEs learn latent representations with desirable properties, which allow for generating new
 data points. Vanilla VAEs suffer from the same drawback as vanilla GANs--random images are generated without any knowledge of class-information. This is where Conditional VAEs (CVAE) come into play. The implementation behind CVAEs is very simple: simply concatenate the class labels to the input, and run the encoder-decoder architecture as normal. During training time, the encoder and decoder both have the extra input (the class labels). To generate an image belonging to a particular class, simply feed that class label into the decoder along with the random point in latent space sampled from a normal distribution.
 
-![enter image description here](https://i.imgur.com/5ZM0Ede.png)
+![enter image description here](https://i.imgur.com/VLBQT8n.png)
 
 ### Multi-Conditional GAN 
 Conditional GANs (cGAN) uses a traditional GAN architecture except with an extra class label for both the generator and the discriminator in order to "condition" the GAN to conform to that label. This is usually done through taking the class label as an extra input and concatenating it with the latent vector of the GAN.
@@ -94,11 +94,11 @@ Our next step was to
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
 BnZm1cbiAga2F0ZXg6XG4gICAgZW5hYmxlZDogdHJ1ZVxuIiwi
-aGlzdG9yeSI6Wy0xMTg0MjAwMjI0LDY4NTA0ODU3OSwtMTUyMT
-k3NTE0NSwtNzg2ODIxMzk3LDI3Mzg3NzUwNCwxOTcyNjQ0MjA1
-LDIxMzgwOTcyLDIxMTk4MzgxMzIsLTk3MTg4MzcxOCwtMTM1MD
-cyMzM3MiwtNzgyNDI2NjY1LDY4OTEzNzM4MywxNDU2MzI4MTM0
-LC0xOTgyMTg1OTA2LC00MTcyNjA0MTQsLTUwMjgxNTM4MiwxMT
-k0OTU0MzMsNzAzMzY0NTEzLC0xMTExNTQ4OTIwLC04NDU0ODM2
-MjldfQ==
+aGlzdG9yeSI6Wy0yMDEyNjc0NDgxLC0xMTg0MjAwMjI0LDY4NT
+A0ODU3OSwtMTUyMTk3NTE0NSwtNzg2ODIxMzk3LDI3Mzg3NzUw
+NCwxOTcyNjQ0MjA1LDIxMzgwOTcyLDIxMTk4MzgxMzIsLTk3MT
+g4MzcxOCwtMTM1MDcyMzM3MiwtNzgyNDI2NjY1LDY4OTEzNzM4
+MywxNDU2MzI4MTM0LC0xOTgyMTg1OTA2LC00MTcyNjA0MTQsLT
+UwMjgxNTM4MiwxMTk0OTU0MzMsNzAzMzY0NTEzLC0xMTExNTQ4
+OTIwXX0=
 -->
