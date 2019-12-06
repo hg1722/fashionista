@@ -1,6 +1,6 @@
 # Fashion Generation from Structured Style Attributes
 
-With the explosion of eCommerce, there is a growing need for personalized online shopping experiences. 
+With the explosion of eCommerce, there is a growing need for personalized online shopping experiences. Specifically, in the fashion industry, there is 
 
 ## Data 
 
@@ -98,11 +98,11 @@ After observing the trouble that the GAN had with differentiating with different
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
 BnZm1cbiAga2F0ZXg6XG4gICAgZW5hYmxlZDogdHJ1ZVxuIiwi
-aGlzdG9yeSI6Wy0xMzUwNjAzMTYwLC00MjMzNDA5NTYsLTEzMT
-AxNDA1MTksLTIwMTI2NzQ0ODEsNjg1MDQ4NTc5LC0xNTIxOTc1
-MTQ1LC03ODY4MjEzOTcsMjczODc3NTA0LDE5NzI2NDQyMDUsMj
-EzODA5NzIsMjExOTgzODEzMiwtOTcxODgzNzE4LC0xMzUwNzIz
-MzcyLC03ODI0MjY2NjUsNjg5MTM3MzgzLDE0NTYzMjgxMzQsLT
-E5ODIxODU5MDYsLTQxNzI2MDQxNCwtNTAyODE1MzgyLDExOTQ5
-NTQzM119
+aGlzdG9yeSI6Wy02MzAwOTQ4OTIsLTQyMzM0MDk1NiwtMTMxMD
+E0MDUxOSwtMjAxMjY3NDQ4MSw2ODUwNDg1NzksLTE1MjE5NzUx
+NDUsLTc4NjgyMTM5NywyNzM4Nzc1MDQsMTk3MjY0NDIwNSwyMT
+M4MDk3MiwyMTE5ODM4MTMyLC05NzE4ODM3MTgsLTEzNTA3MjMz
+NzIsLTc4MjQyNjY2NSw2ODkxMzczODMsMTQ1NjMyODEzNCwtMT
+k4MjE4NTkwNiwtNDE3MjYwNDE0LC01MDI4MTUzODIsMTE5NDk1
+NDMzXX0=
 -->
