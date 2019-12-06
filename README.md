@@ -99,7 +99,7 @@ The inception score is computed over 20,000 images split into five groups, the r
 
 Inception scores were generated for the CPGGAN and CDPGGAN over the two forms of DeepFashion attribute encodings. Results trend better on the simpler attribute encodings, however the improvement in performance when conditional disentangling on the **category** field is added indicates that there are further improvements possible when focusing on individual attribute classes. 
 
-![enter image description here]([https://raw.githubusercontent.com/hg1722/fashionista/master/pics/inception_non_exp.png](https://raw.githubusercontent.com/hg1722/fashionista/master/pics/inception_non_exp.png))
+![enter image description here](https://raw.githubusercontent.com/hg1722/fashionista/master/pics/inception_non_exp.png)
 
 ## Generated Images
 
@@ -146,11 +146,11 @@ During this project, we adapted the original StackGAN architecture to take attri
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlsxOTYxMzk1OTM3LDk0ODc2MDYw
-NSwxMDk5NzUxMTc2LDIwMTEzNjY4MjEsLTEwNTczMjY0MSwtMT
-U5MzUxODIzNiwtNTIyNjQyMjI5LDE1NTk3ODE3NzcsMTU5OTA3
-NjMxNywtMTMxOTg3MzQyMywtMzgzMzUyNjc2LC04Mzg3ODYzMT
-IsMTc3OTQwMzQ1NiwxMjA4Mzg3ODU5LC0xNzk2MTgyMjE4LC0x
-NTcyOTQ1NDAwLC04ODM3OTQwNTgsMTY0ODk0MTAzMiwyMDUwNz
-M5NDc3LC02MzAwOTQ4OTJdfQ==
+BnZm1cbiIsImhpc3RvcnkiOlszMDQwMDE4NzEsOTQ4NzYwNjA1
+LDEwOTk3NTExNzYsMjAxMTM2NjgyMSwtMTA1NzMyNjQxLC0xNT
+kzNTE4MjM2LC01MjI2NDIyMjksMTU1OTc4MTc3NywxNTk5MDc2
+MzE3LC0xMzE5ODczNDIzLC0zODMzNTI2NzYsLTgzODc4NjMxMi
+wxNzc5NDAzNDU2LDEyMDgzODc4NTksLTE3OTYxODIyMTgsLTE1
+NzI5NDU0MDAsLTg4Mzc5NDA1OCwxNjQ4OTQxMDMyLDIwNTA3Mz
+k0NzcsLTYzMDA5NDg5Ml19
 -->
