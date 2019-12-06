@@ -34,17 +34,17 @@ Generative Adversarial Networks (GAN) are a popular deep learning architecture f
 ### Conditional VAE 
 
 Variational autoencoders (VAE) are powerful generative autoencoders that learn a latent representation for the input data. Utilizing variational inference and regularization techniques, VAEs learn latent representations with desirable properties, which allow for generating new
-auddata points. Vanilla VAEs suffer from the same drawback as vanilla GANs--random images are generated without any knowledge of class-information. This is where Conditional VAEs (CVAE) come into play. The implementation behind CVAEs is very simple: simply concatenate the class labels to the input, and run the encoder-decoder architecture as normal. During training time, the encoder and decoder both have the extra input (the class labels). To generate an image belonging to a particular class, simply feed that class label into the decoder along with the random point in latent space sampled from a normal distribution.
+data points. Vanilla VAEs suffer from the same drawback as vanilla GANs--random images are generated without any knowledge of class-information. This is where Conditional VAEs (CVAE) come into play. The implementation behind CVAEs is very simple: simply concatenate the class labels to the input, and run the encoder-decoder architecture as normal. During training time, the encoder and decoder both have the extra input (the class labels). To generate an image belonging to a particular class, simply feed that class label into the decoder along with the random point in latent space sampled from a normal distribution.
 
 ### Multi-Conditional GAN 
 Conditional GANs (cGAN) uses a traditional GAN architecture except with an extra class label for both the generator and the discriminator in order to "condition" the GAN to conform to that label. This is usually done through taking the class label as an extra input and concatenating it with the latent vector of the GAN.
 
-In our multi-conditional variation of the cGAN, we incorporated attribute conditioning in two main ways. The Fashion Product Images dataset provided attributes in the form of multiple classes, so for that model we added extra layers corresponding to each category of attributes in the GAN, and concatenated them all together with the latent dimension so that the model could take in multiple attributes as conditioning while training. We also attempted encoding the label into an embedding layer and multiplying the input with the latent dimension but produced neglible differences. After preprocessing the DeepFashion dataset, we were able to one-hot-encode the attributes instead, and used that for attribute conditioning the cGAN.
+In our multi-conditional variation of the cGAN, we incorporated attribute conditioning in two main ways. The Fashion Product Images dataset provided attributes in the form of multiple classes, so for that model we added extra layers corresponding to each category of attributes in the GAN, and concatenated them all together with the latent dimension so that the model could take in multiple attributes as conditioning while training. We also attempted encoding the label into an embedding layer and multiplying the input with the latent dimension but produced negligible differences. After preprocessing the DeepFashion dataset, we were able to one-hot-encode the attributes instead, and used that for attribute conditioning the cGAN.
 
 Sampling the model's performance was done through giving the model every combination of attributes to generate.
 
 ### Attribute StackGAN 
-Stacked Generative Adversarial Networks (StackGAN) were first introduced (https://arxiv.org/pdf/1612.03242.pdf) as a method to generate high-resolution imagefrom natural text. The approach is analogous to the drawing procedure of a human intartist, where the artist first sketches a rough outline of an image before creating a refined, high-quality result. The architecture employs two stages of GANs: the first stage GAN generates low resolution images conditioned on the input text embeddings. The second GAN then takes the output of the first stage's generated image and the original text embeddings and uses them to generate a high-quality image.
+Stacked Generative Adversarial Networks (StackGAN) were first introduced (https://arxiv.org/pdf/1612.03242.pdf) as a method to generate high-resolution image from natural text. The approach is analogous to the drawing procedure of a human intartist, where the artist first sketches a rough outline of an image before creating a refined, high-quality result. The architecture employs two stages of GANs: the first stage GAN generates low resolution images conditioned on the input text embeddings. The second GAN then takes the output of the first stage's generated image and the original text embeddings and uses them to generate a high-quality image.
 
 In the fashion domain, being able to clearly see the details of a product whether for purchasing or virtual try-on purposes is essential. Thus, generating high-resolution images is an important part of the problem we are trying to tackle. 
 
@@ -74,7 +74,7 @@ CVAE Class-Conditional Generation Results
 
 ![CVAE Class-Conditional Generation Results](https://i.imgur.com/KQyL0fF.png)
 
-In both grids above, each column represents a specific class label. Clearly, both the CGAN and CVAE are successfully able to generate class-specific images when conditioned on a particular class. The CGAN results are a bit better than the CVAE since the generated images are crisper/less blurry. VAEs are known to generate blurry images in general. Overall, the Fashion MNIST dataset served as a proof-of-concept, showing the effectiveness of class-conditional generative modBoth the CGAN and CVAE are successfully able to generate class-specific images as shown in the grids above. In both grids, each column represe the neion of this dataset is that only one class is conditioned on at a time. In real world fashion datasents a specific class labels. However, one limitation of this dataset is that, each clothing item o has multiple attributes, which motivates e one liitatfor Multi-Conditional GANs.
+In both grids above, each column represents a specific class label. Clearly, both the CGAN and CVAE are successfully able to generate class-specific images when conditioned on a particular class. The CGAN results are a bit better than the CVAE since the generated images are crisper/less blurry. VAEs are known to generate blurry images in general. Overall, the Fashion MNIST dataset served as a proof-of-concept, showing the effectiveness of class-conditional generative models. However, one limitation of this dataset is that, each image has only one class-label associated with it. In real world each clothing item o has multiple attributes, which motivates e one liitatfor Multi-Conditional GANs.
 
 ### Multi-Conditional GAN Generated Images
 
@@ -89,11 +89,11 @@ In both grids above, each column represents a specific class label. Clearly, bot
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
 BnZm1cbiAga2F0ZXg6XG4gICAgZW5hYmxlZDogdHJ1ZVxuIiwi
-aGlzdG9yeSI6WzY4OTEzNzM4MywxNDU2MzI4MTM0LC0xOTgyMT
-g1OTA2LC00MTcyNjA0MTQsLTUwMjgxNTM4MiwxMTk0OTU0MzMs
-NzAzMzY0NTEzLC0xMTExNTQ4OTIwLC04NDU0ODM2MjksODcxOD
-k0NTE2LDQzNTMxODcyOCwtNTE1NTc1MDA1LC03ODU3NjgyNTMs
-MTY1MjMxMTI0OSwxODg2MTQ0MjIwLDIzMzQ0NTAxNCwtNjMzOD
-I3OTU0LC0yMDc3MzA5ODA1LDE2MDAwODEyNiwxOTM0MTEwNjI2
+aGlzdG9yeSI6WzE3NTEzNDc4NDAsNjg5MTM3MzgzLDE0NTYzMj
+gxMzQsLTE5ODIxODU5MDYsLTQxNzI2MDQxNCwtNTAyODE1Mzgy
+LDExOTQ5NTQzMyw3MDMzNjQ1MTMsLTExMTE1NDg5MjAsLTg0NT
+Q4MzYyOSw4NzE4OTQ1MTYsNDM1MzE4NzI4LC01MTU1NzUwMDUs
+LTc4NTc2ODI1MywxNjUyMzExMjQ5LDE4ODYxNDQyMjAsMjMzND
+Q1MDE0LC02MzM4Mjc5NTQsLTIwNzczMDk4MDUsMTYwMDA4MTI2
 XX0=
 -->
