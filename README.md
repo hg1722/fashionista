@@ -61,9 +61,9 @@ PGGANs increase image resolution through subsequent layers during training, allo
 
 We define the goal of the Generator: given a noise vector conditioned on attribute embeddings $e$ that corresponds to image class $c$, create images $x$ that appear real, and will be classified with label $c$. The Discriminator $D(x,e)$ then needs to critique if the image $x$ is real and in the correct class, in the wrong class, or is fake.
 
-![](https://latex.codecogs.com/svg.latex?%5Cinline%20%5Clarge%20L_D%20%3D%20E_%7B%28X%2CE%29%20%5Csim%20Pr-cc%7D%5B%28D%28x%2C%20e%29%20-1%29%5E2%20%5D%20&plus;%20E_%7B%28X%2CE%29%5Csim%20Pge%7D%20%5B%28D%28x%2C%20e%29%20&plus;%201%29%20%5E2%20%5D%20&plus;%20E_%7B%28X%2CE%29%5CsimPr%u2212wc%7D%20%5B%28D%28x%2C%20e%29%20&plus;1%29%20%5E2%20%5D)
+![](https://latex.codecogs.com/svg.latex?%5Clarge%20L_D%20%3D%20E_%7B%28X%2CE%29%20%5Csim%20Pr-cc%7D%5B%28D%28x%2C%20e%29%20-1%29%5E2%20%5D%20&plus;%20E_%7B%28X%2CE%29%5Csim%20Pge%7D%20%5B%28D%28x%2C%20e%29%20&plus;%201%29%20%5E2%20%5D%20&plus;%20E_%7B%28X%2CE%29%5CsimPr%u2212wc%7D%20%5B%28D%28x%2C%20e%29%20&plus;1%29%20%5E2%20%5D)
 
-![](https://latex.codecogs.com/svg.latex?%5Cinline%20%5Clarge%20L_G%20%3D%20E_%7B%28X%2CE%29%20%5Csim%20Pge%7D%20%5BD%28x%2C%20e%29%5E2%5D)
+![](https://latex.codecogs.com/svg.latex?%5Cnormal%20L_G%20%3D%20E_%7B%28X%2CE%29%20%5Csim%20Pge%7D%20%5BD%28x%2C%20e%29%5E2%5D)
 
 The Generator attempts to  push $D\rarr0$ over the generated images & attribute embeddings, while the Discriminator learns toward $D\rarr-1$. The Discriminator loss function gives further penalty for moving away from $D\rarr1$ on the real & correctly classified images, and rewards recognizing incorrectly classified images equal to finding fake images. For more detail on model parameters and architecture, see [cpggan.py](https://github.com/hg1722/fashionista/blob/master/models/cpggan/cpggan.py).
 
@@ -139,11 +139,11 @@ After observing the trouble that the GAN had with differentiating with different
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMTMxOTg3MzQyMywtMzgzMzUy
-Njc2LC04Mzg3ODYzMTIsMTc3OTQwMzQ1NiwxMjA4Mzg3ODU5LC
-0xNzk2MTgyMjE4LC0xNTcyOTQ1NDAwLC04ODM3OTQwNTgsMTY0
-ODk0MTAzMiwyMDUwNzM5NDc3LC02MzAwOTQ4OTIsLTQyMzM0MD
-k1NiwtMTMxMDE0MDUxOSwtMjAxMjY3NDQ4MSw2ODUwNDg1Nzks
-LTE1MjE5NzUxNDUsLTc4NjgyMTM5NywyNzM4Nzc1MDQsMTk3Mj
-Y0NDIwNSwyMTM4MDk3Ml19
+BnZm1cbiIsImhpc3RvcnkiOlsxNTk5MDc2MzE3LC0xMzE5ODcz
+NDIzLC0zODMzNTI2NzYsLTgzODc4NjMxMiwxNzc5NDAzNDU2LD
+EyMDgzODc4NTksLTE3OTYxODIyMTgsLTE1NzI5NDU0MDAsLTg4
+Mzc5NDA1OCwxNjQ4OTQxMDMyLDIwNTA3Mzk0NzcsLTYzMDA5ND
+g5MiwtNDIzMzQwOTU2LC0xMzEwMTQwNTE5LC0yMDEyNjc0NDgx
+LDY4NTA0ODU3OSwtMTUyMTk3NTE0NSwtNzg2ODIxMzk3LDI3Mz
+g3NzUwNCwxOTcyNjQ0MjA1XX0=
 -->
