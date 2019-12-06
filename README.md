@@ -80,7 +80,7 @@ We first trained a standard conditional GAN on the Fashion Products dataset, and
 ![enter image description here](https://i.imgur.com/7RJfm0S.png)
 *Sample images of multi-conditional GAN trained after 80 epochs*
 
-Our next step was to test the multi-conditional aspect of the GAN. Conditioning it on attributes for color and clothingattributes instead of , we were able to train the GAN to distinguish different colors, but the modifying the style of clothing was still a challenge for the model.
+Our next step was to test the multi-conditional aspect of the GAN. By conditioning it on attributes for color and clothing attributes instead of a single fashion type feature, we were able to train the GAN to distinguish different colors, but the modifying the style of clothing was still a challenge for the model.
 ![enter image description here](https://i.imgur.com/Tr7OTMj.png)
 *Images generated from one sample of multi-conditional GAN after training for 30 epochs. The GAN was conditioned on color and  type attributes.*
 
@@ -96,7 +96,7 @@ After observing the trouble that the GAN had with differentiating with different
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
 BnZm1cbiAga2F0ZXg6XG4gICAgZW5hYmxlZDogdHJ1ZVxuIiwi
-aGlzdG9yeSI6WzUzODE2MTQxNiwtMTMxMDE0MDUxOSwtMjAxMj
+aGlzdG9yeSI6WzI1OTkzMDQ0MCwtMTMxMDE0MDUxOSwtMjAxMj
 Y3NDQ4MSw2ODUwNDg1NzksLTE1MjE5NzUxNDUsLTc4NjgyMTM5
 NywyNzM4Nzc1MDQsMTk3MjY0NDIwNSwyMTM4MDk3MiwyMTE5OD
 M4MTMyLC05NzE4ODM3MTgsLTEzNTA3MjMzNzIsLTc4MjQyNjY2
