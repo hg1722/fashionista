@@ -37,11 +37,11 @@ data points. Vanilla VAEs suffer from the same drawback as vanilla GANs--random 
 ### Multi-Conditional GAN 
 Conditional GANs (cGAN) uses a traditional GAN architecture except with an extra class label for both the generator and the discriminator in order to "condition" the GAN to conform to that label. This is usually done through taking the class label as an extra input and concatenating it with the latent vector of the GAN.
 
-In our multi-conditional variation of the cGAN, we incorporated attribute conditioning in two main ways. The Fashion Product Images dataset provided attributes in the form of multiple classes, so for that model we added extra layers corresponding to each category of attributes in the GAN, and concatenated them all together with the latent dimension so that the model could take in multiple attributes as conditioning while training. We also attempted encoding the label into an embedding layer and multiplying the input with the latent dimension but produced negligible differences. After preprocessing the DeepFashion dataset, we were able to one-hot-encode the attributes instead, and used that for attribute conditioning the cGAN.
-
-Sampling the model's performance was done through giving the model every combination of attributes to generate.
+In our multi-conditional variation of the cGAN, we incorporated attribute conditioning in two main ways. The Fashion Product Images dataset provided attributes in the form of multiple classes, so we added extra layers corresponding to each category of attributes in the GAN, and concatenated them all together with the latent dimension so that the model could take in multiple attributes as conditioning while training. 
 
 ![enter image description here](https://i.imgur.com/QS1ZR0J.png)
+
+We also attempted encoding the label into an embedding layer and multiplying the input with the latent dimension but produced negligible differences. After preprocessing the DeepFashion dataset, we were able to one-hot-encode the attributes instead, and used that for attribute conditioning the cGAN. Sampling the model's performance was done through giving the model every combination of attributes to generate.
 
 
 ### Conditional Progressively Growing GAN
@@ -94,7 +94,7 @@ We modified the StackGAN, which originally used text embeddings to condition the
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
 BnZm1cbiAga2F0ZXg6XG4gICAgZW5hYmxlZDogdHJ1ZVxuIiwi
-aGlzdG9yeSI6WzExNzUxNjY3MTIsMjczODc3NTA0LDE5NzI2ND
+aGlzdG9yeSI6Wy03ODY4MjEzOTcsMjczODc3NTA0LDE5NzI2ND
 QyMDUsMjEzODA5NzIsMjExOTgzODEzMiwtOTcxODgzNzE4LC0x
 MzUwNzIzMzcyLC03ODI0MjY2NjUsNjg5MTM3MzgzLDE0NTYzMj
 gxMzQsLTE5ODIxODU5MDYsLTQxNzI2MDQxNCwtNTAyODE1Mzgy
