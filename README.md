@@ -76,6 +76,8 @@ In both grids above, each column represents a specific class label. Clearly, bot
 
 ### Fashion Product Images Dataset
 
+We first trained a standard conditional GAN on the 
+
 ![enter image description here](https://i.imgur.com/7RJfm0S.png)
 *Sample images of multi-conditional GAN trained after 80 epochs*
 
@@ -87,11 +89,11 @@ In both grids above, each column represents a specific class label. Clearly, bot
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
 BnZm1cbiAga2F0ZXg6XG4gICAgZW5hYmxlZDogdHJ1ZVxuIiwi
-aGlzdG9yeSI6WzIxMTk4MzgxMzIsLTk3MTg4MzcxOCwtMTM1MD
-cyMzM3MiwtNzgyNDI2NjY1LDY4OTEzNzM4MywxNDU2MzI4MTM0
-LC0xOTgyMTg1OTA2LC00MTcyNjA0MTQsLTUwMjgxNTM4MiwxMT
-k0OTU0MzMsNzAzMzY0NTEzLC0xMTExNTQ4OTIwLC04NDU0ODM2
-MjksODcxODk0NTE2LDQzNTMxODcyOCwtNTE1NTc1MDA1LC03OD
-U3NjgyNTMsMTY1MjMxMTI0OSwxODg2MTQ0MjIwLDIzMzQ0NTAx
-NF19
+aGlzdG9yeSI6WzExNDExMTc2OTEsMjExOTgzODEzMiwtOTcxOD
+gzNzE4LC0xMzUwNzIzMzcyLC03ODI0MjY2NjUsNjg5MTM3Mzgz
+LDE0NTYzMjgxMzQsLTE5ODIxODU5MDYsLTQxNzI2MDQxNCwtNT
+AyODE1MzgyLDExOTQ5NTQzMyw3MDMzNjQ1MTMsLTExMTE1NDg5
+MjAsLTg0NTQ4MzYyOSw4NzE4OTQ1MTYsNDM1MzE4NzI4LC01MT
+U1NzUwMDUsLTc4NTc2ODI1MywxNjUyMzExMjQ5LDE4ODYxNDQy
+MjBdfQ==
 -->
