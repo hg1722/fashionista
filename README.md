@@ -74,7 +74,7 @@ CVAE Class-Conditional Generation Results
 
 ![CVAE Class-Conditional Generation Results](https://i.imgur.com/KQyL0fF.png)
 
-In both grids above, each column represents a specific class label. Clearly, both the CGAN and CVAE are successfully able to generate class-specific images when conditioned on a particular class. The CGAN results are a bit better than the CVAE since the generated images are crisper/less blurry. VAEs are known to generate blurry images in general. Overall, the Fashion MNIST dataset served as a proof-of-concept, showing the effectiveness of class-conditional generative models. However, one limitation of this dataset is that, each image has only one class-label associated with it. In real world each clothing item o has multiple attributes, which motivates e one liitatfor Multi-Conditional GANs.
+In both grids above, each column represents a specific class label. Clearly, both the CGAN and CVAE are successfully able to generate class-specific images when conditioned on a particular class. The CGAN results are a bit better than the CVAE since the generated images are crisper/less blurry. VAEs are known to generate blurry images in general. Overall, the Fashion MNIST dataset served as a proof-of-concept, showing the effectiveness of class-conditional generative models. However, one limitation of this dataset is that, each image has only one class-label associated with it. In real world applications, each clothing item will have multiple attributes, which motivates the need for Multi-Conditional GANs.
 
 ### Multi-Conditional GAN Generated Images
 
@@ -89,7 +89,7 @@ In both grids above, each column represents a specific class label. Clearly, bot
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
 BnZm1cbiAga2F0ZXg6XG4gICAgZW5hYmxlZDogdHJ1ZVxuIiwi
-aGlzdG9yeSI6WzE3NTEzNDc4NDAsNjg5MTM3MzgzLDE0NTYzMj
+aGlzdG9yeSI6Wy03ODI0MjY2NjUsNjg5MTM3MzgzLDE0NTYzMj
 gxMzQsLTE5ODIxODU5MDYsLTQxNzI2MDQxNCwtNTAyODE1Mzgy
 LDExOTQ5NTQzMyw3MDMzNjQ1MTMsLTExMTE1NDg5MjAsLTg0NT
 Q4MzYyOSw4NzE4OTQ1MTYsNDM1MzE4NzI4LC01MTU1NzUwMDUs
