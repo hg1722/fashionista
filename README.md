@@ -14,7 +14,7 @@ The [DeepFashion](http://mmlab.ie.cuhk.edu.hk/projects/DeepFashion/AttributePred
 The raw images vary in quality, level of noise, and obfuscation. The GrabCut algorithm is used to standardize the images - first creating a mask based on the bounding box, then honing the model with the convex polygon created by the landmark annotations (implemented [here](https://github.com/hg1722/fashionista/blob/master/datasets/deepfashion/image_preprocess.ipynb)). 
 ![image before and after](https://github.com/hg1722/fashionista/blob/master/pics/bwaaaAAAaaah_inception.png) The final data consists of 108,822 focused images, which are normalized and scaled for input into the stages of the CPGGAN.
 
-All preprocessed data can be found in ![the google drive](at https://drive.google.com/drive/folders/12Gl35nG2IYE6ChMazU23PKeWMmOBXIaL?usp=sharing).
+All preprocessed data can be found in ![the google drive](https://drive.google.com/drive/folders/12Gl35nG2IYE6ChMazU23PKeWMmOBXIaL?usp=sharing).
 
 ### Fashion MNIST
 
@@ -146,11 +146,11 @@ During this project, we adapted the original StackGAN architecture to take attri
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlsxMDk5NzUxMTc2LDIwMTEzNjY4
-MjEsLTEwNTczMjY0MSwtMTU5MzUxODIzNiwtNTIyNjQyMjI5LD
-E1NTk3ODE3NzcsMTU5OTA3NjMxNywtMTMxOTg3MzQyMywtMzgz
-MzUyNjc2LC04Mzg3ODYzMTIsMTc3OTQwMzQ1NiwxMjA4Mzg3OD
-U5LC0xNzk2MTgyMjE4LC0xNTcyOTQ1NDAwLC04ODM3OTQwNTgs
-MTY0ODk0MTAzMiwyMDUwNzM5NDc3LC02MzAwOTQ4OTIsLTQyMz
-M0MDk1NiwtMTMxMDE0MDUxOV19
+BnZm1cbiIsImhpc3RvcnkiOlsxMzE2NjY3MjEzLDEwOTk3NTEx
+NzYsMjAxMTM2NjgyMSwtMTA1NzMyNjQxLC0xNTkzNTE4MjM2LC
+01MjI2NDIyMjksMTU1OTc4MTc3NywxNTk5MDc2MzE3LC0xMzE5
+ODczNDIzLC0zODMzNTI2NzYsLTgzODc4NjMxMiwxNzc5NDAzND
+U2LDEyMDgzODc4NTksLTE3OTYxODIyMTgsLTE1NzI5NDU0MDAs
+LTg4Mzc5NDA1OCwxNjQ4OTQxMDMyLDIwNTA3Mzk0NzcsLTYzMD
+A5NDg5MiwtNDIzMzQwOTU2XX0=
 -->
