@@ -89,7 +89,7 @@ The Inception network examines clothing images, *X,* produced by the Generator d
 
 ![](https://latex.codecogs.com/svg.latex?%5Clarge%20%24%24I%28G%29%20%3D%20E_%7BX%20%5Csim%20P_G%7D%20%5BD_%7BKL%7D%28P_%7BY%20%7CX%7D%28y%7Cx%29%20%7C%7C%20P_Y%20%28y%29%29%5D%24%24)
 
-with respect to the two random variables. Dk measures the deviation of the distribution *P{Y |X}* - the probability of labeling an image with a given class - with respect to the reference distribution *P Y (y)* - the probability of a given class label. The class labels are diverse - high entropy - forcing  the entropy of *P* to be minimized in order to increase the KL divergence. As the entropy of *P{Y |X}* is minimized when the images in *X* are labeled with high certainty, this provides a measure for Generator performance. 
+with respect to the two random variables. *KL* measures the deviation of the distribution *P{Y |X}* - the probability of labeling an image with a given class - with respect to the reference distribution *P Y (y)* - the probability of a given class label. The class labels are diverse - high entropy - forcing  the entropy of *P* to be minimized in order to increase the KL divergence. As the entropy of *P{Y |X}* is minimized when the images in *X* are labeled with high certainty, this provides a measure for Generator performance. 
 
 The inception score is computed over 20,000 images split into five groups, the results of which are averaged.  For implementation details, see [inception.py](https://github.com/hg1722/fashionista/blob/master/models/cpggan/inception.py).
 
@@ -139,11 +139,11 @@ After observing the trouble that the GAN had with differentiating with different
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMTA2MTgwMSwxNTk5MDc2MzE3
-LC0xMzE5ODczNDIzLC0zODMzNTI2NzYsLTgzODc4NjMxMiwxNz
-c5NDAzNDU2LDEyMDgzODc4NTksLTE3OTYxODIyMTgsLTE1NzI5
-NDU0MDAsLTg4Mzc5NDA1OCwxNjQ4OTQxMDMyLDIwNTA3Mzk0Nz
-csLTYzMDA5NDg5MiwtNDIzMzQwOTU2LC0xMzEwMTQwNTE5LC0y
-MDEyNjc0NDgxLDY4NTA0ODU3OSwtMTUyMTk3NTE0NSwtNzg2OD
-IxMzk3LDI3Mzg3NzUwNF19
+BnZm1cbiIsImhpc3RvcnkiOlstMTQxMzMwMzQyNSwxNTk5MDc2
+MzE3LC0xMzE5ODczNDIzLC0zODMzNTI2NzYsLTgzODc4NjMxMi
+wxNzc5NDAzNDU2LDEyMDgzODc4NTksLTE3OTYxODIyMTgsLTE1
+NzI5NDU0MDAsLTg4Mzc5NDA1OCwxNjQ4OTQxMDMyLDIwNTA3Mz
+k0NzcsLTYzMDA5NDg5MiwtNDIzMzQwOTU2LC0xMzEwMTQwNTE5
+LC0yMDEyNjc0NDgxLDY4NTA0ODU3OSwtMTUyMTk3NTE0NSwtNz
+g2ODIxMzk3LDI3Mzg3NzUwNF19
 -->
