@@ -12,7 +12,7 @@ The baseline dataset that we used is called "Fashion MNIST" (https://github.com/
 
 ### Fashion Product Images 
 
-We also trained several models on the Fashion Product Images dataset (https://www.kaggle.com/paramaggarwal/fashion-product-images-dataset) which contains 44,000 images of fashion products scraped from various e-commerce websites. 
+We also trained several models on the [Fashion Product Images dataset ](https://www.kaggle.com/paramaggarwal/fashion-product-images-dataset) which contains 44,000 images of fashion products scraped from various e-commerce websites. 
 
 The images are labeled by features such as gender, category, base color, season, usage, etc. We utilized two variations of the dataset, with one containing low-resolution images (60px by 80px) and another contained higher-resolution images (1800px x 2400px).
 
@@ -21,7 +21,7 @@ The images are labeled by features such as gender, category, base color, season,
 For preprocessing, all images were resized to squares, 64x64 px for the low-resolution images and 256x256 px for the high-resolutions, and normalized.
 
 ![enter image description here](https://i.imgur.com/NpJAfF7.png)
-We also ran experiments with training on only apparel images of the dataset as well as  For sake of simplicity in training the conditional GAN, we limited the apparel dataset to the top six subcategories of apparel and the top six base colors. For data utilizing all types of fashion, we limited the categories to top-wear, bottom-wear, and shoes, and the top three colors in the data.
+We also ran experiments with training on only apparel images of the dataset as well as the full dataset with all fashion types. When training the conditional GAN models on only the apparel data subset, we limited the apparel dataset to the top six subcategories of apparel and the top six base colors. For experiments utilizing all types of fashion data, we limited the categories to top-wear, bottom-wear, and shoes, and the top three colors in the data.
 
 ## Models
 
@@ -40,6 +40,8 @@ Conditional GANs (cGAN) uses a traditional GAN architecture except with an extra
 In our multi-conditional variation of the cGAN, we incorporated attribute conditioning in two main ways. The Fashion Product Images dataset provided attributes in the form of multiple classes, so for that model we added extra layers corresponding to each category of attributes in the GAN, and concatenated them all together with the latent dimension so that the model could take in multiple attributes as conditioning while training. We also attempted encoding the label into an embedding layer and multiplying the input with the latent dimension but produced negligible differences. After preprocessing the DeepFashion dataset, we were able to one-hot-encode the attributes instead, and used that for attribute conditioning the cGAN.
 
 Sampling the model's performance was done through giving the model every combination of attributes to generate.
+
+![enter image description here](https://i.imgur.com/QS1ZR0J.png)
 
 
 ### Conditional Progressively Growing GAN
@@ -92,7 +94,7 @@ We modified the StackGAN, which originally used text embeddings to condition the
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
 BnZm1cbiAga2F0ZXg6XG4gICAgZW5hYmxlZDogdHJ1ZVxuIiwi
-aGlzdG9yeSI6Wy0yMjg4MzQyOTksMjczODc3NTA0LDE5NzI2ND
+aGlzdG9yeSI6WzEyMTE0NDU4NTEsMjczODc3NTA0LDE5NzI2ND
 QyMDUsMjEzODA5NzIsMjExOTgzODEzMiwtOTcxODgzNzE4LC0x
 MzUwNzIzMzcyLC03ODI0MjY2NjUsNjg5MTM3MzgzLDE0NTYzMj
 gxMzQsLTE5ODIxODU5MDYsLTQxNzI2MDQxNCwtNTAyODE1Mzgy
