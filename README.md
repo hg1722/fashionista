@@ -1,6 +1,6 @@
 # Fashion Generation from Structured Style Attributes
 
-With the explosion of eCommerce, there is a growing need for personalized online shopping experiences. Specifically, in the fashion industry, there is a growing number of styles and clothing-types, along with a growing number of people interested in buying clothes online. It is crucial for the fashion industry to provide a personalized experience for each shopper, such that each shopper's personal tastes are accounted for. Concretely, each shopper should be able to describe their preferences and the styles they are l
+With the explosion of eCommerce, there is a growing need for personalized online shopping experiences. Specifically, in the fashion industry, there is a growing number of styles and clothing-types, along with a growing number of people interested in buying clothes online. It is crucial for the fashion industry to provide a personalized experience for each shopper, such that each shopper's personal tastes are accounted for. Concretely, each shopper should be able to describe their preferences and the styles they are looking for, and a list of matching clothing items should be returned. The only way to achieve this goal at scale is through the help of machine learning. In this project, we describe a novel task of going from fashion styles and attributes to newly generated images. 
 
 ## Data 
 
@@ -98,11 +98,11 @@ After observing the trouble that the GAN had with differentiating with different
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
 BnZm1cbiAga2F0ZXg6XG4gICAgZW5hYmxlZDogdHJ1ZVxuIiwi
-aGlzdG9yeSI6Wy0xMDQ2NjUwMTg5LC02MzAwOTQ4OTIsLTQyMz
-M0MDk1NiwtMTMxMDE0MDUxOSwtMjAxMjY3NDQ4MSw2ODUwNDg1
-NzksLTE1MjE5NzUxNDUsLTc4NjgyMTM5NywyNzM4Nzc1MDQsMT
-k3MjY0NDIwNSwyMTM4MDk3MiwyMTE5ODM4MTMyLC05NzE4ODM3
-MTgsLTEzNTA3MjMzNzIsLTc4MjQyNjY2NSw2ODkxMzczODMsMT
-Q1NjMyODEzNCwtMTk4MjE4NTkwNiwtNDE3MjYwNDE0LC01MDI4
-MTUzODJdfQ==
+aGlzdG9yeSI6WzEzMjk0NzYxNTQsLTYzMDA5NDg5MiwtNDIzMz
+QwOTU2LC0xMzEwMTQwNTE5LC0yMDEyNjc0NDgxLDY4NTA0ODU3
+OSwtMTUyMTk3NTE0NSwtNzg2ODIxMzk3LDI3Mzg3NzUwNCwxOT
+cyNjQ0MjA1LDIxMzgwOTcyLDIxMTk4MzgxMzIsLTk3MTg4Mzcx
+OCwtMTM1MDcyMzM3MiwtNzgyNDI2NjY1LDY4OTEzNzM4MywxND
+U2MzI4MTM0LC0xOTgyMTg1OTA2LC00MTcyNjA0MTQsLTUwMjgx
+NTM4Ml19
 -->
