@@ -63,7 +63,7 @@ We define the goal of the Generator: given a noise vector conditioned on attribu
 
 ![](https://latex.codecogs.com/svg.latex?%5Cinline%20%5Clarge%20L_D%20%3D%20E_%7B%28X%2CE%29%20%5Csim%20Pr-cc%7D%5B%28D%28x%2C%20e%29%20-1%29%5E2%20%5D%20&plus;%20E_%7B%28X%2CE%29%5Csim%20Pge%7D%20%5B%28D%28x%2C%20e%29%20&plus;%201%29%20%5E2%20%5D%20&plus;%20E_%7B%28X%2CE%29%5CsimPr%u2212wc%7D%20%5B%28D%28x%2C%20e%29%20&plus;1%29%20%5E2%20%5D)
 
-$L_G = E_{(X,E)∼Pge} [D(x, e) ^2]$
+![](https://latex.codecogs.com/svg.latex?%5Cinline%20%5Clarge%20L_G%20%3D%20E_%7B%28X%2CE%29%20%5Csim%20Pge%7D%20%5BD%28x%2C%20e%29%5E2%5D)
 
 The Generator attempts to  push $D\rarr0$ over the generated images & attribute embeddings, while the Discriminator learns toward $D\rarr-1$. The Discriminator loss function gives further penalty for moving away from $D\rarr1$ on the real & correctly classified images, and rewards recognizing incorrectly classified images equal to finding fake images. For more detail on model parameters and architecture, see [cpggan.py](https://github.com/hg1722/fashionista/blob/master/models/cpggan/cpggan.py).
 
@@ -139,7 +139,7 @@ After observing the trouble that the GAN had with differentiating with different
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMzI1ODcwOTc3LC04Mzg3ODYz
+BnZm1cbiIsImhpc3RvcnkiOlstMzgzMzUyNjc2LC04Mzg3ODYz
 MTIsMTc3OTQwMzQ1NiwxMjA4Mzg3ODU5LC0xNzk2MTgyMjE4LC
 0xNTcyOTQ1NDAwLC04ODM3OTQwNTgsMTY0ODk0MTAzMiwyMDUw
 NzM5NDc3LC02MzAwOTQ4OTIsLTQyMzM0MDk1NiwtMTMxMDE0MD
