@@ -2,7 +2,7 @@
 
 With the explosion of eCommerce, there is a growing need for personalized online shopping experiences. Specifically, in the fashion industry, there is a growing number of styles and clothing-types, along with a growing number of people interested in buying clothes online. It is crucial for the fashion industry to provide a personalized experience for each shopper, such that each shopper's personal tastes are accounted for. Concretely, each shopper should be able to describe their preferences and the styles they are looking for, and a list of matching clothing items should be returned. The only way to achieve this goal at scale is through the help of machine learning. In this project, we describe and tackle the novel task of going from fashion styles and attributes to newly generated images. The goal is to synthesize new clothing items based on the user's inputted style and attributes, which can serve multiple purposes downstream: 1) users can experiment with different styles and attributes and see visually what is most appealing to them 2) the newly synthesized images can be used for image retrieval from an eCommerce store's internal database, to return the most visually similar products.
 
-
+As a result, it is crucial for th 
 
 ## Data 
 
@@ -100,11 +100,11 @@ After observing the trouble that the GAN had with differentiating with different
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
 BnZm1cbiAga2F0ZXg6XG4gICAgZW5hYmxlZDogdHJ1ZVxuIiwi
-aGlzdG9yeSI6WzIwNTA3Mzk0NzcsLTYzMDA5NDg5MiwtNDIzMz
-QwOTU2LC0xMzEwMTQwNTE5LC0yMDEyNjc0NDgxLDY4NTA0ODU3
-OSwtMTUyMTk3NTE0NSwtNzg2ODIxMzk3LDI3Mzg3NzUwNCwxOT
-cyNjQ0MjA1LDIxMzgwOTcyLDIxMTk4MzgxMzIsLTk3MTg4Mzcx
-OCwtMTM1MDcyMzM3MiwtNzgyNDI2NjY1LDY4OTEzNzM4MywxND
-U2MzI4MTM0LC0xOTgyMTg1OTA2LC00MTcyNjA0MTQsLTUwMjgx
-NTM4Ml19
+aGlzdG9yeSI6WzE2NDg5NDEwMzIsMjA1MDczOTQ3NywtNjMwMD
+k0ODkyLC00MjMzNDA5NTYsLTEzMTAxNDA1MTksLTIwMTI2NzQ0
+ODEsNjg1MDQ4NTc5LC0xNTIxOTc1MTQ1LC03ODY4MjEzOTcsMj
+czODc3NTA0LDE5NzI2NDQyMDUsMjEzODA5NzIsMjExOTgzODEz
+MiwtOTcxODgzNzE4LC0xMzUwNzIzMzcyLC03ODI0MjY2NjUsNj
+g5MTM3MzgzLDE0NTYzMjgxMzQsLTE5ODIxODU5MDYsLTQxNzI2
+MDQxNF19
 -->
