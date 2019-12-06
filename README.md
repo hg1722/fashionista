@@ -76,6 +76,8 @@ $L_G = E_{(X,E)∼Pge} [D(x, e) ^2] +L_{i}+\dots +L_{j}$ for distinct $i,j$ in $
 We start by baselining on attribute embeddings that only contain the features encompassed in the class label. An additional consistency check for clothing **category** is added in the form:
 
 $L_{category} = E_{c∼p(c)}[E_{x_1, x_2∼p^c_g}[|x_1-x_2|]]$ 
+![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?x%3D%5Cfrac%7B-b%5Cpm%5Csqrt%7Bb%5E2-4ac%7D%7D%7B2a%7D)
+
 
 Where $c$ is the high-level clothing category formed from three possible category values in the raw dataset.
 
@@ -83,7 +85,7 @@ Where $c$ is the high-level clothing category formed from three possible categor
 
 ### InceptionV3 Model
 
-The Inception network examines clothing images, *X,* produced by the Generator during testing, in relation to the image class test labels, Y$. The goal is to optimize the score:
+The Inception network examines clothing images, *X,* produced by the Generator during testing, in relation to the image class test labels, ![$Y$]. The goal is to optimize the score:
 
 $$I(G) = E_{X∼P_G} [D_{KL}(P_{Y |X}(y|x) || P_Y (y))]$$
 
@@ -137,11 +139,11 @@ After observing the trouble that the GAN had with differentiating with different
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOls3NzE0NzM1MTMsMTIwODM4Nzg1
-OSwtMTc5NjE4MjIxOCwtMTU3Mjk0NTQwMCwtODgzNzk0MDU4LD
-E2NDg5NDEwMzIsMjA1MDczOTQ3NywtNjMwMDk0ODkyLC00MjMz
-NDA5NTYsLTEzMTAxNDA1MTksLTIwMTI2NzQ0ODEsNjg1MDQ4NT
-c5LC0xNTIxOTc1MTQ1LC03ODY4MjEzOTcsMjczODc3NTA0LDE5
-NzI2NDQyMDUsMjEzODA5NzIsMjExOTgzODEzMiwtOTcxODgzNz
-E4LC0xMzUwNzIzMzcyXX0=
+BnZm1cbiIsImhpc3RvcnkiOlsxMzI5OTY4NDM5LDEyMDgzODc4
+NTksLTE3OTYxODIyMTgsLTE1NzI5NDU0MDAsLTg4Mzc5NDA1OC
+wxNjQ4OTQxMDMyLDIwNTA3Mzk0NzcsLTYzMDA5NDg5MiwtNDIz
+MzQwOTU2LC0xMzEwMTQwNTE5LC0yMDEyNjc0NDgxLDY4NTA0OD
+U3OSwtMTUyMTk3NTE0NSwtNzg2ODIxMzk3LDI3Mzg3NzUwNCwx
+OTcyNjQ0MjA1LDIxMzgwOTcyLDIxMTk4MzgxMzIsLTk3MTg4Mz
+cxOCwtMTM1MDcyMzM3Ml19
 -->
