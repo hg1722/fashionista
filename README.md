@@ -21,7 +21,7 @@ The images are labeled by features such as gender, category, base color, season,
 For preprocessing, all images were resized to squares, 64x64 px for the low-resolution images and 256x256 px for the high-resolutions, and normalized.
 
 ![enter image description here](https://i.imgur.com/NpJAfF7.png)
-We also ran experiments with training on only apparel images of the dataset as well as the full dataset with all fashion types. When training the conditional GAN models on only the apparel data subset, we limited the apparel dataset to the top six subcategories of apparel and the top six base colors. For experiments utilizing all types of fashion data, we limited the categories to top-wear, bottom-wear, and shoes, and the top three colors in the data.
+We also ran experiments with training on only apparel images ofand the dataset as well as the full dataset with all fashion types. When training the conditional GAN models on only the apparel d sub, we limited the apparel dataset to the top six subcategories of apparel and the top six base colors. For experiments utilizing all types of fashion data, we limited the categories to top-wear, bottom-wear, and shoes, and the top three colors in the data.
 
 ## Models
 
@@ -85,20 +85,16 @@ We first trained a standard conditional GAN on the Fashion Products dataset, and
 
 # Unsuccessful Experiments
 
-### Attribute StackGAN 
-Stacked Generative Adversarial Networks (StackGAN) were first introduced (https://arxiv.org/pdf/1612.03242.pdf) as a method to generate high-resolution image from natural text. The approach is analogous to the drawing procedure of a human intartist, where the artist first sketches a rough outline of an image before creating a refined, high-quality result. The architecture employs two stages of GANs: the first stage GAN generates low resolution images conditioned on the input text embeddings. The second GAN then takes the output of the first stage's generated image and the original text embeddings and uses them to generate a high-quality image.
-
-We modified the StackGAN, which originally used text embeddings to condition the image, to use a one-hot-encoded attribute layer as input instead. Stage 1 GAN would utilize the attribute layer to generate low resolution fashion images, which we would then feed into the Stage 2 GAN.
 
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
 BnZm1cbiAga2F0ZXg6XG4gICAgZW5hYmxlZDogdHJ1ZVxuIiwi
-aGlzdG9yeSI6Wy03ODY4MjEzOTcsMjczODc3NTA0LDE5NzI2ND
-QyMDUsMjEzODA5NzIsMjExOTgzODEzMiwtOTcxODgzNzE4LC0x
-MzUwNzIzMzcyLC03ODI0MjY2NjUsNjg5MTM3MzgzLDE0NTYzMj
-gxMzQsLTE5ODIxODU5MDYsLTQxNzI2MDQxNCwtNTAyODE1Mzgy
-LDExOTQ5NTQzMyw3MDMzNjQ1MTMsLTExMTE1NDg5MjAsLTg0NT
-Q4MzYyOSw4NzE4OTQ1MTYsNDM1MzE4NzI4LC01MTU1NzUwMDVd
-fQ==
+aGlzdG9yeSI6Wy0xNTIxOTc1MTQ1LC03ODY4MjEzOTcsMjczOD
+c3NTA0LDE5NzI2NDQyMDUsMjEzODA5NzIsMjExOTgzODEzMiwt
+OTcxODgzNzE4LC0xMzUwNzIzMzcyLC03ODI0MjY2NjUsNjg5MT
+M3MzgzLDE0NTYzMjgxMzQsLTE5ODIxODU5MDYsLTQxNzI2MDQx
+NCwtNTAyODE1MzgyLDExOTQ5NTQzMyw3MDMzNjQ1MTMsLTExMT
+E1NDg5MjAsLTg0NTQ4MzYyOSw4NzE4OTQ1MTYsNDM1MzE4NzI4
+XX0=
 -->
