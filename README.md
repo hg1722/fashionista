@@ -83,7 +83,7 @@ Where $c$ is the high-level clothing category formed from three possible categor
 
 ### InceptionV3 Model
 
-The Inception network examines clothing images, $X$, produced by the Generator during testing, in relation to the image class test labels, $Y$. The goal is to optimize the score:
+The Inception network examines clothing images, *X,* produced by the Generator during testing, in relation to the image class test labels, Y$. The goal is to optimize the score:
 
 $$I(G) = E_{X∼P_G} [D_{KL}(P_{Y |X}(y|x) || P_Y (y))]$$
 
@@ -137,11 +137,11 @@ After observing the trouble that the GAN had with differentiating with different
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlsyMDEyMDc2MzE1LDEyMDgzODc4
-NTksLTE3OTYxODIyMTgsLTE1NzI5NDU0MDAsLTg4Mzc5NDA1OC
-wxNjQ4OTQxMDMyLDIwNTA3Mzk0NzcsLTYzMDA5NDg5MiwtNDIz
-MzQwOTU2LC0xMzEwMTQwNTE5LC0yMDEyNjc0NDgxLDY4NTA0OD
-U3OSwtMTUyMTk3NTE0NSwtNzg2ODIxMzk3LDI3Mzg3NzUwNCwx
-OTcyNjQ0MjA1LDIxMzgwOTcyLDIxMTk4MzgxMzIsLTk3MTg4Mz
-cxOCwtMTM1MDcyMzM3Ml19
+BnZm1cbiIsImhpc3RvcnkiOls3NzE0NzM1MTMsMTIwODM4Nzg1
+OSwtMTc5NjE4MjIxOCwtMTU3Mjk0NTQwMCwtODgzNzk0MDU4LD
+E2NDg5NDEwMzIsMjA1MDczOTQ3NywtNjMwMDk0ODkyLC00MjMz
+NDA5NTYsLTEzMTAxNDA1MTksLTIwMTI2NzQ0ODEsNjg1MDQ4NT
+c5LC0xNTIxOTc1MTQ1LC03ODY4MjEzOTcsMjczODc3NTA0LDE5
+NzI2NDQyMDUsMjEzODA5NzIsMjExOTgzODEzMiwtOTcxODgzNz
+E4LC0xMzUwNzIzMzcyXX0=
 -->
