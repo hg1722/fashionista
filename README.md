@@ -80,6 +80,7 @@ In both grids above, each column represents a specific class label. Clearly, bot
 We first trained a standard conditional GAN on the Fashion Products dataset, and generated different images of clothing conditioned on clothing subtype, such as boxers, jeans, t-shirts, etc.
 
 ![enter image description here](https://i.imgur.com/7RJfm0S.png)
+
 *Sample images of multi-conditional GAN trained after 80 epochs*
 
 Our next step was to test the multi-conditional aspect of the GAN. By conditioning it on attributes for color and clothing attributes instead of a single fashion type feature, we were able to train the GAN to distinguish different colors, but the modifying the subtype of clothing as well was a challenge for the model.
@@ -100,7 +101,7 @@ After observing the trouble that the GAN had with differentiating with different
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
 BnZm1cbiAga2F0ZXg6XG4gICAgZW5hYmxlZDogdHJ1ZVxuIiwi
-aGlzdG9yeSI6WzEyNjA2MDc0MTMsLTg4Mzc5NDA1OCwxNjQ4OT
+aGlzdG9yeSI6WzE0MzE5Mjg0ODMsLTg4Mzc5NDA1OCwxNjQ4OT
 QxMDMyLDIwNTA3Mzk0NzcsLTYzMDA5NDg5MiwtNDIzMzQwOTU2
 LC0xMzEwMTQwNTE5LC0yMDEyNjc0NDgxLDY4NTA0ODU3OSwtMT
 UyMTk3NTE0NSwtNzg2ODIxMzk3LDI3Mzg3NzUwNCwxOTcyNjQ0
