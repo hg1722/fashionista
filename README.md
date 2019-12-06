@@ -75,12 +75,12 @@ In both grids above, each column represents a specific class label. Clearly, bot
 
 ### Fashion Product Images Dataset
 
-We first trained a standard conditional GAN on the Fashion Products dataset, and generated different categories of clothing, such as boxers, jeans, t-shirts, etc.
+We first trained a standard conditional GAN on the Fashion Products dataset, and generated different images of clothing conditioned on clothing subtype, such as boxers, jeans, t-shirts, etc.
 
 ![enter image description here](https://i.imgur.com/7RJfm0S.png)
 *Sample images of multi-conditional GAN trained after 80 epochs*
 
-Our next step was to test the multi-conditional aspect of the GAN. By conditioning it on attributes for color and clothing attributes instead of a single fashion type feature, we were able to train the GAN to distinguish different colors, but the modifying the style of clothing was still a challenge for the model.
+Our next step was to test the multi-conditional aspect of the GAN. By conditioning it on attributes for color and clothing attributes instead of a single fashion type feature, we were able to train the GAN to distinguish different colors, but the modifying the subtype of clothing as well was a challenge for the model.
 ![enter image description here](https://i.imgur.com/Tr7OTMj.png)
 *Images generated from one sample of multi-conditional GAN after training for 30 epochs. The GAN was conditioned on color and  type attributes.*
 
@@ -96,11 +96,11 @@ After observing the trouble that the GAN had with differentiating with different
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
 BnZm1cbiAga2F0ZXg6XG4gICAgZW5hYmxlZDogdHJ1ZVxuIiwi
-aGlzdG9yeSI6WzI1OTkzMDQ0MCwtMTMxMDE0MDUxOSwtMjAxMj
-Y3NDQ4MSw2ODUwNDg1NzksLTE1MjE5NzUxNDUsLTc4NjgyMTM5
-NywyNzM4Nzc1MDQsMTk3MjY0NDIwNSwyMTM4MDk3MiwyMTE5OD
-M4MTMyLC05NzE4ODM3MTgsLTEzNTA3MjMzNzIsLTc4MjQyNjY2
-NSw2ODkxMzczODMsMTQ1NjMyODEzNCwtMTk4MjE4NTkwNiwtND
-E3MjYwNDE0LC01MDI4MTUzODIsMTE5NDk1NDMzLDcwMzM2NDUx
-M119
+aGlzdG9yeSI6Wy00MjMzNDA5NTYsLTEzMTAxNDA1MTksLTIwMT
+I2NzQ0ODEsNjg1MDQ4NTc5LC0xNTIxOTc1MTQ1LC03ODY4MjEz
+OTcsMjczODc3NTA0LDE5NzI2NDQyMDUsMjEzODA5NzIsMjExOT
+gzODEzMiwtOTcxODgzNzE4LC0xMzUwNzIzMzcyLC03ODI0MjY2
+NjUsNjg5MTM3MzgzLDE0NTYzMjgxMzQsLTE5ODIxODU5MDYsLT
+QxNzI2MDQxNCwtNTAyODE1MzgyLDExOTQ5NTQzMyw3MDMzNjQ1
+MTNdfQ==
 -->
