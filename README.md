@@ -144,13 +144,15 @@ Stacked Generative Adversarial Networks (StackGAN)  were first [introduced](http
 
 During this project, we adapted the original StackGAN architecture to take attributes as input instead of natural text. This methodology was tested on both the DeepFashion dataset and the Fashion Product Images dataset. In the case of the Fashion Product Images dataset, we used the multi-conditional GAN mentioned before as the first stage in the StackGAN.
 
+![enter image description here](https://i.imgur.com/ALslouk.png)
+
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMTM4NzIwOTU5LDk0ODc2MDYw
-NSwxMDk5NzUxMTc2LDIwMTEzNjY4MjEsLTEwNTczMjY0MSwtMT
-U5MzUxODIzNiwtNTIyNjQyMjI5LDE1NTk3ODE3NzcsMTU5OTA3
-NjMxNywtMTMxOTg3MzQyMywtMzgzMzUyNjc2LC04Mzg3ODYzMT
-IsMTc3OTQwMzQ1NiwxMjA4Mzg3ODU5LC0xNzk2MTgyMjE4LC0x
-NTcyOTQ1NDAwLC04ODM3OTQwNTgsMTY0ODk0MTAzMiwyMDUwNz
-M5NDc3LC02MzAwOTQ4OTJdfQ==
+BnZm1cbiIsImhpc3RvcnkiOlstMTgyNTUwNTU0Miw5NDg3NjA2
+MDUsMTA5OTc1MTE3NiwyMDExMzY2ODIxLC0xMDU3MzI2NDEsLT
+E1OTM1MTgyMzYsLTUyMjY0MjIyOSwxNTU5NzgxNzc3LDE1OTkw
+NzYzMTcsLTEzMTk4NzM0MjMsLTM4MzM1MjY3NiwtODM4Nzg2Mz
+EyLDE3Nzk0MDM0NTYsMTIwODM4Nzg1OSwtMTc5NjE4MjIxOCwt
+MTU3Mjk0NTQwMCwtODgzNzk0MDU4LDE2NDg5NDEwMzIsMjA1MD
+czOTQ3NywtNjMwMDk0ODkyXX0=
 -->
