@@ -1,6 +1,6 @@
 # Fashion Generation from Structured Style Attributes
 
-With the explosion of eCommerce, there is a growing need for personalized online shopping experiences. Specifically, in the fashion industry, there is a growing number of styles and clothing-types, along with a growing number of people interested in buying clothes online. It is crucial for the fashion industry to provide a personalized experience for each shopper, such that each shopper's personal tastes are accounted for. Concretely, each shopper should be able to describe their preferences and the styles they are looking for, and a list of matching clothing items should be returned. The only way to achieve this goal at scale is through the help of machine learning. In this project, we describe and tackle the novel task of going from fashion styles and attributes to newly generated images. The goal is to synthesize new clothing items based on the user's inputted style and attributes, which can serve multiple purposes downstream: 1) users can experiment with different styles and attributes and see visually what is most appealing to them 2) the newly synthesized images can be used for image retrieval from an eCommerce store's internal database, to return the most visually similar products. While there is existing literature which goes from input images to predicted attributes, we are proposing to build an architecture that goes in the opposite direction: we are attempting to synthesize images from given attributes; this a challenging, novel task which requires the use of generative deep learning models as opposed to classification models. 
+With the explosion of eCommerce, there is a growing need for personalized online shopping experiences. Specifically, in the fashion industry, there is a growing number of styles and clothing-types, along with a growing number of people interested in buying clothes online. It is crucial for the fashion industry to provide a personalized experience for each shopper, such that each shopper's personal tastes are accounted for. Concretely, each shopper should be able to describe their preferences and the styles they are looking for, and a list of matching clothing items should be returned. The only way to achieve this goal at scale is through the help of machine learning. In this project, we describe and tackle the novel task of going from fashion styles and attributes to newly generated images. The goal is to synthesize new clothing items based on the user's inputted style and attributes, which can serve multiple purposes downstream: 1) users can experiment with different styles and attributes and see visually what is most appealing to them 2) the newly synthesized images can be used for image retrieval from an eCommerce store's internal database, to return the most visually similar products.  rest it is ruia or th While there is existing literature which goes from input images to predicted attributes, we are proposing to build an architectture that goes in the opposite direction: we are attempting to synthesize images from given attributes; this a challenging, novel task which requires the use of generative deep learning models as opposed to classification models. 
 
 ## Data 
 
@@ -98,11 +98,11 @@ After observing the trouble that the GAN had with differentiating with different
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
 BnZm1cbiAga2F0ZXg6XG4gICAgZW5hYmxlZDogdHJ1ZVxuIiwi
-aGlzdG9yeSI6Wy04ODM3OTQwNTgsMTY0ODk0MTAzMiwyMDUwNz
-M5NDc3LC02MzAwOTQ4OTIsLTQyMzM0MDk1NiwtMTMxMDE0MDUx
-OSwtMjAxMjY3NDQ4MSw2ODUwNDg1NzksLTE1MjE5NzUxNDUsLT
-c4NjgyMTM5NywyNzM4Nzc1MDQsMTk3MjY0NDIwNSwyMTM4MDk3
-MiwyMTE5ODM4MTMyLC05NzE4ODM3MTgsLTEzNTA3MjMzNzIsLT
-c4MjQyNjY2NSw2ODkxMzczODMsMTQ1NjMyODEzNCwtMTk4MjE4
-NTkwNl19
+aGlzdG9yeSI6WzYzNjU3ODg5NywtODgzNzk0MDU4LDE2NDg5ND
+EwMzIsMjA1MDczOTQ3NywtNjMwMDk0ODkyLC00MjMzNDA5NTYs
+LTEzMTAxNDA1MTksLTIwMTI2NzQ0ODEsNjg1MDQ4NTc5LC0xNT
+IxOTc1MTQ1LC03ODY4MjEzOTcsMjczODc3NTA0LDE5NzI2NDQy
+MDUsMjEzODA5NzIsMjExOTgzODEzMiwtOTcxODgzNzE4LC0xMz
+UwNzIzMzcyLC03ODI0MjY2NjUsNjg5MTM3MzgzLDE0NTYzMjgx
+MzRdfQ==
 -->
