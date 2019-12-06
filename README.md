@@ -1,6 +1,6 @@
 # Fashion Generation from Structured Style Attributes
 
-With the explosion of eCommerce, there is a growing need for personalized online shopping experiences. Specifically, in the fashion industry, there is a growing number of 
+With the explosion of eCommerce, there is a growing need for personalized online shopping experiences. Specifically, in the fashion industry, there is a growing number of styles and clothing-types, along with a growing number of people interested in buying clothes online. As a result, it is crucial for th 
 
 ## Data 
 
@@ -98,7 +98,7 @@ After observing the trouble that the GAN had with differentiating with different
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
 BnZm1cbiAga2F0ZXg6XG4gICAgZW5hYmxlZDogdHJ1ZVxuIiwi
-aGlzdG9yeSI6Wy00MTAyNjYxNTgsLTYzMDA5NDg5MiwtNDIzMz
+aGlzdG9yeSI6Wy0yOTY3MjY4MDEsLTYzMDA5NDg5MiwtNDIzMz
 QwOTU2LC0xMzEwMTQwNTE5LC0yMDEyNjc0NDgxLDY4NTA0ODU3
 OSwtMTUyMTk3NTE0NSwtNzg2ODIxMzk3LDI3Mzg3NzUwNCwxOT
 cyNjQ0MjA1LDIxMzgwOTcyLDIxMTk4MzgxMzIsLTk3MTg4Mzcx
