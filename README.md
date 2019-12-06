@@ -102,6 +102,16 @@ Inception scores were generated for the CPGGAN and CDPGGAN over the two forms of
 
 ## Generated Images
 
+### DeepFashion
+
+[Screen Shot 2019-12-05 at 11.45.52 PM.png](https://github.com/hg1722/fashionista/blob/master/pics/Screen%20Shot%202019-12-05%20at%2011.45.52%20PM.png "Screen Shot 2019-12-05 at 11.45.52 PM.png")
+
+https://github.com/hg1722/fashionista/blob/master/pics/Screen%20Shot%202019-12-05%20at%2011.46.05%20PM.png
+
+https://github.com/hg1722/fashionista/blob/master/pics/Screen%20Shot%202019-12-05%20at%2011.46.14%20PM.png
+
+https://github.com/hg1722/fashionista/blob/master/pics/Screen%20Shot%202019-12-05%20at%2011.46.38%20PM.png
+
 ### Fashion MNIST 
 
 CGAN Class-Conditional Generation Results
@@ -157,11 +167,11 @@ Generated Images using Multi-Conditional GAN + StackGAN Stage2 (5 epochs)
 The above images are high-resolution (256x256 px) images generated when fed data from Multi-Conditional GAN trained on Fashion Product Images dataset. Perhaps with more training time and more refined architecture, we could achieve better results for StackGAN. The model definitely seems to be capturing some structure from the multi-conditional GAN.
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMjE0NDM5NzYwMSw5OTk0NDUw
-OTYsMTM2OTk4MjU2Myw5NDg3NjA2MDUsMTA5OTc1MTE3NiwyMD
-ExMzY2ODIxLC0xMDU3MzI2NDEsLTE1OTM1MTgyMzYsLTUyMjY0
-MjIyOSwxNTU5NzgxNzc3LDE1OTkwNzYzMTcsLTEzMTk4NzM0Mj
-MsLTM4MzM1MjY3NiwtODM4Nzg2MzEyLDE3Nzk0MDM0NTYsMTIw
-ODM4Nzg1OSwtMTc5NjE4MjIxOCwtMTU3Mjk0NTQwMCwtODgzNz
-k0MDU4LDE2NDg5NDEwMzJdfQ==
+BnZm1cbiIsImhpc3RvcnkiOls3NDgyMTA0Miw5OTk0NDUwOTYs
+MTM2OTk4MjU2Myw5NDg3NjA2MDUsMTA5OTc1MTE3NiwyMDExMz
+Y2ODIxLC0xMDU3MzI2NDEsLTE1OTM1MTgyMzYsLTUyMjY0MjIy
+OSwxNTU5NzgxNzc3LDE1OTkwNzYzMTcsLTEzMTk4NzM0MjMsLT
+M4MzM1MjY3NiwtODM4Nzg2MzEyLDE3Nzk0MDM0NTYsMTIwODM4
+Nzg1OSwtMTc5NjE4MjIxOCwtMTU3Mjk0NTQwMCwtODgzNzk0MD
+U4LDE2NDg5NDEwMzJdfQ==
 -->
