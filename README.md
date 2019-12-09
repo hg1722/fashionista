@@ -66,7 +66,7 @@ We define the goal of the Generator: given a noise vector conditioned on attribu
 
 ![](https://latex.codecogs.com/svg.latex?%5Cnormal%20L_G%20%3D%20E_%7B%28X%2CE%29%20%5Csim%20Pge%7D%20%5BD%28x%2C%20e%29%5E2%5D)
 
-The Generator attempts to  push *D -> 0* over the generated images & attribute embeddings, while the Discriminator learns toward *D -> -1*. The Discriminator loss function gives further penalty for moving away from *D ->1* on the real & correctly classified images, and rewards recognizing incorrectly classified images equal to finding fake images. For more detail on model parameters and architecture, see [cpggan.py](https://github.com/hg1722/fashionista/blob/master/models/cpggan/cpggan.py).
+The Generator attempts to  push *D -> 0* over the generated images & attribute embeddings, while the Discriminator learns toward *D -> -1*. The Discriminator loss function gives further penalty for moving away from *D ->1* on the real & correctly classified images, and rewards recognizing incorrectly classified images equal to finding fake images. For more detail on model parameters and architecture, see [cpggan.py](https://github.com/hg1722/fashionista/blob/master/models/cpggan/models/cpggan/cpggan.py).
 
 ### Conditional Disentangled Progressively Growing GAN
 
@@ -92,7 +92,7 @@ The Inception network examines clothing images, *X,* produced by the Generator d
 
 with respect to the two random variables. *KL* measures the deviation of the distribution *P{Y |X}* - the probability of labeling an image with a given class - with respect to the reference distribution *P Y (y)* - the probability of a given class label. The class labels are diverse - high entropy - forcing  the entropy of *P* to be minimized in order to increase the KL divergence. As the entropy of *P{Y |X}* is minimized when the images in *X* are labeled with high certainty, this provides a measure for Generator performance. 
 
-The inception score is computed over 20,000 images split into five groups, the results of which are averaged.  For implementation details, see [inception.py](https://github.com/hg1722/fashionista/blob/master/models/cpggan/inception.py).
+The inception score is computed over 20,000 images split into five groups, the results of which are averaged.  For implementation details, see [inception.py](https://github.com/hg1722/fashionista/blob/master/models/cpggan/models/inception/model.py).
 
 ## Results
 
